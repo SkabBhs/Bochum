@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="811e-d05a-6081-7ef2" name="5 - Aeldari - Drukhari" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="21" revision="1" authorName="SkabBhs" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Aeldari - Drukhari" id="2de4-0175-3402-ff0b" targetId="38de-521f-1ce0-44a0" importRootEntries="true"/>
+  </catalogueLinks>
+  <categoryEntries>
+    <categoryEntry name="Haemunculus Coven" id="5d15-bede-4c28-0507" hidden="false"/>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Slavers" hidden="false" id="69b5-bbb9-bf32-e203">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="7d7c-7663-a56d-53a1" primary="false" name="Infantry"/>
+        <categoryLink targetId="1015-db48-a2fa-c7da" id="df92-7cfe-b647-7df0" primary="false" name="Faction: Drukhari"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Slavers" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b23a-e663-6ebd-32c3">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pawns" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="170e-e578-92b7-1058">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit fails a Battle-shock test you gain 1 Pain token.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Combat Drugs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4079-ea87-f227-247d">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit needs to do a Battle-shock test you can decide to pass or the fail the test automatically - no roll required.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Scout 6&quot;" id="183a-c388-8524-4b15" hidden="false">
+          <description>See Rule book.</description>
+        </rule>
+      </rules>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad Members" id="9a3d-1fb2-572a-dc1f" hidden="false" defaultSelectionEntryId="c400-f7d0-1cff-7326">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Slaver with Scrap Rifle" hidden="false" id="c400-f7d0-1cff-7326">
+              <constraints>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="a90c-ffa1-f2fe-1275"/>
+                <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="5d78-2164-36c9-fa0a"/>
+              </constraints>
+              <profiles>
+                <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="0793-35cf-5c14-d5a7">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+                <profile name="Scrap Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="242a-8eb3-b1e1-ec3b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Slaver Leader" hidden="false" id="5abb-7807-bfba-dc59">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7947-c76e-a0d2-123d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0879-8d8a-7872-c931"/>
+              </constraints>
+              <profiles>
+                <profile name="Chain lance" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a88e-b50c-39d8-699d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Scrap pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="16f3-7954-81f1-1bb8">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Slaver with Charge Caster" hidden="false" id="928f-f55d-66d6-2a50">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b908-c0fd-268a-47e2"/>
+              </constraints>
+              <profiles>
+                <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a186-e91f-ed4a-d2f4">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+                <profile name="Charge Caster" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="baf3-86ba-4b97-01e2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Slaver with Long Rifle" hidden="false" id="6050-300d-cdc1-fa42">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fac0-a2a1-597b-6b09"/>
+              </constraints>
+              <profiles>
+                <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7658-c5cb-4b1f-7b8b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+                <profile name="Long Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2dad-d488-c1ea-8cbf">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Precision</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="adfa-a9c2-6e2b-550d"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="3144-50cd-806b-d501"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Slavers on Helamite" hidden="false" id="fe68-5c06-8e2e-438f">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="14a0-40c9-2748-ae6e" id="1357-9ae2-267b-7ec6" primary="false" name="Mounted"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Slavers on Helamite" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d1cf-cfdd-a929-ed9e">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pawns" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="58d9-e458-f429-a428">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit fails a Battle-shock test you gain 1 Pain token.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Combat Drugs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="672a-6606-16af-fe81">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit needs to do a Battle-shock test you can decide to pass or the fail the test automatically - no roll required.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Scout 6&quot;" id="17fd-6de4-94cc-375a" hidden="false">
+          <description>See Rule book.</description>
+        </rule>
+      </rules>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad Members" id="c14a-85dd-3902-f65c" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Slaver with Chain lance" hidden="false" id="1fa7-c350-0371-b580">
+              <profiles>
+                <profile name="Scrap Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c219-f9f5-2289-207c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Chain lance" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8b18-8d4a-8ae8-2d23">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+                <profile name="Chitin Horn" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1a5f-4c81-de26-4a5e">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d38f-9302-d0e8-74b6"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Slaver with Longrifle" hidden="false" id="7e50-8481-c0bf-e56d">
+              <profiles>
+                <profile name="Chitin Horn" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="45f4-fe15-b656-92d8">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="eaf3-1e15-a08c-c5f4">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+                <profile name="Longrifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3cc4-20d9-b0b2-d64a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Precision</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="c328-50d4-2bbb-12fe"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="0b30-14ba-b3b2-852b"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="c5a9-5c52-f1ea-3783"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Master Slaver" hidden="false" id="f823-bf78-f4a9-3f6a">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="cc5a-5346-6b97-3b78" primary="false" name="Infantry"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="53ea-6e6f-ccbe-108e" primary="false" name="Character"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Master Slaver" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="f1f8-a158-c044-da82">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pawns" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="744c-2d5f-4e5c-964f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit fails a Battle-shock test you gain 1 Pain token.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Combat Drugs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cbb4-76fe-055d-15ba">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit needs to do a Battle-shock test you can decide to pass or the fail the test automatically - no roll required.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4406-0b2a-a157-c0f6">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can lead the following units:
+■Slavers</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Catch them alive!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fece-8546-c1d1-1642">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When an enemy unit fails a battle-shock test within 6&quot; of this unit, the enemy units suffers D3 Mortal wounds. If this causes the enemy unit to loose a model, then this model is considered to be captured by the slavers and it generates 1 Pain token in addition to the failed battle-shock test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Scrap pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d24a-034b-1817-682d">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Chain lance" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d85f-f096-727c-38bf">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Scout 6&quot;" id="ed35-8312-94dd-3409" hidden="false">
+          <description>See Rule book.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Slaver Beast" hidden="false" id="ed30-069a-ff34-6065">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4c3e-9310-a516-3590" id="6aee-8530-e215-06e5" primary="false" name="Beast"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="d95c-3544-29be-b2d5" primary="false" name="Infantry"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="3094-2935-40bd-bd7f" primary="false" name="Character"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Slaver Beastmaster" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fe5e-0791-1bbd-78f0">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Duneskuttler" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5e03-905f-d005-4b1f">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Surprise Attack" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d406-00a1-e465-1144">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit finishes a charge move, one unit within engagement range of the Duneskuttler must do a battle-shock test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Among the masses" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="34f7-ddd7-2fee-ab44">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">As long the unit is within 3&quot; to any other friendly infantry unit, this unit has the Lone operative ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Chain lance" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5af3-820b-21a6-3605">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mandibles" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="54c8-79ce-b0e2-3b7d">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Scrap Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ec19-c42f-7e3f-6a5b">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Scout 6&quot;" id="6f06-73b6-c3e1-20da" hidden="false">
+          <description>See Rule book.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Collector Ark" hidden="false" id="12bd-cdce-9634-c8f5">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="180"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="dbd4-63-af05-998" id="0b1f-c418-f19b-f6d0" primary="false" name="Vehicle"/>
+        <categoryLink targetId="75e8-57c4-40e3-1817" id="2705-1aa9-8103-36dc" primary="false" name="Transport"/>
+        <categoryLink targetId="5d15-bede-4c28-0507" id="a6b3-981c-1a77-ba96" primary="false" name="Haemunculus Coven"/>
+        <categoryLink targetId="ba07-411c-2832-1f79" id="2e7d-dee9-d9a6-815b" primary="false" name="Dedicated Transport"/>
+        <categoryLink targetId="c619-2086-bbcf-69c9" id="02ce-9c46-1f38-fb03" primary="false" name="Fly"/>
+        <categoryLink targetId="4378-1827-4988-be4e" id="e19d-9a9c-3559-9b06" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="1015-db48-a2fa-c7da" id="f5f6-fc5d-eaf7-8635" primary="false" name="Faction: Drukhari"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Collector Ark" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="11dd-d6ee-50e0-3e22">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">14&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1a2b-56c7-51c5-263a">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Supreme Aethersails" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e3d1-f391-f1b4-0ce3">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6&quot; to the Move characteristic of this model. In addition this model can charge in a turn in which it made an advance move.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0c13-8dd2-56b7-0051">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 11 Drukhari Infantry models. Each Grotesque model takes up the space of 3 models. This model cannot transport models that can Fly.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Liquifier gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0e0c-dbc0-043a-5862">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hydraulic Claws" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a2d0-8142-f9bd-b65c">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+          </characteristics>
+        </profile>
+        <profile name="Crew´s weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6579-c066-bb67-e819">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">2D6</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 4+, Extra Attacks</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Deadly Demise D3" id="fd3e-f239-39f5-801d" hidden="false">
+          <description>See Rule book.</description>
+        </rule>
+        <rule name="Deep Strike" id="053d-fd80-d7d3-d57c" hidden="false">
+          <description>See Rule book.</description>
+        </rule>
+        <rule name="Firing Deck 11" id="4630-5b9b-8003-97d6" hidden="false">
+          <description>See Rule book.</description>
+        </rule>
+        <rule name="Power from Pain" id="357a-57eb-1bac-077a" hidden="false">
+          <description>See Drukhari codex.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Harvester Barque" hidden="false" id="cd7e-01ce-4367-78c1">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="230"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="6359-cbc3-d7f3-dda9" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="4203-51cc-d9f5-4104" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="7181-2dd6-9973-00fd" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Faction: Aeldari" hidden="false" id="fb9f-166c-9727-7d16" targetId="4378-1827-4988-be4e" primary="false"/>
+        <categoryLink name="Faction: Drukhari" hidden="false" id="9330-a49e-eaab-e2be" targetId="1015-db48-a2fa-c7da" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Harvester Barque" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="aee5-89d4-1db0-d8ea">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">16&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">18</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="87e7-dfa5-b4f0-5f4b">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pain Nexus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8c95-8c7e-d131-c126">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly HAEMONCULUS COVEN unit is within 6&quot;, that unit has an 5+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Damaged" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0fa6-20a4-7963-4422">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-6 wounds remaining, each time it makes an attack, subtract 1 from the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="916b-ff28-992d-f54c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 19 Drukhari Infantry models. Each Grotesque model takes up the space of 3 models. This model cannot transport models that can Fly.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Double Shock prow" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="910d-fd82-a88f-0153">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+          </characteristics>
+        </profile>
+        <profile name="Pulse disintegrators" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a942-aa53-2570-02a5">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">12</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Deadly Demise D3" id="8629-def1-1c07-883e" hidden="false">
+          <description>See Rule book.</description>
+        </rule>
+        <rule name="Deep Strike" id="702b-1f6f-ff0f-4df1" hidden="false">
+          <description>See Rule book.</description>
+        </rule>
+        <rule name="Firing Deck 16" id="7c56-e0a7-a685-045b" hidden="false">
+          <description>See Rule book.</description>
+        </rule>
+        <rule name="Power from Pain" id="6d0f-6bc8-b162-f66b" hidden="false">
+          <description>See Drukhari codex.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Slavers" hidden="false" id="b75a-253c-b02c-7daf" type="selectionEntry" targetId="69b5-bbb9-bf32-e203">
+      <categoryLinks>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="a1fd-1cb2-7e14-8373" primary="true" name="Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Slavers on Helamite" hidden="false" id="97a6-3177-e095-979e" type="selectionEntry" targetId="fe68-5c06-8e2e-438f">
+      <categoryLinks>
+        <categoryLink targetId="14a0-40c9-2748-ae6e" id="f51c-87e0-7b5e-cc80" primary="true" name="Mounted"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Master Slaver" hidden="false" id="370c-9cb2-458f-544e" type="selectionEntry" targetId="f823-bf78-f4a9-3f6a">
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="9a56-8569-c554-33b4" primary="true" name="Character"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Slaver Beast" hidden="false" id="a937-9a57-f9f7-d376" type="selectionEntry" targetId="ed30-069a-ff34-6065">
+      <categoryLinks>
+        <categoryLink targetId="4c3e-9310-a516-3590" id="30da-5787-1043-78c8" primary="true" name="Beast"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Collector Ark" hidden="false" id="8928-1323-2c2e-4bfa" type="selectionEntry" targetId="12bd-cdce-9634-c8f5">
+      <categoryLinks>
+        <categoryLink targetId="dbd4-63-af05-998" id="90f6-5ccc-0c2d-bf99" primary="true" name="Vehicle"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Harvester Barque" hidden="false" id="e8ec-15c0-d7ff-40ab" type="selectionEntry" targetId="cd7e-01ce-4367-78c1">
+      <categoryLinks>
+        <categoryLink targetId="dbd4-63-af05-998" id="534f-0a21-2d06-c06e" primary="true" name="Vehicle"/>
+        <categoryLink targetId="5d15-bede-4c28-0507" id="7992-f950-b256-1d27" primary="false" name="Haemunculus Coven"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
