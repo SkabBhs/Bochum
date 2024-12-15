@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b45c-af22-788a-dfd6" name="Chaos - Daemons Library" revision="31" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="b45c-af22-788a-dfd6" name="Chaos - Daemons Library" revision="34" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="e3ec-7a32-ae62-8727" name="Index - Chaos Daemons"/>
   </publications>
@@ -1231,7 +1231,11 @@
         <entryLink id="b667-e8ac-5dc9-2d67" name="Daemonic Icon" hidden="false" collective="false" import="true" targetId="bc2f-662f-58e7-5fef" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="120"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e4f0-79-126a-ac41" name="Hellblade" hidden="false" collective="true" import="true" type="upgrade">
@@ -2567,6 +2571,7 @@
         <categoryLink id="e7c1-2590-6d62-2cc8" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
         <categoryLink id="b5a2-10f8-bcab-b68" name="Daemon" hidden="false" targetId="9c0e-7e25-4580-e439" primary="false"/>
         <categoryLink id="d565-5286-15df-457" name="Daemon Prince of Chaos with wings" hidden="false" targetId="e18a-bfc1-a234-a183" primary="false"/>
+        <categoryLink id="85e4-e813-1c09-c7fb" name="Fly" hidden="false" targetId="c619-2086-bbcf-69c9" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="347c-42b8-a58c-176c" name="Infernal cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4178,7 +4183,7 @@ Designer’s Note: While this unit contains one or more PINK HORRORS models, the
     </selectionEntry>
     <selectionEntry id="550b-c5ab-5e27-f59b" name="Screamers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="150">
+        <modifier type="set" field="51b2-306e-1021-d207" value="170">
           <conditions>
             <condition field="selections" scope="550b-c5ab-5e27-f59b" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
@@ -4253,14 +4258,17 @@ Designer’s Note: While this unit contains one or more PINK HORRORS models, the
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-MONSTER 4+, Anti-VEHICLE 4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="8d47-c94f-0381-ef64" name="Anti-" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
@@ -4272,7 +4280,11 @@ Designer’s Note: While this unit contains one or more PINK HORRORS models, the
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f6eb-b62f-5baf-d96d" name="Burning Chariot" hidden="false" collective="false" import="true" type="model">

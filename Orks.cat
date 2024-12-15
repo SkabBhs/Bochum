@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a55f-b7b3-6c65-a05f" name="Xenos - Orks" revision="63" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Dunamis55 &amp; AbonShell" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="a55f-b7b3-6c65-a05f" name="Xenos - Orks" revision="68" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Dunamis55 &amp; AbonShell" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="2ece-65f0-756f-bc77" name="Try Dat Button! - D6">
       <characteristicTypes>
@@ -110,6 +110,7 @@
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="826c-2cf7-a6e8-01ca" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="adc9-f342-6988-d184" name="Breaka Boyz" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="e591-4f02-103d-203a" name="Battlewagon" hidden="false" collective="false" import="true" targetId="306a-b2ac-aaf1-9a7c" type="selectionEntry"/>
@@ -204,10 +205,11 @@
         <selectionEntry id="81f2-e5d3-7981-e68a" name="Stompin&apos; Points" hidden="false" collective="false" import="true" type="upgrade"/>
       </selectionEntries>
     </entryLink>
+    <entryLink id="16f3-7b41-33dc-02c3" name="Breaka Boyz" hidden="false" collective="false" import="true" targetId="a596-3d99-257e-0ea1" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="37c-6ef9-277-9091" name="Waaagh!" hidden="false">
-      <description>If your Army Faction is ORKS, once per battle, at the start of the battle round, you can call a Waaagh! If you do, until the start of the next battle round, the Waaagh! is active for your army and:
+      <description>If your Army Faction is ORKS, once per battle, at the start of your Command phase, you can call a Waaagh! If you do, until the start of your next Command phase, the Waaagh! is active for your army and:
 - Units from your army with this ability are eligible to declare a charge in a turn in which they Advanced.
 - Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.
 - Models from your army with this ability have a 5+ invulnerable save.</description>
@@ -9902,7 +9904,7 @@ Designer’s Note: Place an Ammo Runt token next to the unit, removing it after 
         </profile>
         <profile id="1f74-9a0a-cff7-fc6e" name="Prophet of Da Great Waaagh!" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll and add 1 to the Wound roll and if you called a Waaagh! this battle round, a Critical Hit is scored on a successful unmodified Hit roll of 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll and add 1 to the Wound roll and if the Waaagh! is active for your army, a Critical Hit is scored on a successful unmodified Hit roll of 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19837,6 +19839,16 @@ Designer’s Note: Place the relevant number of Bomb Squig tokens next to the un
             <condition field="selections" scope="self" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1511-18fe-f51e-7b9d" type="atLeast"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" field="category" value="e338-111e-d0c6-b687">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fdd5-9868-a9ee-e9f1" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="8e38-fda6-cad7-7117" value="6">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fdd5-9868-a9ee-e9f1" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e38-fda6-cad7-7117" type="max"/>
@@ -20132,8 +20144,8 @@ Designer’s Note: Place the relevant number of Bomb Squig tokens next to the un
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
@@ -20143,9 +20155,15 @@ Designer’s Note: Place the relevant number of Bomb Squig tokens next to the un
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll and add 1 to the Wound roll.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1ea4-3804-49fa-3c0a" name="Bomb Squigs" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile id="1ea4-3804-49fa-3c0a" name="Attached Unit" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a CHARACTER unit from your army with the Leader ability can be attached to a LOOTAS unit, it can be attached to this unit instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7cdb-a985-3692-ff79" name="Bomb Squigs" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Twice per battle, after this unit ends a Normal move, you can select one enemy unit within 12&quot; of it and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds.
+
 Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one each time this unit uses this ability.</characteristic>
           </characteristics>
         </profile>
@@ -20157,6 +20175,7 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
         <categoryLink id="3e0c-a5c5-b3c7-4c92" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="true"/>
         <categoryLink id="8c48-97da-bd3f-5d09" name="Tankbustas" hidden="false" targetId="9abc-bb26-c308-f224" primary="false"/>
         <categoryLink id="ea46-a664-589a-d3b5" name="Faction: Orks" hidden="false" targetId="56cc-5f43-2403-8da0" primary="false"/>
+        <categoryLink id="c933-145f-290d-b8d8" name="Grenades" hidden="false" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6d40-a54e-08db-64b5" name="Boss Nob" hidden="false" collective="false" import="false">
@@ -20211,13 +20230,13 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
                 </profile>
               </profiles>
               <selectionEntries>
-                <selectionEntry id="4dfb-aa75-8e3d-d7a4" name="Close combat weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="4dfb-aa75-8e3d-d7a4" name="Choppa" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a67-4a97-d855-4cd9" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5ff-09ac-7030-dcdd" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="f6f8-eff-b8a1-b8cb" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile id="f6f8-eff-b8a1-b8cb" name="Choppa" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <modifierGroups>
                         <modifierGroup>
                           <comment>Armour Piercing</comment>
@@ -20297,10 +20316,10 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
                       </modifierGroups>
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
                         <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                         <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                       </characteristics>
@@ -20311,73 +20330,58 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
                   </entryLinks>
                 </selectionEntry>
               </selectionEntries>
-              <entryLinks>
-                <entryLink id="e542-1ae5-4b75-7e72" name="Rokkit launcha" hidden="false" collective="false" import="true" targetId="80bc-5c89-4125-2253" type="selectionEntry">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="8d8e-4af3-cf19-7732" name="Wargear Options" hidden="false" collective="false" import="false" defaultSelectionEntryId="5e80-6836-23b7-06ff">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="997b-b195-cefb-d5f8" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6229-c8c7-dcfd-83a9" type="max"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="308c-7c3e-056c-d482" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43cc-b3b9-c60f-2eef" type="max"/>
                   </constraints>
-                </entryLink>
-              </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry id="5e80-6836-23b7-06ff" name="Rokkit pistol" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa7a-efd4-8266-2834" type="min"/>
+                        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54b6-dfb2-9554-aeb2" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="2da7-5aec-a02c-1d29" name="Rokkit pistol" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="b091-54bc-9914-47aa" name="Pistol" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <entryLinks>
+                    <entryLink id="0413-5db3-c61f-dd87" name="Smash hammer" hidden="false" collective="false" import="true" targetId="5987-fa47-5ae9-93d2" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a17f-408c-7328-707c" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="11f1-91c0-0fb4-b6a4" name="Tankbustas" hidden="false" collective="false" import="false">
+        <selectionEntryGroup id="11f1-91c0-0fb4-b6a4" name="Tankbustas" hidden="false" collective="false" import="false" defaultSelectionEntryId="40b3-1364-acb9-c1eb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a7a-0a7f-20e3-961c" type="min"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6177-9240-1ca0-84df" type="max"/>
+          </constraints>
           <selectionEntries>
-            <selectionEntry id="3900-9903-1869-be8" name="Tankbusta w/ Pair of rokkit pistols" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa9-1bca-5de-6dcc" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcad-8c12-4bfa-c230" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="3385-f86b-c083-7480" name="Close combat weapon" hidden="false" collective="true" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbb2-b7c-5ed6-f889" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d1-402d-fedd-7594" type="max"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="b153-5495-dd72-d498" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                      <characteristics>
-                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry id="5286-15d5-965f-643d" name="Pair of rokkit pistols" hidden="false" collective="true" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33fc-d8d9-786-300b" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9957-fee3-8f06-3d6b" type="max"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="9b8-8d4c-197a-3b8d" name="Pair of rokkit pistols" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Twin-linked</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="8f23-bd46-a23f-fc26" name="Pistol" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
-                    <infoLink id="a435-245f-f1c2-faa0" name="Twin-linked" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
             <selectionEntry id="40b3-1364-acb9-c1eb" name="Tankbusta w/ Rokkit launcha" hidden="false" collective="false" import="true" type="model">
               <constraints>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a692-f794-59c1-fb9a" type="min"/>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e01a-7ad1-cabb-33c1" type="max"/>
+                <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a692-f794-59c1-fb9a" type="min"/>
+                <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e01a-7ad1-cabb-33c1" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="88b1-9c9d-fd88-d014" name="Close combat weapon" hidden="false" collective="true" import="true" type="upgrade">
@@ -20386,12 +20390,12 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d1-402d-fedd-7594" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="ccdd-82f7-5273-457f" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile id="60b6-dcb3-420f-174c" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
                         <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                         <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                         <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
@@ -20409,37 +20413,80 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
                 </entryLink>
               </entryLinks>
             </selectionEntry>
-            <selectionEntry id="f214-7d61-fe6-44fa" name="Tankbusta w/ Tankhammer" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3697-d01c-ebcd-835d" name="Tankbusta w/ Two rokkit launchas" hidden="false" collective="false" import="true" type="model">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa9-1bca-5de-6dcc" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcad-8c12-4bfa-c230" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eb1-7671-ead0-d0b2" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="7f71-ee8f-4cdd-c53b" name="Tankhammer" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="b5f7-f10c-7077-0b0e" name="Close combat weapon" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33fc-d8d9-786-300b" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9957-fee3-8f06-3d6b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="117e-5f95-8ea8-7736" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3be3-a30d-f534-a1ec" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="f49c-9617-de8a-9071" name="Tankhammer" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                    <profile id="bbc8-d537-0015-e668" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
                       <characteristics>
                         <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
                         <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
-                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                        <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 4+, Devastating Wounds, Hazardous</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink id="669a-909e-bfb5-63fb" name="Anti-" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
-                    <infoLink id="3978-a04d-eea4-2013" name="Devastating Wounds" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-                    <infoLink id="826f-c16c-e836-1f1d" name="Hazardous" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
-                  </infoLinks>
                 </selectionEntry>
               </selectionEntries>
+              <entryLinks>
+                <entryLink id="1fb0-febe-da37-c83f" name="Rokkit launcha" hidden="false" collective="false" import="true" targetId="aea2-c6f4-ba11-b6b3" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e640-ea39-e8e6-136a" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e647-0eab-62a3-72e5" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry id="f3be-f9fd-a145-5aa9" name="Tankbusta w/ Pulsa rokkit" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9406-48ca-4a5b-de8b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="472c-75e6-8261-3b82" name="Pulsa Rokkit" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, when the bearer’s unit is selected to shoot in your Shooting phase, the bearer can use its pulsa rokkit. If it does, until the end of the phase, improve the Strength and Armour Penetration characteristics of ranged weapons equipped by models in the bearer’s unit by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="fb32-f1f5-0004-17ef" name="Close combat weapon" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27b4-d204-ce7d-6804" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0876-a7ec-9553-9c77" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="a2c6-37a5-cde8-1dbb" name="Close combat weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="f053-cbca-6756-7ad8" name="Rokkit launcha" hidden="false" collective="false" import="true" targetId="aea2-c6f4-ba11-b6b3" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d561-d533-5b45-cad7" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="796c-75e8-55cd-03d5" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -20452,7 +20499,7 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="120"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -22169,7 +22216,11 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="65"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="494b-11ce-5af-5b50" name="Warboss in Mega Armour" hidden="false" collective="false" import="true" type="model">
@@ -22631,7 +22682,11 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3832-ad97-2b3b-8775" name="Wazbom Blastajet" hidden="false" collective="false" import="true" type="model">
@@ -42555,6 +42610,224 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
         <constraint field="selections" scope="model" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b67c-e301-d763-5694" type="min"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry id="a596-3d99-257e-0ea1" name="Breaka Boyz" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f9c4-e276-6ee3-d2e0" name="Breaka Boyz" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dde3-1a77-2153-e9d6" name="Attached Unit" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a CHARACTER unit from your army with the Leader ability can be attached to a BOYZ unit, it can be attached to this unit instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2d3e-dffa-7531-6f58" name="Trophy Hunters" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit declares a charge, you can re-roll the Charge roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b9c6-9640-3d62-4a1f" name="Bomb Squigs" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Twice per battle, after this unit ends a Normal move, you can select one enemy unit within 12&quot; of it and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds.
+
+Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one each time this unit uses this ability.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="11dc-18c0-ea82-1d7f" name="Waaagh!" hidden="false" targetId="37c-6ef9-277-9091" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="513c-42ce-9f5a-85e5" name="Faction: Orks" hidden="false" targetId="56cc-5f43-2403-8da0" primary="false"/>
+        <categoryLink id="1571-6a8b-c671-cc48" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="true"/>
+        <categoryLink id="17db-f7c8-2c23-078e" name="Grenades" hidden="false" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink id="e0f8-612d-1570-75b2" name="Breaka Boyz" hidden="false" targetId="adc9-f342-6988-d184" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="02b4-bc44-8e0e-9830" name="Boss Nob" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77cd-74fc-b97b-44af" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a34f-5407-8a82-3a3f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ee9c-9a71-1ba9-ad64" name="Choppa" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fafe-dfc9-f214-90ab" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13fa-410b-0562-676d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9339-1e03-ccd4-6ffe" name="Choppa" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7d9e-641f-61fc-65cc" name="Wargear Options" hidden="false" collective="false" import="false" defaultSelectionEntryId="a35e-42b2-c786-aa66">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84c6-91d7-7433-2fef" type="min"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcb4-3372-a61a-96f1" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="9786-120d-a921-3226" name="Rokkit pistol" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea82-28f2-3c48-8eae" type="min"/>
+                    <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f492-e143-bbec-5555" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="5a93-042d-e67c-3526" name="Rokkit pistol" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="c7cb-0f7e-6db5-bb94" name="Pistol" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="a35e-42b2-c786-aa66" name="Smash hammer" hidden="false" collective="false" import="true" targetId="5987-fa47-5ae9-93d2" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d7e-66bd-480a-0ebb" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="616f-71b9-bc04-a9f9" name="Breaka Boyz" hidden="false" collective="false" import="false" defaultSelectionEntryId="6334-c1dc-0d7c-afda">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a9d-4214-4e66-7f56" type="min"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ce-526e-4e9e-de73" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6334-c1dc-0d7c-afda" name="Breaka Boy" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f7b-0ab5-9b15-8969" type="min"/>
+                <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c002-58d5-98d2-a4f7" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ded9-93b6-1437-7842" name="Smash hammer" hidden="false" collective="false" import="true" targetId="5987-fa47-5ae9-93d2" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22f3-fe9e-57a2-28df" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5fc-719e-6f15-3d0b" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry id="80cc-5d2c-8d46-c853" name="Breaka Boy w/ Tankhammer" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4314-dd08-ce62-ff55" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="23e9-8927-f80b-1dc8" name="Tankhammer" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbb3-db28-28e0-1361" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a5d-48c7-c2e3-19dd" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="5acc-33f5-c29f-c7ea" name="Tankhammer" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Monster 4+, Anti-Vehicle 4+, Devastating Wounds, Hazardous</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="72c2-b79c-c035-32c9" name="Devastating Wounds" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+                    <infoLink id="b621-cfef-4903-563b" name="Anti-" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+                    <infoLink id="00b6-636e-694f-cfe0" name="Hazardous" hidden="false" targetId="8367-374c-f87-c627" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry id="0cba-8084-d5d3-051c" name="Breaka Boy w/ Knucklebustas" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aab4-83df-24e2-88d3" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="6607-9aad-3469-d672" name="Knucklebustas" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2390-5695-1e86-609c" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f959-2847-5906-29fc" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="8e17-668d-26b1-501e" name="Knucklebustas" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Monster 4+, Anti-Vehicle 4+, Twin-linked</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="2728-df13-cb56-50b7" name="Twin-linked" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+                    <infoLink id="e0ff-94bb-7d9f-bfb0" name="Anti-" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5987-fa47-5ae9-93d2" name="Smash hammer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="eb9e-51da-2dbb-a680" name="Smash hammer" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Monster 4+, Anti-Vehicle 4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b5e7-fc9b-06ac-66b3" name="Anti-" hidden="false" targetId="4111-82e3-9444-e942" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1dd8-39ae-cbd8-a9fa" name="Enhancements" hidden="false" collective="false" import="false">
@@ -42783,7 +43056,7 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
               <profiles>
                 <profile id="7948-1a9-57a1-d9ad" name="Skrag Every Stash!" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">BEAST SNAGGA model only. At the end of your Command phase, if the bearer is within range of an objective marker you control, even if you have no models within range of it, until your opponent controls it at the start of end of any turn.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">BEAST SNAGGA model only. At the end of your Command phase, if the bearer is within range of an objective marker you control, that objective market remains under your control, even if you have no models within range of it, until your opponent controls it at the start of end of any turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -43496,6 +43769,178 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="e99c-ce4e-cebb-3069" name="Taktikal Brigade Enhancements" hidden="false" collective="false" import="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cac3-71d1-ea4b-795d" type="lessThan"/>
+                    <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fdd5-9868-a9ee-e9f1" type="lessThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b831-25ec-2230-abab" type="max"/>
+            <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c525-d3d6-9758-69ce" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6444-b8e6-1698-896d" name="Gob Boomer" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6444-b8e6-1698-896d" type="atLeast"/>
+                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6444-b8e6-1698-896d" type="lessThan"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f802-1e3a-d9ce-aa99" type="notInstanceOf"/>
+                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="47cc-4071-6fda-688e" type="notInstanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="acd9-25b0-bfe3-889c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="24fc-7c86-6957-ae00" name="Gob Boomer" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WARBOSS or MEK model only. Each time the bearer issues Taktiks, it can do so to a friendly ORKS INFANTRY or ORKS MOUNTED unit within 18&quot;, instead of 6&quot;.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="20bc-3409-af67-2165" name="Mork&apos;s Kunnin&apos;" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="20bc-3409-af67-2165" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="20bc-3409-af67-2165" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f564-f0ed-b272-bf67" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3811-59fc-7f42-e99e" name="Mork&apos;s Kunnin&apos;" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ORKS model only. After both players have deployed their armies, select up to three ORKS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="db33-fb9e-a05b-5ca9" name="Mek Kaptin" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="db33-fb9e-a05b-5ca9" type="atLeast"/>
+                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="db33-fb9e-a05b-5ca9" type="lessThan"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ea0-8b1a-ddea-4d7c" type="notInstanceOf"/>
+                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c2ac-5ef6-23e1-d192" type="notInstanceOf"/>
+                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2810-316b-919d-657e" type="notInstanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a7f3-4e7e-ec5a-9a3b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e48f-314a-1335-4d10" name="Mek Kaptin" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">BIG MEK, BIG MEK IN MEGA ARMOUR or BIG MEK WITH SHOKK ATTACK GUN model only. During the Declare Battle Formations step, the bearer can be attached to a FLASH GITZ unit. Each time a model in the bearer’s unit makes a ranged attack, you can re‑roll the Hit roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2381-390e-5e7d-0426" name="Skwad Leader" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="47cc-4071-6fda-688e" type="notInstanceOf"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2381-390e-5e7d-0426" type="atLeast"/>
+                            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2381-390e-5e7d-0426" type="lessThan"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7682-45d6-75b6-adb5" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="becb-7197-d769-6f8c" name="Skwad Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">WARBOSS model only. During the Declare Battle Formations step, the bearer can be attached to a KOMMANDOS unit. While leading a KOMMANDOS unit, it has the Infiltrators and Stealth abilities.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup id="8b85-ad3b-752f-6502" name="Detachment" hidden="false" collective="false" import="false">
@@ -43517,7 +43962,7 @@ Designer’s Note: Place two Bomb Squig tokens next to the unit, removing one ea
         <selectionEntry id="80e6-2190-9767-a7ed" name="Da Big Hunt" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="b82f-6b0d-7564-87df" name="Da Hunt Is On" hidden="false">
-              <description>At the start of your Command phase, select one MONSTER, VEHICLE, or WARLORD unit from your opponent&apos;s army. If your opponent does not have any of these on the battlefield (or embarked within a TRANSPORT that is on the battlefield), you can select one CHARACTER unit from your opponent&apos;s army instead. Until the start of your next Command phase, that enemy unit is your Prey:
+              <description>At the start of your Command phase, select one MONSTER, VEHICLE, or CHARACTER unit from your opponent&apos;s army. Until the start of your next Command phase, that enemy unit is your Prey:
 - Each time a BEAST SNAGGA unit from your army declares a charge that includes your Prey as one of the targets, you can re-roll the Charge roll.
 - Each time a BEAST SNAGGA model from your army makes an attack that targets your Prey, improve the Armour Penetration characteristic of that attack by 1.</description>
             </rule>
@@ -43566,7 +44011,7 @@ GRETCHIN units from your army gain the BATTLELINE keyword.</description>
         <selectionEntry id="4b17-a73a-7a0a-a265" name="Bully Boyz" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="2195-4d6e-a1f1-1b63" name="Da Boss Is Watchin&apos;" hidden="false">
-              <description>At the start of a battle round in which you have not called a Waaagh!, if you have one or more WARBOSS models on the battlefield (or embarked within a TRANSPORT that is on the battlefield), you can call a Waaagh! for a second time this battle. When doing so, that second Waaagh! only counts as having been called for WARBOSS, NOBZ and MEGANOBZ units from your army.</description>
+              <description>At the start of your Command phase, in a turn in which you have not called a Waaagh!, if you have one or more WARBOSS models on the battlefield (or embarked within a TRANSPORT that is on the battlefield), you can call a Waaagh! for a second time this battle. When doing so, that second Waaagh! only counts as having been called for WARBOSS, NOBZ and MEGANOBZ units from your army.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -43574,6 +44019,25 @@ GRETCHIN units from your army gain the BATTLELINE keyword.</description>
           <rules>
             <rule id="800f-b674-d975-c458" name="Adrenaline Junkies" hidden="false">
               <description>SPEED FREEKS units from your army are eligible to shoot in a turn in which they Advanced or Fell Back.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry id="fdd5-9868-a9ee-e9f1" name="Taktikal Brigade" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="00e6-fb6e-31b0-9bdb" name="Lissen &apos;Ere" hidden="false">
+              <description>Once per battle round, in your Command phase or after being set up on the battlefield in your Movement phase, each BOSS SNIKROT, MEK and WARBOSS model in your army can issue Taktiks abilities.
+
+To do so, select one or two of the Taktiks abilities below and select one friendly ORKS unit within 6&quot; of that model to issue them to. If you selected two Taktiks, that model must take a Leadership test: if failed, the selected unit suffers D3 mortal wounds. Until the start of your next Command phase, the selected unit is affected by the selected Taktiks. A unit cannot have Taktiks issued to it in this way more than once per battle round.
+
+Taktiks abilities cannot be issued to Battle‑shocked units, and if a unit affected by Taktiks becomes Battle‑shocked, all Taktiks cease to affect that unit while it is Battle‑shocked.
+
+Get Stuck In: You can re‑roll Charge rolls made for this unit.
+
+Get On Wiv It: Add 1 to the Strength characteristic of melee weapons equipped by models in this unit.
+
+Sneaky Stalkin’: INFANTRY and MOUNTED models (excluding MEGANOBZ) in this unit have the Stealth ability and each time a ranged attack targets this unit, those models have the Benefit of Cover against that attack.
+
+Shoota Drills: Each time an INFANTRY or MOUNTED model in this unit makes a ranged attack, add 1 to the Hit roll.</description>
             </rule>
           </rules>
         </selectionEntry>

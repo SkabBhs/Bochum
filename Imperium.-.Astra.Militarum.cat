@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b0ae-12a5-c84-ea45" name="Imperium - Astra Militarum" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="b0ae-12a5-c84-ea45" name="Imperium - Astra Militarum" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="f38c-6b5-d8d3-32db" name="‘Iron Hand’ Straken" hidden="false" collective="false" import="true" targetId="913f-3cb6-fb80-7f6a" type="selectionEntry"/>
     <entryLink id="2c5d-9f8f-b19d-53be" name="Aegis Defence Line" hidden="false" collective="false" import="true" targetId="cb99-456-f100-40ed" type="selectionEntry">
@@ -916,6 +916,7 @@
       </modifiers>
     </entryLink>
     <entryLink id="8c31-ea58-28e3-d4dd" name="Tempestus Aquilons" hidden="false" collective="false" import="true" targetId="aa9f-f137-1638-0369" type="selectionEntry"/>
+    <entryLink id="75d6-a5e8-b8f8-9091" name="Ratlings" hidden="false" collective="false" import="true" targetId="8293-a070-2c87-de30" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink id="e373-3c0a-1185-467a" name="Imperium - Astra Militarum - Library" targetId="5a44-f048-114b-e3ff" type="catalogue" importRootEntries="false"/>

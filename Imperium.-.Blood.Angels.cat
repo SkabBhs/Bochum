@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4ef9-15ce-e3e6-36de" name="Imperium - Adeptus Astartes - Blood Angels" revision="26" battleScribeVersion="2.03" authorName="Acebaur" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="4ef9-15ce-e3e6-36de" name="Imperium - Adeptus Astartes - Blood Angels" revision="32" battleScribeVersion="2.03" authorName="Acebaur" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="da64-bc59-71f9-96e8" name="Astorath" hidden="false"/>
     <categoryEntry id="6305-2974-3890-6ba0" name="Baal Predator" hidden="false"/>
@@ -41,7 +41,7 @@
     <entryLink id="5772-efa1-a8a2-a2e4" name="Tycho the Lost [Legends]" hidden="false" collective="false" import="true" targetId="8577-8a5d-75f6-a630" type="selectionEntry"/>
     <entryLink id="8f52-7888-656e-133a" name="The Sanguinor" hidden="false" collective="false" import="true" targetId="29f1-bb28-6424-6d14" type="selectionEntry"/>
     <entryLink id="518c-6b44-f47b-225" name="Sanguinary Priest with Jump Pack [Legends]" hidden="false" collective="false" import="true" targetId="fa13-ba8a-8711-87b6" type="selectionEntry"/>
-    <entryLink id="4877-5e0e-e27c-75d3" name="Death Company Marines [Legends]" hidden="false" collective="false" import="true" targetId="6562-9dcd-afea-d4ae" type="selectionEntry"/>
+    <entryLink id="4877-5e0e-e27c-75d3" name="Death Company Marines with Boltguns [Legends]" hidden="false" collective="false" import="true" targetId="6562-9dcd-afea-d4ae" type="selectionEntry"/>
     <entryLink id="8e5b-4b8e-a9cc-9dfd" name="Death Company Marines with Jump Packs" hidden="false" collective="false" import="true" targetId="65f6-18df-f6df-7e39" type="selectionEntry"/>
     <entryLink id="7b49-f741-1011-5f29" name="Sanguinary Priest on Bike [Legends]" hidden="false" collective="false" import="true" targetId="3621-b460-722-8954" type="selectionEntry"/>
     <entryLink id="2f4d-a03c-622b-d553" name="Blood Angels Captain" hidden="false" collective="false" import="true" targetId="829b-da42-2d62-6daf" type="selectionEntry"/>
@@ -50,6 +50,7 @@
     <entryLink id="15ed-2cca-b373-a0a9" name="Death Company Marines with Bolt Rifles" hidden="false" collective="false" import="true" targetId="4aab-3ca5-0435-ed5e" type="selectionEntry"/>
     <entryLink id="585d-874f-7f12-77a4" name="Death Company Marines" hidden="false" collective="false" import="true" targetId="3825-ac3a-75ec-fa0d" type="selectionEntry"/>
     <entryLink id="be32-1b9e-6b1b-e508" name="Death Company Dreadnought" hidden="false" collective="false" import="true" targetId="3b6e-cc3e-c2a4-0cbd" type="selectionEntry"/>
+    <entryLink id="86aa-d4e6-fbbd-db05" name="Death Company Marines with Boltguns and Jump Packs [Legends]" hidden="false" collective="false" import="true" targetId="bcfe-f4fb-5c44-652d" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f943-72c8-581c-e6f2" name="Astorath" hidden="false" collective="false" import="true" type="model">
@@ -660,7 +661,7 @@
         </profile>
         <profile id="f775-5667-be0b-35bc" name="The Quickening [Psychic]" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model is eligible to declare a charge in a turn which it Advanced</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model is eligible to declare a charge in a turn which it Advanced.</characteristic>
           </characteristics>
         </profile>
         <profile id="b48f-aef0-7aa9-3500" name="Transfixing Gaze [Aura, Psychic]" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -679,14 +680,9 @@
         <infoLink id="c09b-5168-fe10-510" name="Fights First" hidden="false" targetId="24-c886-e8ba-5a89" type="rule"/>
         <infoLink id="5f6-7507-b7e2-652" name="Feel No Pain" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
           <modifiers>
-            <modifier type="append" field="name" value="4+">
-              <conditions>
-                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" type="atLeast"/>
-              </conditions>
-            </modifier>
+            <modifier type="append" field="name" value="4+"/>
           </modifiers>
         </infoLink>
-        <infoLink id="5b16-b8d5-1cbc-9de6" name="Psychic Hood" hidden="false" targetId="116b-b23c-4ea4-30ed" type="profile"/>
         <infoLink id="f68e-d897-dfbc-6937" name="Oath of Moment" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -799,7 +795,7 @@
         <entryLink id="27f7-9d4c-d894-cc79" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="135"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -955,6 +951,18 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot as if it were your Shooting phase or fight as if it were the Fight phase.</characteristic>
           </characteristics>
         </profile>
+        <profile id="bdca-ea55-dd4a-8d3f" name="Magna-grapple" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="self" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="68c9-5ae0-948c-bb78" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 2 to Charge rolls made for the bearer if one or more of the targets of that charge is a MOSNTER or VEHICLE unit.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="acba-458-7f70-b92c" name="Black Rage" hidden="false" targetId="3e0a-31f-8be-e293" type="profile"/>
@@ -988,22 +996,9 @@
             <categoryLink id="1b59-0e82-de9a-187f" name="Smoke" hidden="false" targetId="6df-937-16bc-8c1a" primary="false"/>
           </categoryLinks>
         </selectionEntry>
-        <selectionEntry id="21a6-0cc4-03d6-cd70" name="Magna-Grapple" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bd8-e08d-b6b7-cd41" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c60-df14-ec26-8732" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="bdca-ea55-dd4a-8d3f" name="Magna-grapple" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 2 to Charge rolls made for the bearer if one or more of the targets of that charge is a Monster or Vehicle unit</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="35bb-90d7-6a16-fee4" name="Weapon Option 1" hidden="false" collective="false" import="false">
+        <selectionEntryGroup id="35bb-90d7-6a16-fee4" name="Weapon Option 1" hidden="false" collective="false" import="false" defaultSelectionEntryId="de07-4256-a577-5ff6">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ab8-80b-ba7c-814c" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3476-6e43-b85-8efb" type="max"/>
@@ -1032,7 +1027,7 @@
             <entryLink id="15cd-5d24-af6-fdbe" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="b3e6-f7a7-8357-2055" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="72eb-3928-12be-62a3" name="Weapon Option 2" hidden="false" collective="false" import="false">
+        <selectionEntryGroup id="72eb-3928-12be-62a3" name="Weapon Option 2" hidden="false" collective="false" import="false" defaultSelectionEntryId="2a75-2b92-1185-d20b">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="896b-2f02-5cde-d88b" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="334b-76f1-21bd-6ca7" type="max"/>
@@ -1042,7 +1037,7 @@
             <entryLink id="5ce5-4183-b5ea-b056" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="b3e6-f7a7-8357-2055" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="52f3-82d5-c00a-1471" name="Melee Weapon" hidden="false" collective="false" import="false" defaultSelectionEntryId="eaab-c081-1b83-d006">
+        <selectionEntryGroup id="52f3-82d5-c00a-1471" name="Melee Weapon" hidden="false" collective="false" import="false" defaultSelectionEntryId="f802-ccaf-2016-12d6">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ea-d1d4-2ebe-e474" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ef-a401-294f-a37b" type="max"/>
@@ -1354,7 +1349,7 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6562-9dcd-afea-d4ae" name="Death Company Marines [Legends]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6562-9dcd-afea-d4ae" name="Death Company Marines with Boltguns [Legends]" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="51b2-306e-1021-d207" value="250">
           <conditions>
@@ -1384,6 +1379,14 @@
         <profile id="5b90-43fc-7d4c-513e" name="An Honourable Death in Combat" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength, or the [SUSTAINED HITS 2] ability if this unit is Below Half-strength.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="40bf-8f05-f081-8fe0" name="Attached Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a Chaplain model from your army with the Leader ability can be attached to a Tactical Squad, it can be attached to this unit instead.
+
+
+If a Character unit from your army with the Leader ability can be attached to a Death Company Marines unit, it can be attached to this unit instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1551,7 +1554,10 @@
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a889-c4bd-1a6a-646d" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="27ea-4039-2794-db20" name="Death Company Marines" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="27ea-4039-2794-db20" name="Death Company Marine" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="190e-00d1-b6af-68bf" type="max"/>
+              </constraints>
               <entryLinks>
                 <entryLink id="739c-c94e-1923-a5f2" name="Astartes Chainsword" hidden="false" collective="false" import="true" targetId="efcd-180-d07-b4d6" type="selectionEntry">
                   <constraints>
@@ -1602,61 +1608,25 @@
                         </profile>
                       </profiles>
                     </selectionEntry>
-                    <selectionEntry id="7d2f-9b90-4675-eecf" name="Power Fist" hidden="false" collective="false" import="true" type="upgrade">
-                      <modifiers>
-                        <modifier type="increment" field="0f89-6897-9a5e-bf4b" value="1">
-                          <conditions>
-                            <condition field="selections" scope="65f6-18df-f6df-7e39" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="38dc-f876-6405-8f17" type="atLeast"/>
-                          </conditions>
-                        </modifier>
-                        <modifier type="decrement" field="0f89-6897-9a5e-bf4b" value="1">
-                          <repeats>
-                            <repeat field="selections" scope="65f6-18df-f6df-7e39" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c4b5-68e-2266-f459" repeats="1" roundUp="false"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="65f6-18df-f6df-7e39" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f89-6897-9a5e-bf4b" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="4a86-984e-d321-d7c4" name="Power Fist" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-                          <characteristics>
-                            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                    </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink id="bead-7f68-bd5c-5f80" name="Power Weapon" hidden="false" collective="false" import="true" targetId="c4b5-68e-2266-f459" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="0c6f-de1e-1af8-b817" value="1">
-                          <conditions>
-                            <condition field="selections" scope="65f6-18df-f6df-7e39" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="38dc-f876-6405-8f17" type="atLeast"/>
-                          </conditions>
-                        </modifier>
-                        <modifier type="decrement" field="0c6f-de1e-1af8-b817" value="1">
-                          <repeats>
-                            <repeat field="selections" scope="9068-ef9c-8583-ceb2" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7d2f-9b90-4675-eecf" repeats="1" roundUp="false"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="65f6-18df-f6df-7e39" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c6f-de1e-1af8-b817" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="0688-b876-0ae0-5a62" name="Power Fist" hidden="false" collective="false" import="true" targetId="6cd5-6917-bf15-72c2" type="selectionEntry"/>
+                    <entryLink id="bead-7f68-bd5c-5f80" name="Power Weapon" hidden="false" collective="false" import="true" targetId="c4b5-68e-2266-f459" type="selectionEntry"/>
+                    <entryLink id="c317-53c8-0d9e-c321" name="Power Fist" hidden="false" collective="false" import="true" targetId="f8d8-7e77-4b71-faac" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry id="5eb4-4667-4a63-4222" name="Death Company w/ Evsicerator" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="5eb4-4667-4a63-4222" name="Death Company Marine w/ Eviscerator" hidden="false" collective="false" import="true" type="model">
+              <modifiers>
+                <modifier type="increment" field="825f-6cc1-6a04-36e7" value="1">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="825f-6cc1-6a04-36e7" type="max"/>
+              </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup id="bada-0ac0-b07b-8f28" name="Pistol Weapon" hidden="false" collective="false" import="false" defaultSelectionEntryId="8e8b-6242-e163-9510">
                   <constraints>
@@ -1692,7 +1662,7 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="7950-92e0-7296-dfb2" name="Power Weapon" hidden="false" collective="false" import="true" targetId="c4b5-68e-2266-f459" type="selectionEntry"/>
-                    <entryLink id="bc0b-9678-9179-db2a" name="Power Fist" hidden="false" collective="false" import="true" targetId="7d2f-9b90-4675-eecf" type="selectionEntry"/>
+                    <entryLink id="b828-c5c4-0f19-5c29" name="Power Fist" hidden="false" collective="false" import="true" targetId="f8d8-7e77-4b71-faac" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="22d8-9429-0cda-a95e" name="Pistol Weapon" hidden="false" collective="false" import="false" defaultSelectionEntryId="1a25-3b75-833d-5956">
@@ -2372,7 +2342,7 @@ horizontally away from all enemy models.</characteristic>
     </selectionEntry>
     <selectionEntry id="25e4-ead-faac-2531" name="Sanguinary Guard" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="270">
+        <modifier type="set" field="51b2-306e-1021-d207" value="260">
           <conditions>
             <condition field="selections" scope="25e4-ead-faac-2531" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b36d-e83-6a91-e2b4" type="atLeast"/>
           </conditions>
@@ -2536,7 +2506,7 @@ horizontally away from all enemy models.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="135"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -3064,6 +3034,8 @@ You can attach this model to one of the above units, even if one Captain, Chapt
         <infoLink id="b7c0-e928-c33b-8d2a" name="Invulnerable Save" hidden="false" targetId="db19-dee7-9530-ef0e" type="profile"/>
         <infoLink id="3bd4-65eb-4488-6318" name="Rites of Battle" hidden="false" targetId="90c7-c55c-21e2-2232" type="profile"/>
         <infoLink id="d2dd-00bd-2593-14d1" name="Finest Hour" hidden="false" targetId="fdf1-64a5-906c-3474" type="profile"/>
+        <infoLink id="5347-1f36-4ca8-529a" name="Oath of Moment" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+        <infoLink id="92c7-5369-1aab-afcf" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e7e3-3a3f-3162-3112" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
@@ -3175,10 +3147,14 @@ You can attach this model to one of the above units, even if one Captain, Chapt
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord. On a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6+ that enemy unit suffers D3+3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
+        <profile id="b870-b3ce-57a6-7655" name="Black Rage" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack, you can re-roll the Hit roll. While this model&apos;s unit is not within 12&quot; of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="e4b7-a76f-3668-bbac" name="Invulnerable Save" hidden="false" targetId="db19-dee7-9530-ef0e" type="profile"/>
-        <infoLink id="ec5d-4d33-a0e0-3910" name="Black Rage" hidden="false" targetId="3e0a-31f-8be-e293" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9266-84ed-6879-cb79" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
@@ -3290,10 +3266,14 @@ You can attach this model to one of the above units, even if one Captain, Chapt
 ■ Death Company Marines with Jump Packs</characteristic>
           </characteristics>
         </profile>
+        <profile id="9a02-63f7-a140-1526" name="Black Rage" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack, you can re-roll the Hit roll. While this model&apos;s unit is not within 12&quot; of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="2885-4ff2-a92d-00c5" name="Invulnerable Save" hidden="false" targetId="db19-dee7-9530-ef0e" type="profile"/>
-        <infoLink id="4a7e-ccae-6697-63ca" name="Black Rage" hidden="false" targetId="3e0a-31f-8be-e293" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0bdf-50ed-4cad-4033" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="true"/>
@@ -3360,11 +3340,11 @@ You can attach this model to one of the above units, even if one Captain, Chapt
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4aab-3ca5-0435-ed5e" name="Death Company Marines with Bolt Rifles" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4aab-3ca5-0435-ed5e" name="Death Company Marines with Bolt Rifles" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="51b2-306e-1021-d207" value="180">
           <conditions>
-            <condition field="selections" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ed1-aba1-feec-a885" type="atLeast"/>
+            <condition field="selections" scope="self" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2ed1-aba1-feec-a885" type="atLeast"/>
           </conditions>
         </modifier>
         <modifier type="set-primary" field="category" value="e338-111e-d0c6-b687">
@@ -3927,9 +3907,13 @@ You can attach this model to one of the above units, even if one Captain, Chapt
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your opponent&apos;s Shooting phase, each time an enemy unit has shot, if this model was hit by one or more of those attacks, it can make a Driven by Fury move. To do so, roll one D6 and add 2 to the roll; this model moves a number of inches up to the result, but must finish as close as possible to the closest enemy unit [excluding Aircraft]. A model cannot make a Driven by Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Driven by Fury move per phase.</characteristic>
           </characteristics>
         </profile>
+        <profile id="eadd-9d93-1829-14d1" name="Black Rage" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack, you can re-roll the Hit roll. While this model&apos;s unit is not within 12&quot; of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="65d1-8d17-0f8d-072c" name="Black Rage" hidden="false" targetId="3e0a-31f-8be-e293" type="profile"/>
         <infoLink id="5222-55a7-586c-77c6" name="Deadly Demise" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="D3"/>
@@ -4065,11 +4049,162 @@ You can attach this model to one of the above units, even if one Captain, Chapt
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="bcfe-f4fb-5c44-652d" name="Death Company Marines with Boltguns and Jump Packs [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="51b2-306e-1021-d207" value="280">
+          <conditions>
+            <condition field="selections" scope="bcfe-f4fb-5c44-652d" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="777d-46c5-4e03-bc34" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ed-cbf4-bfe5-90bf" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6a7-68f2-0d68-f491" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0aa3-13fe-5f91-5cbb" name="Death Company Marine" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1d96-649b-fed0-e796" name="Beserk Fury" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can re-roll Charge rolls made for this unit</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8c1b-2833-573d-bae7" name="Attached Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs or an Assault Squad with Jump Packs, it can be attached to this unit instead.
+
+
+If a Character unit from your army with the Leader ability can be attached to a Death Company Marines with Jump Packs unit, it can be attached to this unit instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0d66-6661-54e3-4171" name="Feel No Pain" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="6+"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="aa72-c68a-39d7-d0e6" name="Oath of Moment" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+        <infoLink id="4f37-522d-e206-9b8e" name="Black Rage" hidden="false" targetId="3e0a-31f-8be-e293" type="profile"/>
+        <infoLink id="3d2e-7602-e87f-1f73" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c319-4a2d-340b-03e3" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="true"/>
+        <categoryLink id="055e-a788-348b-3e81" name="Grenades" hidden="false" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink id="e464-e1fb-877e-3b6f" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink id="2dec-03bf-7d94-a009" name="Faction: Adeptus Astartes" hidden="false" targetId="6e7-40c-58d9-e402" primary="false"/>
+        <categoryLink id="3511-0db5-cdad-14d0" name="Faction: Blood Angels" hidden="false" targetId="62ac-ef42-27b4-ae7" primary="false"/>
+        <categoryLink id="6c09-8293-2221-8129" name="Death Company Marines" hidden="false" targetId="caed-a62d-2318-dda1" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="777d-46c5-4e03-bc34" name="Death Company Marines" hidden="false" collective="false" import="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39a4-ce08-4c84-5e0a" type="min"/>
+            <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c6e-4e41-38b3-0c02" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7db1-301d-38d4-2d57" name="Death Company Marine" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="098f-2bfb-ca43-6565" type="min"/>
+                <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b646-aa74-7b83-ff73" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="705b-65de-30a3-0695" name="Weapon Options" hidden="false" collective="false" import="false" defaultSelectionEntryId="834f-3470-9783-f5e9">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d271-e0a2-36b5-891f" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95a0-d1b2-59c3-6b06" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="76db-4479-947f-6c1c" name="Boltgun and Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                      <entryLinks>
+                        <entryLink id="5922-7657-0107-4190" name="Boltgun" hidden="false" collective="false" import="true" targetId="beac-9df8-7247-c8ab" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c07-1361-ef27-9e4d" type="min"/>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07ef-a0d1-55be-3b30" type="max"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink id="4289-1cda-4f15-04cb" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="6c7d-af5b-482-6fbe" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a545-a3e9-c674-c789" type="min"/>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acab-c81f-c169-179e" type="max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry id="2eec-7bbe-79c2-6e9c" name="Melee and Pistol" hidden="false" collective="false" import="true" type="upgrade">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="7dbf-c7a9-1ac0-1f4d" name="Melee Option" hidden="false" collective="false" import="false" defaultSelectionEntryId="36c0-711a-50e7-ddba">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d960-bf13-b282-b2a2" type="min"/>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1d6-08bf-b5dc-e54a" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="ecb0-c2bf-e9c6-04ec" name="Astartes Chainsword" hidden="false" collective="false" import="true" targetId="efcd-180-d07-b4d6" type="selectionEntry"/>
+                            <entryLink id="c7f3-4233-9b58-89bf" name="Power Fist" hidden="false" collective="false" import="true" targetId="f8d8-7e77-4b71-faac" type="selectionEntry"/>
+                            <entryLink id="b685-5d31-6822-64c5" name="Power Weapon" hidden="false" collective="false" import="true" targetId="50dd-3e76-d993-4d1a" type="selectionEntry"/>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup id="ef85-db55-0fc3-5b69" name="Pistol Option" hidden="false" collective="false" import="false" defaultSelectionEntryId="2fdf-b222-d6a8-6af4">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f506-ccd6-8bc0-83e5" type="min"/>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e3d-379e-8b95-dd23" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="b836-f673-e4e7-dc53" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="18b0-8c2-173f-5" type="selectionEntry"/>
+                            <entryLink id="c3bd-d900-be28-a917" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="25c2-104f-fa0c-809e" type="selectionEntry"/>
+                            <entryLink id="c8bc-a499-053e-38f5" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="9dc6-6ad8-818e-db2e" type="selectionEntry"/>
+                            <entryLink id="9ca1-5366-1001-4878" name="Inferno Pistol" hidden="false" collective="false" import="true" targetId="d8bf-e17f-d6fa-b7e8" type="selectionEntry"/>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                    <selectionEntry id="f984-0622-9975-b956" name="Thunder Hammer" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="5f75-ea4b-ed52-c860" name="Thunder Hammer" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                          <characteristics>
+                            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="3e0a-31f-8be-e293" name="Black Rage" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack, you can re-roll the Hit roll. While this model is not within 12&quot; of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a melee attack, you can re-roll the Hit roll. While this unit is not within 12&quot; of one or more friendly Chaplain models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0.</characteristic>
       </characteristics>
     </profile>
     <profile id="6b69-8f10-6d74-706c" name="Visions of Heresy" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">

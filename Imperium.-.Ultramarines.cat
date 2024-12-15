@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4029-9237-e8db-af55" name="Imperium - Adeptus Astartes - Ultramarines" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="4029-9237-e8db-af55" name="Imperium - Adeptus Astartes - Ultramarines" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="8fee-e096-4a53-3790" name="Sicarius" hidden="false"/>
     <categoryEntry id="feca-2b5b-3c14-547f" name="Chaplain Cassius" hidden="false"/>
@@ -11,6 +11,7 @@
     <categoryEntry id="db3-6ff3-87c4-ac33" name="Tyrannic War Veterans" hidden="false"/>
     <categoryEntry id="8149-45c1-62c1-ff2a" name="Roboute Guilliman" hidden="false"/>
     <categoryEntry id="7fdf-c640-c1ab-6aba" name="Honor Guard" hidden="false"/>
+    <categoryEntry id="d777-b754-4fb3-a65b" name="Titus" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink id="7740-af66-ac4f-68b6" name="Captain Sicarius" hidden="false" collective="false" import="true" targetId="2ae8-40ec-ba34-dfe5" type="selectionEntry"/>
@@ -27,6 +28,7 @@
     <entryLink id="8561-6da9-fb56-15f" name="Tyrannic War Veterans [Legends]" hidden="false" collective="false" import="true" targetId="8770-b0eb-f430-1dda" type="selectionEntry"/>
     <entryLink id="22c4-3e9d-987f-d338" name="Uriel Ventris" hidden="false" collective="false" import="true" targetId="169a-7229-ea50-1c4f" type="selectionEntry"/>
     <entryLink id="35b8-60b6-a5ab-9318" name="Ultramarines Honour Guard [Legends]" hidden="false" collective="false" import="true" targetId="f4a3-1616-2f8e-59a3" type="selectionEntry"/>
+    <entryLink id="0cfa-3fc7-6548-dbb3" name="Lieutenant Titus" hidden="false" collective="false" import="true" targetId="b07a-c1e9-24e5-09ee" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2ae8-40ec-ba34-dfe5" name="Captain Sicarius" hidden="false" collective="false" import="true" type="model">
@@ -523,7 +525,11 @@ Heroic Intervention.</characteristic>
         <entryLink id="3dd7-6ab0-2cbc-fe02" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="185"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4aea-b1cc-6c69-1c44" name="Roboute Guilliman" hidden="false" collective="false" import="true" type="model">
@@ -543,14 +549,13 @@ Heroic Intervention.</characteristic>
         </profile>
         <profile id="12af-5519-836-3ca5" name="Author of the Codex" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, select one Author of the Codex ability (see left). Until the start of your next Command phase, this model has that ability.
-
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the Start of your Command phase, select two Author of the Codex abilities (see left). Until the start of your next Command phase, this model has those abilities.’
 
 Primarch of the XIII (Aura): While a friendly Adeptus Astartes unit is within 6&quot; of this model, add 1 to the Objective Control characteristic of models in that unit and you can re-roll Battle-shock and Leadership tests taken for that unit.
 
 Master of Battle: After you have selected an enemy unit using the Oath of Moment ability, select a second enemy unit. Until the start of your next Command phase, if your Oath of Moment target is destroyed, that second enemy unit becomes your Oath of Moment target until you select a new one.
 
-Supreme Strategist: Once per turn, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP</characteristic>
+Supreme Strategist: Once per turn, you can target one friendly ADEPTUS ASTARTES unit within 12&quot; of this model with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.</characteristic>
           </characteristics>
         </profile>
         <profile id="7a88-482-fa96-f382" name="Ultramarines Bodyguard" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -649,7 +654,7 @@ Supreme Strategist: Once per turn, one unit from your army with this ability can
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="285"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="345"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -1181,7 +1186,11 @@ If your army includes one or more of the Vehicle models listed below, Sergeant C
         <entryLink id="4fcd-c61-82a1-d88b" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="95"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f4a3-1616-2f8e-59a3" name="Ultramarines Honour Guard [Legends]" hidden="false" collective="false" import="true" type="unit">
@@ -1369,6 +1378,126 @@ If your army includes one or more of the Vehicle models listed below, Sergeant C
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="155"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b07a-c1e9-24e5-09ee" name="Lieutenant Titus" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be65-ec75-5f25-1a1e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d094-610c-5bab-b5f7" name="Lieutenant Titus" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e284-c8a4-7a2a-24c9" name="Press the Attack" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">: Weapons equipped by models in this model’s unit have the [SUSTAINED HITS 1] ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="682e-f7df-8750-52e0" name="Honour of the Chapter" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks, and is then removed from play.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="977d-26f6-d16a-83fd" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+
+■ Assault Intercessor Squad
+■ Bladeguard Veteran Squad
+■ Hellblaster Squad
+■ Infernus Squad
+■ Intercessor Squad
+■ Sternguard Veteran Squad</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5856-f6f5-0c41-7cac" name="Feel No Pain" hidden="false" targetId="9bf4-280f-bbe2-6fbb" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="5+"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1e5d-8e25-426d-3ca9" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink id="bd74-8186-4c4a-dbe0" name="Oath of Moment" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0b52-c768-5a9c-f571" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink id="1d74-4a70-9561-a43c" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink id="e2d3-deed-eb1d-eab6" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink id="175d-946b-5b05-dbb1" name="Grenades" hidden="false" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink id="e908-dd54-e1ea-4a16" name="Epic Hero" hidden="false" targetId="4f3a-f0f7-6647-348d" primary="true"/>
+        <categoryLink id="b258-587f-b7ef-9829" name="Tacticus" hidden="false" targetId="883d-54fa-524d-0db3" primary="false"/>
+        <categoryLink id="7237-f50e-733f-554a" name="Lieutenant" hidden="false" targetId="9c1a-42ff-a418-11d1" primary="false"/>
+        <categoryLink id="db42-f6d5-176f-f495" name="Titus" hidden="false" targetId="d777-b754-4fb3-a65b" primary="false"/>
+        <categoryLink id="9eba-e92c-3ee5-fca8" name="Faction: Adeptus Astartes" hidden="false" targetId="6e7-40c-58d9-e402" primary="false"/>
+        <categoryLink id="4e75-0b85-5c94-2ea4" name="Faction: Ultramarines" hidden="false" targetId="1a2d-2f00-c054-4dcb" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b7b4-404b-0db9-cbb1" name="Heavy Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb09-37d4-de2e-031e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3b1-ac95-07b9-9833" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0e2a-ffbd-cb74-3c9e" name="Heavy Bolt Pistol" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4314-4795-fba3-e54f" name="Pistol" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="35ed-7fa0-b68f-79d7" name="Astartes Chainsword" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7c5-2adf-8e1c-80e7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7927-b44e-c1be-afe6" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="f1ae-8418-797a-6ab1" name="Astartes Chainsword" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="eb2a-aa18-de6e-ebf0" name="Anti-" hidden="false" targetId="4111-82e3-9444-e942" type="rule">
+              <modifiers>
+                <modifier type="append" field="name" value="Infantry 2+"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ae1e-6e4d-bd00-6682" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

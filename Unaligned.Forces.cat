@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="581a-46b9-5b86-44b7" name="Unaligned Forces" revision="9" battleScribeVersion="2.03" authorName="WindstormSCR" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="581a-46b9-5b86-44b7" name="Unaligned Forces" revision="9" battleScribeVersion="2.03" authorName="WindstormSCR" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e1ff-c0fa-2ca7-3466" name="Faction: Unaligned Forces" hidden="false">
       <modifiers>

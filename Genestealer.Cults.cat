@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3bdf-a114-5035-c6ac" name="Xenos - Genestealer Cults" revision="47" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="3bdf-a114-5035-c6ac" name="Xenos - Genestealer Cults" revision="51" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e919-694c-97ac-c174" name="Aberrants" hidden="false"/>
     <categoryEntry id="7cc8-a037-cc71-6377" name="Abominant" hidden="false"/>
@@ -1730,7 +1730,11 @@
         <entryLink id="4aed-987c-89c4-2cee" name="Enhancements" hidden="false" collective="false" import="true" targetId="fb5-9606-c45e-bcdb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="95"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf71-a12a-2730-c40b" name="Achilles Ridgerunners" hidden="false" collective="false" import="true" type="unit">
@@ -1791,7 +1795,12 @@
                   <modifiers>
                     <modifier type="set" field="94d-8a98-cf90-183e" value="3+">
                       <conditions>
-                        <condition field="selections" scope="71c2-cc66-9aac-181e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0bc-98a3-dc3b-7c1b" type="atLeast"/>
+                        <condition field="selections" scope="model" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0bc-98a3-dc3b-7c1b" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="annotation" value="Spotter">
+                      <conditions>
+                        <condition field="selections" scope="model" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0bc-98a3-dc3b-7c1b" type="atLeast"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -1889,7 +1898,12 @@
                       <modifiers>
                         <modifier type="set" field="94d-8a98-cf90-183e" value="3+">
                           <conditions>
-                            <condition field="selections" scope="71c2-cc66-9aac-181e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0bc-98a3-dc3b-7c1b" type="atLeast"/>
+                            <condition field="selections" scope="model" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0bc-98a3-dc3b-7c1b" type="atLeast"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" field="annotation" value="Spotter">
+                          <conditions>
+                            <condition field="selections" scope="model" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0bc-98a3-dc3b-7c1b" type="atLeast"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1911,7 +1925,12 @@
                       <modifiers>
                         <modifier type="set" field="94d-8a98-cf90-183e" value="3+">
                           <conditions>
-                            <condition field="selections" scope="71c2-cc66-9aac-181e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0bc-98a3-dc3b-7c1b" type="atLeast"/>
+                            <condition field="selections" scope="model" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0bc-98a3-dc3b-7c1b" type="atLeast"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="append" field="annotation" value="Spotter">
+                          <conditions>
+                            <condition field="selections" scope="model" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0bc-98a3-dc3b-7c1b" type="atLeast"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1938,7 +1957,11 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2096,7 +2119,7 @@
                   <profiles>
                     <profile id="8429-4679-97cf-4b05" name="Demolition Charge" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">8&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
@@ -3163,6 +3186,7 @@ If, at the start of the battle, no model in this unit is equipped with a hand fl
             <modifier type="append" field="name" value="9&quot;"/>
           </modifiers>
         </infoLink>
+        <infoLink id="ac36-6152-8ef4-2719" name="Stealth" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="632c-87aa-14b-8ec0" name="Jackal Alphus" hidden="false" targetId="d1ae-4000-bdd2-333b" primary="false"/>
@@ -3228,7 +3252,7 @@ If, at the start of the battle, no model in this unit is equipped with a hand fl
       <profiles>
         <profile id="f872-566b-d324-828f" name="Hypersensory Abilities" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, in your opponent&apos;s Movement phase, when an enemy unit ends a Normal, Advance, or Fall Back move within 12&quot; of this model, if this unit is not within Engagement Range of one or more enemy units, it can shoot at that unit as if it were your Shooting phase, and then make a Normal move of up to D6&quot; (it cannot embark within a TRANSPORT as part of this move)</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, in your opponent&apos;s Movement phase, when an enemy unit ends a Normal, Advance, or Fall Back move within 9&quot; of this model, if this unit is not within Engagement Range of one or more enemy units, it can shoot at that unit as if it were your Shooting phase, and then make a Normal move of up to D6&quot; (it cannot embark within a TRANSPORT as part of this move)</characteristic>
           </characteristics>
         </profile>
         <profile id="38a1-4506-e19e-bdf7" name="Heroic Fusillade" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4527,7 +4551,7 @@ You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if
           <profiles>
             <profile id="590e-793b-1fd6-1c03" name="Demolition Charge" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
               <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">8&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
@@ -4923,7 +4947,7 @@ You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if
       <profiles>
         <profile id="dd61-527c-40a8-2d57" name="Demolition Charge Cache" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
           <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">8&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
@@ -4964,6 +4988,18 @@ You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if
     <selectionEntry id="fef0-fb67-5285-7552" name="Heavy Mining Laser" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="e210-15ab-5d0b-e7de" name="Heavy Mining Laser" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+          <modifiers>
+            <modifier type="set" field="94d-8a98-cf90-183e" value="3+">
+              <conditions>
+                <condition field="selections" scope="model" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0bc-98a3-dc3b-7c1b" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="append" field="annotation" value="Spotter">
+              <conditions>
+                <condition field="selections" scope="model" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b0bc-98a3-dc3b-7c1b" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
@@ -5706,7 +5742,7 @@ You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if
               <profiles>
                 <profile id="d3ad-75df-386b-91f7" name="Deeds That Speak to the Masses" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">MAGUS, PRIMUS or ACOLYTE ICONWARD model only. Once per turn, when rolling for a BATTLELINE unit for the Cult Ambush army rule, if the bearer is on the battlefield, you can re-roll the result</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You start the battle with 2 additional Resurgence points.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5947,7 +5983,7 @@ You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if
               <profiles>
                 <profile id="4036-5dd5-624c-f441" name="Serpentine Tactics" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">GENESTEALER CULTS MOUNTED model only. The bearer&apos;s unit is eligible to shoot in a turn shoot in a turn in which it Fell Back.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">GENESTEALER CULTS MOUNTED model only. The bearer&apos;s unit is eligible to shoot in a turn in which it Fell Back.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6188,7 +6224,7 @@ You can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if
           <profiles>
             <profile id="e81d-8cb6-b0f3-a903" name="Rapid Takeover" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Double the Objective Control characteristic of GENESTEALER CULTS MOUNTED and GENESTEALER CULTS VEHICLE models from your army. In addition, at the end of your Command phase, if one or more ATALAN JACKALS unit from your army are within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a GENESTEALER CULTS MOUNTED or GENESTEALER CULTS VEHICLE model from your army is not Battle‑shocked, add 1 to its Objective Control characteristic. In addition, at the end of your Command phase, if one or more ATALAN JACKALS units from your army are within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6216,13 +6252,43 @@ A GENESTEALER CULTS model must be your Warlord, and ASTRA MILITARUM models from
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="8f27-1d49-40ef-b041" name="Cult Ambush" hidden="false">
-      <description>If your Army Faction is GENESTEALER CULTS, each time a unit with this ability is destroyed, roll one D6, adding 1 to the result if it is the first or second battle round. On a 5+, add a new unit to your army identical to your destroyed unit, in Cult Ambush, at its Starting Strength and with all of its wounds remaining and any [ONE SHOT] weapons those models are equipped with considered as not having been shot. Then place one Cult Ambush marker* anywhere on the battlefield that is more than 9&quot; horizontally away from all enemy units (if this is not possible, no marker is placed).You can set up that unit on the battlefield using a Cult Ambush marker as described below or, if it has the Deep Strike ability, in the Reinforcements step of one of your Movement phases you can set up that unit anywhere on the battlefield that is more than 9&quot; horizontally away from all enemy units.
+      <description>If your Army Faction is GENESTEALER CULTS, you start the battle with a number of Resurgence points, depending on the battle size, as shown below.
 
+- Incursion: 6 Resurgence points
+- Strike Force: 10 Resurgence points
+- Onslaught: 14 Resurgence points
 
-If an enemy model (excluding Aircraft models) ends any kind of move within 9&quot; of a Cult Ambush marker you placed, that Cult Ambush marker is removed from the battlefield. At the end of the Reinforcements step of your opponent’s next Movement phase, for each of your Cult Ambush markers that is still on the battlefield, you can select one unit from your army that is in Cult Ambush and set that destroyed unit back up on the battlefield using the Deep Strike ability, containing all of its models with their full wounds remaining and with at least one of those models touching that Cult Ambush marker (that Cult Ambush marker is then removed from the battlefield). 
+Each time a unit from your army is destroyed, if every model in that unit has this ability you can spend the relevant number of Resurgence points shown below based on that unit&apos;s Starting Strength.
 
+&lt;Aberrants&gt;
+5 models = 5 Resurgence Points
+10 models = 8 Resurgence Points
 
-CHARACTERS that are attached to a unit with this ability are not returned alongside that unit should it return to the battlefield as described above (only the Bodyguard unit returns).</description>
+&lt;Acolyte Hybrids with Autopistols, Acolyte Hybrids with Hand Flamers, Hybrid Metamorphs&gt;
+5 models = 2 Resurgence Points
+10 models = 4 Resurgence Points
+
+&lt;Atalan Jackals&gt;
+5 models = 3 Resurgence Points
+10 models = 6 Resurgence Points
+
+&lt;Neophyte Hybrids&gt;
+5 models = 3 Resurgence Points
+10 models = 6 Resurgence Points
+
+&lt;Purestrain Genestealers&gt;
+5 models = 3 Resurgence Points
+10 models = 6 Resurgence Points
+
+If you do:
+- Add a new unit to your army identical to your destroyed unit, in Cult Ambush, at its Starting Strength, with all of its wounds remaining and any [ONE SHOT] weapons those models are equipped with considered as not having been shot.
+- Place one Cult Ambush marker (see below) anywhere on the battlefield that is more than 9&quot; horizontally away from all enemy units (if this is not possible, not marker is placed).
+
+UNITS IN CULT AMBUSH
+Cult Ambush is a type of Strategic Reserves. Units in Cult Ambush cannot be targeted with the Rapid Ingress Stratagem, but can be set up on the battlefield using a Cult Ambush marker as described below, or by following the rules for Strategic Reserves in a subsequent turn.
+
+CULT AMBUSH MARKERS
+Use a circular 32mm diameter marker for Cult Ambush markers. If an enemy model (excluding AIRCRAFT) ends any kind of move within 9&quot; of a Cult Ambush marker you placed, that Cult Ambush marker is removed from the battlefield. At the end of the Reinforcements step of your opponent’s next Movement phase, for each of your Cult Ambush markers still on the battlefield, you can select one unit from your army that is in Cult Ambush and set up that unit using that Cult Ambush marker. To do so, set that unit up on the battlefield more than 9&quot; horizontally away from all enemy units, with at least one model in that unit touching that Cult Ambush marker and all other models placed wholly within 3&quot; of that Cult Ambush marker (that Cult Ambush marker is then removed from the battlefield).</description>
     </rule>
     <rule id="66c5-5a84-d6d8-9e44" name="New Rule" hidden="false">
       <modifiers>

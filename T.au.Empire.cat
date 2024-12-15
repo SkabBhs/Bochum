@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d81a-61dd-6d27-a3ce" name="Xenos - T&apos;au Empire" revision="60" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Dunamis55 &amp; AbonShell" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="d81a-61dd-6d27-a3ce" name="Xenos - T&apos;au Empire" revision="64" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Dunamis55 &amp; AbonShell" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <costTypes>
     <costType id="4d7c-04b6-8a79-837f" name="Diplomatic Power" defaultCostLimit="-1" hidden="true"/>
     <costType id="1cbe-d9c9-86a8-2d41" name="Military Power" defaultCostLimit="-1" hidden="true"/>
@@ -1401,7 +1401,7 @@ Until the end of the phase:
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">1</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                       </characteristics>
@@ -2571,7 +2571,7 @@ Until the end of the phase:
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">1</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                       </characteristics>
@@ -3799,7 +3799,7 @@ Until the end of the phase:
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">1</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">-</characteristic>
                       </characteristics>
@@ -6606,7 +6606,7 @@ Designer’s Note: Place a Support Turret token next to this unit to remind you.
             <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bed-a9b0-2b3-eb3c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="ab93-25f-afe1-a796" name="Breacher Team" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+            <profile id="ab93-25f-afe1-a796" name="Breacher Fire Warrior" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
               <modifierGroups>
                 <modifierGroup>
                   <comment>Battle Scars: Crippling Damage</comment>
@@ -19570,7 +19570,7 @@ Designer’s Note: Place an Oversight Drone token next to the bearer, removing i
                           </modifierGroups>
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                             <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
@@ -29281,7 +29281,13 @@ Designer’s Note: Place an Oversight Drone token next to the bearer, removing i
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="275"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="325"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Diplomatic Power" typeId="4d7c-04b6-8a79-837f" value="0"/>
+        <cost name="Military Power" typeId="1cbe-d9c9-86a8-2d41" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a78-555-46c7-999b" name="AX-1-0 Tiger Shark" hidden="false" collective="false" import="true" type="model">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b654-a18a-ea1-3bf2" name="Xenos - Necrons" revision="51" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="b654-a18a-ea1-3bf2" name="Xenos - Necrons" revision="54" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="cd5c-98c0-9fd1-7cc6" name="C&apos;tan Powers">
       <characteristicTypes>
@@ -381,7 +381,7 @@
         <categoryLink id="cbf9-d740-dd4d-e9d5" name="Configuration" hidden="false" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="aa9c-b6d6-f78-12ac" name="Detachment" hidden="false" collective="false" import="false">
+        <selectionEntryGroup id="aa9c-b6d6-f78-12ac" name="Detachment" hidden="false" collective="false" import="false" defaultSelectionEntryId="none">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5807-8909-f15b-dd04" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57c7-9dcf-afa-964e" type="max"/>
@@ -410,6 +410,11 @@
             <selectionEntry id="8861-5385-8fd1-dfee" name="Hypercrypt Legion" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="3287-c51b-f223-8e2d" name="Hyperphasing" hidden="false" targetId="bf08-bb20-d69d-1063" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="e0fd-c955-4822-6dba" name="Starshatter Arsenal" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="4a82-f42a-3255-848d" name="Relentless Onslaught" hidden="false" targetId="1dfc-5377-99ac-a700" type="rule"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -1165,7 +1170,11 @@ in its place, with all of its wounds remaining (if the selected model was leadi
         <entryLink id="1d39-6d2-932e-7eee" name="Enhancements" hidden="false" collective="false" import="true" targetId="9574-b5d1-8b0a-d95d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="40"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c98-86cf-889-2293" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
@@ -2239,7 +2248,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         <entryLink id="cb43-f94f-be98-81b9" name="Warlord" hidden="false" collective="false" import="true" targetId="2c98-86cf-889-2293" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="65"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="58e9-5212-f5a6-c12d" name="Necron Warriors" hidden="false" collective="false" import="true" type="unit">
@@ -2353,7 +2366,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="69d2-ffd6-3daf-b437" name="Close combat weapon" hidden="false" collective="true" import="true" type="upgrade">
@@ -2501,7 +2518,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c45-2aab-7526-febe" name="Canoptek Reanimator" hidden="false" collective="false" import="true" type="model">
@@ -2667,7 +2688,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         <entryLink id="632-c214-2404-84e3" name="Enhancements" hidden="false" collective="false" import="true" targetId="9574-b5d1-8b0a-d95d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4e3-f6b0-f3aa-9d90" name="Lychguard" hidden="false" collective="false" import="true" type="unit">
@@ -3484,7 +3509,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="295"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="305"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8065-e9c0-dcb5-be1d" name="C&apos;tan Shard of the Void Dragon" hidden="false" collective="false" import="true" type="model">
@@ -3626,7 +3655,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="290"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="276e-bc21-e1d0-3c41" name="Transcendant C&apos;tan" hidden="false" collective="false" import="true" type="model">
@@ -3729,7 +3762,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="285"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="295"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cae9-5277-87f4-54b8" name="Canoptek Spyders" hidden="false" collective="false" import="true" type="unit">
@@ -3927,7 +3964,7 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
     </selectionEntry>
     <selectionEntry id="c6db-9736-4d53-3ef6" name="Ophydian Destroyers" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="180">
+        <modifier type="set" field="51b2-306e-1021-d207" value="160">
           <conditions>
             <condition field="selections" scope="c6db-9736-4d53-3ef6" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
@@ -4009,7 +4046,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dbff-daf7-edb0-1524" name="Plasmacyte" hidden="false" collective="false" import="true" type="upgrade">
@@ -4349,7 +4390,7 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
     </selectionEntry>
     <selectionEntry id="a022-9bf6-f08b-c416" name="Canoptek Wraiths" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="250">
+        <modifier type="set" field="51b2-306e-1021-d207" value="230">
           <conditions>
             <condition field="selections" scope="a022-9bf6-f08b-c416" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="atLeast"/>
           </conditions>
@@ -4451,7 +4492,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f702-9067-d0c3-4240" name="Vicious claws" hidden="false" collective="true" import="true" type="upgrade">
@@ -5195,7 +5240,11 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
         <entryLink id="4a08-f0a7-6732-b812" name="Armoured bulk" hidden="false" collective="false" import="true" targetId="927a-5f3d-6d88-260" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a86-2d6-6446-7f1" name="Night Scythe" hidden="false" collective="false" import="true" type="model">
@@ -7625,6 +7674,126 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
             <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="564a-6fab-2aa8-260e" name="Dread Majesty" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e0fd-c955-4822-6dba" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2324-ba16-58e4-df2e" type="notInstanceOf"/>
+                        <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ee53-cc83-d667-ceb8" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d8e-3f9e-353a-7e5c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="925e-9eea-76f4-a8a3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0379-3e19-803c-5ecb" name="Dread Majesty (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly NECRONS unit (excluding TITANIC units) is within 6&quot; of the bearer, each time a model in that unit makes an attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d8be-0f2f-0902-ae47" name="Minaturised Nebuloscope" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e0fd-c955-4822-6dba" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="15a5-4021-d62e-4d0e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cd5-3fa0-5b79-f778" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bd49-399b-926c-936d" name="Minaturised Nebuloscope" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="40fb-0220-5d6a-4b29" name="Demanding Leader" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e0fd-c955-4822-6dba" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f80-e273-ec3f-ad87" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ac7-2b5b-c5e1-6cea" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="91f5-bbc1-8ec9-68cc" name="Demanding Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Movement phase, select one friendly NECRONS VEHICLE or NECRONS MOUNTED unit (excluding TITANIC units) within 6&quot; of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0def-3e8b-cd0d-f2aa" name="Chrono-impedance Fields" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e0fd-c955-4822-6dba" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1850-7a23-dfb7-b2b7" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2f3-7e3d-c9ac-1fbe" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0ce9-aaa0-f90b-2d7e" name="Chrono-impedance Fields" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, select one friendly NECRONS VEHICLE or NECRONS MOUNTED unit (excluding Titanic units) within 6&quot; of the bearer. Until the start of your next Command phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -7636,16 +7805,17 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or
 Once such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens.</description>
     </rule>
     <rule id="cb2f-c68b-f66e-93ae" name="Annihilation Protocol" hidden="false">
-      <description>Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the charge roll as well.</description>
+      <description>Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the charge roll as well.
+Each time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack.</description>
     </rule>
     <rule id="388f-814a-df25-c988" name="Command Protocols" hidden="false">
       <description>While a NECRONS CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll.</description>
     </rule>
     <rule id="bf08-bb20-d69d-1063" name="Hyperphasing" hidden="false">
       <description>At the end of your opponent&apos;s turn, you can select a number of NECRONS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:
-Incursion - Up to 2 units
-Strike Force - Up to 3 units
-Onslaught - Up to 4 units
+Incursion - Up to 1 unit.
+Strike Force - Up to 2 units
+Onslaught - Up to 3 units
 Once you have made your selection, remove those units from the battlefield and place them into Strategic Reserves.</description>
     </rule>
     <rule id="5aff-abb1-f06d-23a5" name="Power Matrix" hidden="false">
@@ -7657,6 +7827,9 @@ Each time a model in a CRYPTEK or CANOPTEK unit from your army makes an attack, 
     </rule>
     <rule id="a0f8-2836-4418-50a4" name="Worthy Foes" hidden="false">
       <description>In your Command phase, select one enemy unit. Until the start of your next Command phase, each time an NOBLE, LYCHGUARD or TRIARCH unit from your army makes an attack against that unit, add 1 to the Wound roll.</description>
+    </rule>
+    <rule id="1dfc-5377-99ac-a700" name="Relentless Onslaught" hidden="false">
+      <description>Each time a NECRONS model from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

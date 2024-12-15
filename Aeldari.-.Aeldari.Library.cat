@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dfcf-1214-b57-2205" name="Aeldari - Aeldari Library" revision="54" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="dfcf-1214-b57-2205" name="Aeldari - Aeldari Library" revision="58" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="442c-a37c-3908-d701" name="Index: Aeldari" shortName="I:Aeldari" publisher="Index: Aeldari" publicationDate="6/15/2023"/>
     <publication id="1427-7c5c-863f-ac94" name="Index: Drukhari" shortName="I:Drukhari" publisher="Index: Drukhari" publicationDate="6/15/2023"/>
@@ -3722,17 +3722,6 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a 5+ Invulnerable save</characteristic>
           </characteristics>
         </profile>
-        <profile id="b87d-d22e-cfe5-41ae" name="Close Combat Weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="cd1a-6aa1-e3b5-43e7" name="Strands of Fate" hidden="false" targetId="c324-e193-e23c-7d2e" type="rule"/>
@@ -3764,6 +3753,17 @@
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
                     <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="7c3d-3707-4cf6-f65a" name="Close Combat Weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3807,6 +3807,17 @@
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
                     <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="b87d-d22e-cfe5-41ae" name="Close Combat Weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3898,23 +3909,31 @@
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry id="caf3-8f76-d54f-2895" name="Two Avenger Shuriken Catapults" hidden="false" collective="false" import="true" type="upgrade">
-                      <profiles>
-                        <profile id="4599-4e15-ec45-cf8d" name="Avenger Shuriken Catapult" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
-                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Lethal Hits</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink id="e67-b9fe-fc91-53dc" name="Lethal Hits" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
-                        <infoLink id="c83b-a485-e42c-e2c6" name="Assault" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
-                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry id="00f9-de5d-78f6-e36f" name="Avenger Shuriken Catapult" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="875c-c586-a6f1-49eb-min" type="min"/>
+                            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="875c-c586-a6f1-49eb-max" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="f592-c03a-f9a7-71b8" name="Avenger Shuriken Catapult" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Lethal Hits</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="cec2-ac5e-c965-4416" name="Lethal Hits" hidden="false" targetId="d1d1-611e-5191-1095" type="rule"/>
+                            <infoLink id="146a-59bc-b185-80a4" name="Assault" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
                     </selectionEntry>
                     <selectionEntry id="5bfb-6bdc-d172-a9b5" name="Diresword and Shimmershield" hidden="false" collective="false" import="true" type="upgrade">
                       <profiles>
@@ -8319,6 +8338,7 @@ Attacks characteristic of this model’s Solitaire weapons</characteristic>
                 <modifier type="decrement" field="d906-e42d-18a5-7e25" value="1">
                   <repeats>
                     <repeat field="selections" scope="5452-c4a7-59fb-f05c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2f40-98b5-666c-3eef" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="5452-c4a7-59fb-f05c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0d79-6426-d369-775e" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -8379,6 +8399,7 @@ Attacks characteristic of this model’s Solitaire weapons</characteristic>
                 <modifier type="decrement" field="7fa2-0b0b-b5f8-e36e" value="1">
                   <repeats>
                     <repeat field="selections" scope="5452-c4a7-59fb-f05c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2f40-98b5-666c-3eef" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="5452-c4a7-59fb-f05c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5a90-5bed-c637-7f9e" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
                 <modifier type="decrement" field="7fa2-0b0b-b5f8-e36e" value="1">
@@ -9206,6 +9227,9 @@ become separate units, with their original Starting Strengths.</characteristic>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="6387-2af0-1a7f-f590" name="Warlord" hidden="false" collective="false" import="true" targetId="3f04-19ab-bfb0-6c67" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
       </costs>
@@ -9323,6 +9347,9 @@ become separate units, with their original Starting Strengths.</characteristic>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="3b73-0955-8953-153a" name="Warlord" hidden="false" collective="false" import="true" targetId="3f04-19ab-bfb0-6c67" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="350"/>
       </costs>
@@ -10389,6 +10416,16 @@ become separate units, with their original Starting Strengths.</characteristic>
             <categoryLink id="afb2-483c-c31a-fa23" name="Faction: Aeldari" hidden="false" targetId="4378-1827-4988-be4e" primary="false"/>
           </categoryLinks>
         </entryLink>
+        <entryLink id="e901-67e9-5f76-ad47" name="Warlord" hidden="false" collective="false" import="true" targetId="3f04-19ab-bfb0-6c67" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d34-c046-e08f-13e1" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6c11-70b3-81f7-56b6" name="Battle Host Enhancements" hidden="false" collective="false" import="true" targetId="e26f-c156-51e9-9608" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="45"/>
@@ -12127,17 +12164,6 @@ You can attach this unit to the above unit, even if one other Leader unit (excl
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
         </profile>
-        <profile id="6cea-c4b7-2456-613f" name="Close Combat Weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
-          </characteristics>
-        </profile>
         <profile id="b7b8-27fe-d7c3-228a" name="War Construct" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -12166,6 +12192,27 @@ You can attach this unit to the above unit, even if one other Leader unit (excl
             <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6324-9b89-75cd-fd69" type="min"/>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3312-52db-6a50-3691" type="max"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="b8a2-ebd2-04d1-72ab" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d08b-b48f-a1be-91fc" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="802f-c1de-dba9-efe1" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6cea-c4b7-2456-613f" name="Close Combat Weapon" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup id="33c1-c486-f3a6-a523" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="e676-de3-8c2f-2769">
               <constraints>
@@ -13449,7 +13496,7 @@ You can attach this unit to the above unit, even if one other Leader unit (excl
     </selectionEntry>
     <selectionEntry id="d729-7e1f-93a9-b1c5" name="Grotesques" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="160">
+        <modifier type="set" field="51b2-306e-1021-d207" value="170">
           <conditions>
             <condition field="selections" scope="d729-7e1f-93a9-b1c5" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
@@ -16114,7 +16161,11 @@ You can attach this unit to the above unit, even if one other Leader unit (excl
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="120"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b5a9-c802-10f0-6768" name="Succubus" hidden="false" collective="false" import="true" type="model">
@@ -16955,12 +17006,16 @@ Before the battle, at the start of the Declare Battle Formations step, you can 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="215"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="235"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2659-7a1b-3ce6-8e4b" name="Wracks" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="51b2-306e-1021-d207" value="120">
+        <modifier type="set" field="51b2-306e-1021-d207" value="110">
           <conditions>
             <condition field="selections" scope="2659-7a1b-3ce6-8e4b" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
@@ -17240,7 +17295,11 @@ Before the battle, at the start of the Declare Battle Formations step, you can 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="55"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edca-1a1b-902d-421a" name="Wyches" hidden="false" collective="false" import="true" type="unit">
@@ -19929,18 +19988,6 @@ You can attach this model to one of the above units, even if one other Leader u
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="6c11-70b3-81f7-56b6" name="Battle Host Enhancements" hidden="false" collective="false" import="true" targetId="e26f-c156-51e9-9608" type="selectionEntryGroup"/>
-        <entryLink id="e901-67e9-5f76-ad47" name="Warlord" hidden="false" collective="false" import="true" targetId="3f04-19ab-bfb0-6c67" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d34-c046-e08f-13e1" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry id="68f1-24f4-a4c6-303f" name="Detachment" hidden="false" collective="false" import="false" type="upgrade">
       <constraints>

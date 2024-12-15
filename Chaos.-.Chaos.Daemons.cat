@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d265-877b-e03d-30ca" name="Chaos - Chaos Daemons" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="d265-877b-e03d-30ca" name="Chaos - Chaos Daemons" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="3464-ba60-581-5957" name="Show Leaders inside units" hidden="true" collective="false" import="true" type="upgrade">
       <modifiers>

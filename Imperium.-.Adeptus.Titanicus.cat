@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bdc0-c0d-72d7-87e2" name="Imperium - Adeptus Titanicus" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="bdc0-c0d-72d7-87e2" name="Imperium - Adeptus Titanicus" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="e20a-8101-443d-6ae8" name="Reaver Titan" hidden="false" collective="false" import="true" targetId="b7e8-f3ae-be53-9ba5" type="selectionEntry">
       <categoryLinks>
