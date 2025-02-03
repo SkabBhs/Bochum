@@ -1027,8 +1027,8 @@ You can attach this model to a unit it can lead even if one CYBERWOLF model has 
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9925-1b97-53fd-f158">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can lead the following units:
-■[VEHICLE]
-Remark: When this model joins a VEHICLE units to form an Attached Unit it will transfer the INFANTRY keyword to the Attached Unit as normal. This is intended, even if the unit get´s vulnerable to Anti-Infantry weapon abilities.</characteristic>
+■[GROTS VEHICLE]
+When this model joins a VEHICLE units to form an Attached Unit, all models in that unit gain the MOUNTED keyword.</characteristic>
           </characteristics>
         </profile>
         <profile name="Overseeing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1c67-2d54-2338-9493">
@@ -1069,7 +1069,7 @@ Remark: When this model joins a VEHICLE units to form an Attached Unit it will t
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
@@ -1079,10 +1079,10 @@ Remark: When this model joins a VEHICLE units to form an Attached Unit it will t
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Anti-Infantry 3+</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
           </characteristics>
         </profile>
         <profile name="Close combat weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="3da9-e080-dfe8-43b5">
@@ -1101,27 +1101,15 @@ Remark: When this model joins a VEHICLE units to form an Attached Unit it will t
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each critical hit scored with the Handcrafted Shoota has the [Precision] special rule.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Rotsnik" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e3f9-71cc-d00d-4747">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1"/>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4"/>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da"/>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe"/>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc"/>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8"/>
-          </characteristics>
-        </profile>
         <profile name="Starting an Ambush" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="88e2-0c32-cd2b-c51e">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this model scores a hit against an enemy unit during the shooting phase the following effects are applied to all friendly KOMMANDOZ units:
 
 
 - Units can charge that unit, even if they have made a fall back or advance move before.
-- Units get a 5+ Invulnerable save against attacks made bis that unit.
+- Units get a 5+ Invulnerable save against attacks made by that unit.
 - Add 1 to the wound rolls of melee weapons that attack that enemy unit.
-- Improve the AP characteristic of melee weapons that attack that enemy unit.
-
-</characteristic>
+- Improve the AP characteristic of melee weapons that attack that enemy unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Kustom Force Field Projector" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5b9a-5d7c-579e-1026">
