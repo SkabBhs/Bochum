@@ -15,7 +15,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="2b88-ceb0-0b55-e9c1" primary="false" name="Infantry"/>
-        <categoryLink targetId="4378-1827-4988-be4e" id="f521-6369-dcac-17ab" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="4378-1827-4988-be4e" id="f521-6369-dcac-17ab" primary="false" name="Faction: Asuryani"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="7c41-f6ac-b415-43c4" primary="false" name="Grenades"/>
       </categoryLinks>
       <profiles>
@@ -168,7 +168,7 @@
       <categoryLinks>
         <categoryLink targetId="14a0-40c9-2748-ae6e" id="eacf-cc3b-2fc4-3a8d" primary="false" name="Mounted"/>
         <categoryLink targetId="e8f8-3d51-9f54-e3a7" id="2810-81fe-57c3-0f0b" primary="false" name="Exodite"/>
-        <categoryLink targetId="4378-1827-4988-be4e" id="fc47-2578-afc3-45fc" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="4378-1827-4988-be4e" id="fc47-2578-afc3-45fc" primary="false" name="Faction: Asuryani"/>
       </categoryLinks>
       <profiles>
         <profile name="Aerobatic Grace" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8991-0fc3-fdb3-d7ce">
@@ -299,7 +299,7 @@
         <categoryLink targetId="c619-2086-bbcf-69c9" id="a17f-65aa-c3d7-fd35" primary="false" name="Fly"/>
         <categoryLink targetId="c441-264b-6514-04f5" id="0e38-85e7-5910-95d7" primary="false" name="Thunderbeast"/>
         <categoryLink targetId="e8f8-3d51-9f54-e3a7" id="d200-0c8d-7845-e41a" primary="false" name="Exodite"/>
-        <categoryLink targetId="4378-1827-4988-be4e" id="f2bb-6203-dc3d-d9a6" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="4378-1827-4988-be4e" id="f2bb-6203-dc3d-d9a6" primary="false" name="Faction: Asuryani"/>
       </categoryLinks>
       <profiles>
         <profile name="Dragon Knight [Exodite]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="654a-475b-18b8-b045">
@@ -361,7 +361,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Thunderbeast [Exodite]" hidden="false" id="d443-3c5b-3c6b-9f34">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="135"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -369,7 +369,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="e4ed-4a2b-166d-8c3d" primary="false" name="Monster"/>
-        <categoryLink targetId="4378-1827-4988-be4e" id="7887-bd54-d250-0f0d" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="4378-1827-4988-be4e" id="7887-bd54-d250-0f0d" primary="false" name="Faction: Asuryani"/>
         <categoryLink targetId="c441-264b-6514-04f5" id="bfb4-cb35-2c52-d715" primary="false" name="Thunderbeast"/>
         <categoryLink targetId="e8f8-3d51-9f54-e3a7" id="5463-2ab6-12ed-a69f" primary="false" name="Exodite"/>
       </categoryLinks>
@@ -438,7 +438,7 @@
         <categoryLink targetId="9693-cf84-fe69-37a9" id="7618-6686-5b4f-b40d" primary="false" name="Monster"/>
         <categoryLink targetId="e8f8-3d51-9f54-e3a7" id="6bec-c5fc-0dbe-b6db" primary="false" name="Exodite"/>
         <categoryLink targetId="c441-264b-6514-04f5" id="a248-5533-11b6-a47b" primary="false" name="Thunderbeast"/>
-        <categoryLink targetId="4378-1827-4988-be4e" id="0ba1-8997-7f87-4cce" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="4378-1827-4988-be4e" id="0ba1-8997-7f87-4cce" primary="false" name="Faction: Asuryani"/>
       </categoryLinks>
       <profiles>
         <profile name="Carnivore [Exodite]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5e90-1f11-3e7b-d288">
@@ -536,7 +536,7 @@
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="7c13-669a-c3f2-7c91" primary="false" name="Grenades"/>
         <categoryLink targetId="e8f8-3d51-9f54-e3a7" id="72b8-e9f1-7ca3-7a82" primary="false" name="Exodite"/>
         <categoryLink targetId="c250-f6c5-ffc8-bcd5" id="9b5a-2bb6-8a0f-9c7c" primary="false" name="Wraith Construct"/>
-        <categoryLink targetId="4378-1827-4988-be4e" id="0711-7ff9-75ee-eacc" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="4378-1827-4988-be4e" id="0711-7ff9-75ee-eacc" primary="false" name="Faction: Asuryani"/>
       </categoryLinks>
       <profiles>
         <profile name="Revenant" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2dc8-8f84-421d-dfb1">
@@ -638,7 +638,7 @@
         <categoryLink targetId="9693-cf84-fe69-37a9" id="81e8-2eae-d126-24dd" primary="false" name="Monster"/>
         <categoryLink targetId="e8f8-3d51-9f54-e3a7" id="038d-872e-5f75-ba08" primary="false" name="Exodite"/>
         <categoryLink targetId="c441-264b-6514-04f5" id="2819-9e38-fec9-9c1b" primary="false" name="Thunderbeast"/>
-        <categoryLink targetId="4378-1827-4988-be4e" id="8c15-5841-96fc-68e7" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="4378-1827-4988-be4e" id="8c15-5841-96fc-68e7" primary="false" name="Faction: Asuryani"/>
         <categoryLink targetId="c250-f6c5-ffc8-bcd5" id="5faf-a570-9768-7bce" primary="false" name="Wraith Construct"/>
       </categoryLinks>
       <profiles>
@@ -722,7 +722,7 @@
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="a273-baea-13f9-a84d" primary="false" name="Infantry"/>
         <categoryLink targetId="c250-f6c5-ffc8-bcd5" id="238b-4681-e231-1dfd" primary="false" name="Wraith Construct"/>
         <categoryLink targetId="e8f8-3d51-9f54-e3a7" id="80e6-b363-f443-1dfe" primary="false" name="Exodite"/>
-        <categoryLink targetId="4378-1827-4988-be4e" id="9c03-1440-5852-4c20" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="4378-1827-4988-be4e" id="9c03-1440-5852-4c20" primary="false" name="Faction: Asuryani"/>
       </categoryLinks>
       <rules>
         <rule name="Strands of Fate" id="345e-52f9-e2a4-0aa3" hidden="false">
@@ -739,6 +739,11 @@
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can be led by the following units:
 ■Spiritseer</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Psychic Guidance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7559-fe3e-5eb9-9df7">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is within 12&quot; of one or more friendly AELDARI PSYKER models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -812,10 +817,10 @@
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -927,7 +932,7 @@
         <categoryLink targetId="6dda-e157-334d-e93a" id="5e38-794b-36a9-c53e" primary="false" name="Walker"/>
         <categoryLink targetId="c250-f6c5-ffc8-bcd5" id="d89c-cb88-e2b7-49dd" primary="false" name="Wraith Construct"/>
         <categoryLink targetId="e8f8-3d51-9f54-e3a7" id="9cf4-a1dd-c322-4099" primary="false" name="Exodite"/>
-        <categoryLink targetId="4378-1827-4988-be4e" id="7f98-ff5e-1261-3a33" primary="false" name="Faction: Aeldari"/>
+        <categoryLink targetId="4378-1827-4988-be4e" id="7f98-ff5e-1261-3a33" primary="false" name="Faction: Asuryani"/>
       </categoryLinks>
       <profiles>
         <profile name="Ancestor Shepherd" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="aa1e-c4dd-277b-cc24">
@@ -1056,7 +1061,7 @@
         <categoryLink targetId="9693-cf84-fe69-37a9" id="9ab5-5837-d754-b503" primary="true" name="Monster"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Thunderbeast" hidden="false" id="0769-614a-36eb-dd87" type="selectionEntry" targetId="d443-3c5b-3c6b-9f34">
+    <entryLink import="true" name="Thunderbeast [Exodite]" hidden="false" id="0769-614a-36eb-dd87" type="selectionEntry" targetId="d443-3c5b-3c6b-9f34">
       <categoryLinks>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="1aa7-3a57-95b7-5c0f" primary="true" name="Monster"/>
       </categoryLinks>
@@ -1066,12 +1071,12 @@
         <categoryLink targetId="9693-cf84-fe69-37a9" id="0697-ef0b-8e37-f3db" primary="true" name="Monster"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Revenant" hidden="false" id="db4f-d19b-08e3-0ec7" type="selectionEntry" targetId="ea19-fcb1-08e6-e8d4">
+    <entryLink import="true" name="Revenant [Exodite]" hidden="false" id="db4f-d19b-08e3-0ec7" type="selectionEntry" targetId="ea19-fcb1-08e6-e8d4">
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="0bf2-f837-da47-170b" primary="true" name="Character"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Ancestor Sentinel" hidden="false" id="8464-b547-9511-bb81" type="selectionEntry" targetId="62fd-657e-430b-0b3d">
+    <entryLink import="true" name="Ancestor Sentinel [Exodite]" hidden="false" id="8464-b547-9511-bb81" type="selectionEntry" targetId="62fd-657e-430b-0b3d">
       <categoryLinks>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="fc1a-e838-642f-ae62" primary="true" name="Monster"/>
       </categoryLinks>
