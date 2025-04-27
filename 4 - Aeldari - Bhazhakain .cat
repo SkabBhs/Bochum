@@ -7,7 +7,7 @@
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Ghosts of Eldanesh" hidden="false" id="e170-2849-ddf4-f843">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="55"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -17,6 +17,8 @@
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="2b88-ceb0-0b55-e9c1" primary="false" name="Infantry"/>
         <categoryLink targetId="4378-1827-4988-be4e" id="f521-6369-dcac-17ab" primary="false" name="Faction: Asuryani"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="7c41-f6ac-b415-43c4" primary="false" name="Grenades"/>
+        <categoryLink targetId="e035-51fc-813a-1313" id="9f00-c87f-c66f-f1e4" primary="false" name="Aeldari"/>
+        <categoryLink targetId="4d82-2943-8868-2782" id="0109-ca5e-1f7d-eb5d" primary="false" name="Aspect Warrior"/>
       </categoryLinks>
       <profiles>
         <profile name="Shimmershields" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5615-df38-32d4-a9f6">
@@ -36,9 +38,6 @@
         </rule>
         <rule name="Stealth" id="4f42-fa67-3860-8edf" hidden="false">
           <description>See Rule book.</description>
-        </rule>
-        <rule name="Strands of Fate" id="886c-ef99-7cf4-80ac" hidden="false">
-          <description>See Codex Aeldari.</description>
         </rule>
       </rules>
       <selectionEntryGroups>
@@ -150,12 +149,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <modifiers>
-        <modifier type="set" value="110" field="51b2-306e-1021-d207">
+        <modifier type="set" value="120" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="greaterThan" value="5" field="selections" scope="e170-2849-ddf4-f843" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Battle Focus" id="5792-adb0-35ef-6a78" hidden="false" type="rule" targetId="c324-e193-e23c-7d2e"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Dragon Warrior [Exodite]" hidden="false" id="9b12-1846-3e23-9d74">
       <costs>
@@ -1044,6 +1046,292 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Fian" hidden="false" id="fc86-ac19-2e86-413f">
+      <profiles>
+        <profile name="Fian" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9847-83aa-5b07-f272">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">14&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Branching Fates (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8c32-a7da-4eba-8ef0">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, once per phase, you can change the result of one Hit roll, one Wound roll or one Damage roll made for a model in that unit to an unmodified 6.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gruide (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0b6e-d4cb-55a1-00c2">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Movement phase, select one enemy unit within 18&quot; of and visible to this model. Until the start of your next Command phase, each time a friendly AELDARI model makes an attack that targets that enemy unit, add 1 to the Hit roll. Each unit can only be selected for this ability once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Guardian of Tamishar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6875-e198-16fe-bad6">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This operator has the [Lone Operative] ability, when Tamishar is on the battle field.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Shuriken Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="82b7-597a-8e18-f7ea">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Eldritch Storm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1eed-3629-a35f-1ede">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Psychic, Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Singing spear - Ranged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="992c-e0bf-0ed3-c366">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Psychic, Assault</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Twin shuriken catapult" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f8a8-804c-634d-430c">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Singing spear - Melee" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="05c1-6b45-5f04-c3c2">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic, Anti-Infantry 2+, Anti-Daemon 2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="385e-8dcb-2caa-ce41">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cf49-8ead-3ea0-9421">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can lead the following units:
+■ MOUNTED ASURYANI</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="d07e-9a8e-3af9-8584" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Mounted" hidden="false" id="ef88-1bb3-ee81-4212" targetId="14a0-40c9-2748-ae6e" primary="false"/>
+        <categoryLink name="Psyker" hidden="false" id="306e-f2cc-aac3-33f7" targetId="13bf-2bee-3ae0-b414" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="53cd-7a21-f788-22e2" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Epic Hero" hidden="false" id="fd30-6bbb-f87e-a14a" targetId="4f3a-f0f7-6647-348d" primary="false"/>
+        <categoryLink name="Faction: Asuryani" hidden="false" id="40a8-8523-985a-5261" targetId="4378-1827-4988-be4e" primary="false"/>
+        <categoryLink targetId="9b3f-b844-44cd-141e" id="5733-af49-0756-d07e" primary="false" name="Farseer"/>
+        <categoryLink targetId="e035-51fc-813a-1313" id="6a3a-2086-bfe1-84b2" primary="false" name="Aeldari"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Battle Focus" id="3c02-ae22-5066-dedc" hidden="false" type="rule" targetId="c324-e193-e23c-7d2e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Kinshar" hidden="false" id="9f3c-0cad-bf00-7bcd">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="f99d-6de6-fea7-7a05" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Epic Hero" hidden="false" id="5266-f106-3b89-7997" targetId="4f3a-f0f7-6647-348d" primary="false"/>
+        <categoryLink name="Mounted" hidden="false" id="3e3f-5825-5a50-d332" targetId="14a0-40c9-2748-ae6e" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="abd3-737b-d28b-e857" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Faction: Asuryani" hidden="false" id="7772-79bd-6290-3688" targetId="4378-1827-4988-be4e" primary="false"/>
+        <categoryLink targetId="c653-a4ae-555c-d22e" id="23ac-152f-cf82-9e5e" primary="false" name="Autarch"/>
+        <categoryLink targetId="e035-51fc-813a-1313" id="a289-3208-42b9-58c6" primary="false" name="Aeldari"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Kinshar" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9039-9d33-d77c-8140">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">14&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Path of Command" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9656-71d5-a3a7-47ee">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b237-e681-109b-a0ac">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ride the Wind" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="63f8-c6c3-356e-182a">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time that unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6&quot; to the Move characteristic of models in that unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Phoenix Gem" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8847-b467-6eae-4a7c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">All attacks allocated against Kinshar have their damage characteristic reduced to 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c1ed-7fd3-58b7-4fea">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can lead the following units:
+MOUNTED ASURYANI</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Twin shuriken catapult" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="61b2-4be9-584e-6601">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Star glaive" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5788-518d-92bf-d947">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Battle Focus" id="5956-8c4e-9fad-ff4e" hidden="false" type="rule" targetId="c324-e193-e23c-7d2e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Mor´las" hidden="false" id="9c94-cb25-8feb-f3aa">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="160"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="dbd9-a1cd-e79e-f24d" primary="false" name="Character"/>
+        <categoryLink targetId="9693-cf84-fe69-37a9" id="c0d9-237b-2a04-aad9" primary="false" name="Monster"/>
+        <categoryLink targetId="6dda-e157-334d-e93a" id="fde3-b07d-a6bc-5317" primary="false" name="Walker"/>
+        <categoryLink targetId="c250-f6c5-ffc8-bcd5" id="29ed-38ab-d7f7-d180" primary="false" name="Wraith Construct"/>
+        <categoryLink targetId="7ffc-5ee2-121a-2659" id="4120-5458-34c2-f056" primary="false" name="Spiritseer"/>
+        <categoryLink targetId="e035-51fc-813a-1313" id="fb03-5668-571f-9862" primary="false" name="Aeldari"/>
+        <categoryLink targetId="4378-1827-4988-be4e" id="a1c8-8a74-3352-db13" primary="false" name="Faction: Asuryani"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Mor´las" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="026c-30b0-6a4a-4118">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Wraithseer D-cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="05b0-65ed-11f7-3a07">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">14</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ghostspear - strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="405a-1f24-e2ca-913d">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 2+, Precision, Psychic</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ghostspear - cleave" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="096f-17f0-16b8-7fc4">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 2+, Psychic</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spiritseer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="131d-8275-0acc-39d9">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly WRAITH CONSTRUCT units, this model has the [Lone Operative] ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spirit Mark (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6ced-60c7-2b07-595f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, in your Movement phase, when this model starts or ends a move, select one friendly WRAITH CONSTRUCT unit within 6&quot; of this model (excluding TITANIC units) and one enemy unit visible to this model. Until the start of your next Movement phase, weapons equipped by models in that friendly unit have theability while targeting that enemy unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tears of Isha (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dbf0-92a5-b787-b703">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, select one friendly WRAITH CONSTRUCT unit within 6&quot; of this model. If one or more models in that unit are destroyed, you can return one destroyed model to that unit. Otherwise, one model in that unit regains up to D3 lost wounds. Each unit can only be selected for this ability once per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Shimmershield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="090f-8ea6-d8e9-9409">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This models has an 4+ Invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="be81-88df-16bc-939e" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="1" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Ghosts of Eldanesh" hidden="false" id="c38d-3270-22b8-69a0" type="selectionEntry" targetId="e170-2849-ddf4-f843">
@@ -1091,9 +1379,29 @@
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="a798-92e5-1c1f-da04" primary="true" name="Character"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Fian" hidden="false" id="cddb-a57c-b051-da71" type="selectionEntry" targetId="fc86-ac19-2e86-413f">
+      <categoryLinks>
+        <categoryLink targetId="14a0-40c9-2748-ae6e" id="d892-f56d-3dae-f5c3" primary="false" name="Mounted"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="8982-ef51-4f0c-4710" primary="true" name="Epic Hero"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kinshar" hidden="false" id="e58f-fd1c-3b70-71d6" type="selectionEntry" targetId="9f3c-0cad-bf00-7bcd">
+      <categoryLinks>
+        <categoryLink targetId="14a0-40c9-2748-ae6e" id="9316-24af-8845-2652" primary="false" name="Mounted"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="b1f7-88dd-0239-70c0" primary="true" name="Epic Hero"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mor´las" hidden="false" id="cf32-ff51-eb86-7b8c" type="selectionEntry" targetId="9c94-cb25-8feb-f3aa">
+      <categoryLinks>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="3850-1862-3084-5f48" primary="true" name="Epic Hero"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Exodite" id="e8f8-3d51-9f54-e3a7" hidden="false"/>
     <categoryEntry name="Thunderbeast" id="c441-264b-6514-04f5" hidden="false"/>
+    <categoryEntry name="Farseer" id="9b3f-b844-44cd-141e" hidden="false"/>
+    <categoryEntry name="Aspect Warrior" id="f183-a746-f066-d737" hidden="false"/>
+    <categoryEntry name="Autarch" id="c653-a4ae-555c-d22e" hidden="false"/>
   </categoryEntries>
 </catalogue>
