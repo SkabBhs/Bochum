@@ -23,7 +23,7 @@
         <categoryLink targetId="14a0-40c9-2748-ae6e" id="77be-aa31-1970-0b20" primary="false" name="Mounted"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="4d1d-3be6-5f6c-185b" primary="false" name="Imperium"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="bdc8-7ed4-9d78-b68e" primary="false" name="Grenades"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="f580-e45d-48d3-6a55" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="f580-e45d-48d3-6a55" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="a56c-4e46-8f1d-543b" id="8d4d-d2e5-26da-1d38" primary="false" name="Officer"/>
       </categoryLinks>
       <profiles>
@@ -176,9 +176,9 @@
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
         </profile>
-        <profile name="OPEN" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b424-2f34-7bcb-bbf1">
+        <profile name="Inspired Resilience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b424-2f34-7bcb-bbf1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">TBD</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this units contains an OFFICER model, all models in this unit have the [FEEL NO PAIN] 5+ ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Command Squadron" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8c29-0f22-5911-5f4e">
@@ -192,7 +192,7 @@
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="364b-9a8e-cb3e-23b8" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="3b87-901f-feb9-b15a" primary="false" name="Imperium"/>
         <categoryLink targetId="89aa-ef1c-1306-7965" id="07b2-5b4f-f1aa-84ce" primary="false" name="Regiment"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="512f-2ca4-15d0-0486" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="512f-2ca4-15d0-0486" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="084a-e383-a5db-6b96" id="218c-3fd6-7c6a-f35f" primary="false" name="Command Squad"/>
       </categoryLinks>
       <costs>
@@ -205,21 +205,10 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Death Rider Veterans" hidden="false" id="77b4-6824-5178-188e">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="03b4-540f-36d8-0b47"/>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="40b4-dcc6-a69d-2005"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="03b4-540f-36d8-0b47"/>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="40b4-dcc6-a69d-2005"/>
           </constraints>
           <profiles>
-            <profile name="Frag lance" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="4a94-2513-425e-07d5">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">D6</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
-              </characteristics>
-            </profile>
             <profile name="Power Sabre" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="57b0-ad23-ff2b-856d">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
@@ -253,6 +242,28 @@
                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault</characteristic>
               </characteristics>
             </profile>
+            <profile name="Hunting Lance - frag tip" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="858b-a5e8-f109-86fc">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">D6</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Hunting Lance - melta tip" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="376b-5f46-2360-f292">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-40</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">D6</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
         </selectionEntry>
       </selectionEntries>
@@ -270,7 +281,7 @@
         <categoryLink targetId="14a0-40c9-2748-ae6e" id="1973-4e9d-25fc-1f88" primary="false" name="Mounted"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="c973-9c9e-0a55-9a07" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="9759-132a-5060-22c6" primary="false" name="Imperium"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="a348-5a7e-7600-91b6" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="a348-5a7e-7600-91b6" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="a56c-4e46-8f1d-543b" id="a534-6c37-ef38-b05d" primary="false" name="Officer"/>
       </categoryLinks>
       <profiles>
@@ -354,7 +365,7 @@ You can attach this model to the above unit even if one Death Rider Squadron Com
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="5991-77f5-ab6e-7371" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="1fe1-100a-127f-2f40" primary="false" name="Imperium"/>
         <categoryLink targetId="13bf-2bee-3ae0-b414" id="39d9-1617-e0f9-d8b5" primary="false" name="Psyker"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="11f8-cf2f-6323-2825" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="11f8-cf2f-6323-2825" primary="false" name="Faction: Death Korps"/>
       </categoryLinks>
       <profiles>
         <profile name="Steed´s savage claws" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="52ae-8972-cee1-e4c6">
@@ -447,7 +458,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
         <categoryLink name="Mounted" hidden="false" id="3cfa-1f7a-3adb-aa00" targetId="14a0-40c9-2748-ae6e" primary="false"/>
         <categoryLink name="Grenades" hidden="false" id="a4d9-15f5-42c4-4d37" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Imperium" hidden="false" id="14c7-b9e3-eee4-7e79" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
-        <categoryLink name="Death Korps" hidden="false" id="d01b-a0b7-5633-62ed" targetId="d94e-605e-7ac1-5fc2" primary="false"/>
+        <categoryLink name="Faction: Death Korps" hidden="false" id="d01b-a0b7-5633-62ed" targetId="d94e-605e-7ac1-5fc2" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Steed´s savage claws" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="9638-ffa3-3fba-f00f">
@@ -611,7 +622,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="f56c-f0b6-a677-0836" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="b828-8f40-ba7c-4802" primary="false" name="Imperium"/>
         <categoryLink targetId="89aa-ef1c-1306-7965" id="5203-36d4-a0e7-3ab9" primary="false" name="Regiment"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="cdd2-2a9b-311f-2edb" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="cdd2-2a9b-311f-2edb" primary="false" name="Faction: Death Korps"/>
       </categoryLinks>
       <profiles>
         <profile name="Screening Line" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="850e-795a-440b-11d5">
@@ -704,7 +715,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="625c-50c2-e3b8-ec63" primary="false" name="Infantry"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="c668-a560-3108-e2b7" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="8b24-1f8c-9a8a-ab48" primary="false" name="Imperium"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="8398-c273-9c90-b00e" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="8398-c273-9c90-b00e" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="a56c-4e46-8f1d-543b" id="3dd0-bb2f-9df0-1b77" primary="false" name="Officer"/>
       </categoryLinks>
       <infoLinks>
@@ -901,7 +912,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="af2f-8dc2-afdd-dbd8" primary="false" name="Infantry"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="80bd-a8e7-0bca-c247" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="cbaf-cabe-0940-3fa7" primary="false" name="Imperium"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="3e6e-1e74-783d-b016" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="3e6e-1e74-783d-b016" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="a56c-4e46-8f1d-543b" id="8255-22ea-5c1a-c1e1" primary="false" name="Officer"/>
         <categoryLink targetId="084a-e383-a5db-6b96" id="a968-99e3-fd3d-3045" primary="false" name="Command Squad"/>
       </categoryLinks>
@@ -1283,7 +1294,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="476f-253d-6b72-b6d1" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="b228-d53b-985e-97c7" primary="false" name="Imperium"/>
         <categoryLink targetId="a56c-4e46-8f1d-543b" id="09bf-19fc-3a3c-e768" primary="false" name="Officer"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="ab99-9994-2fc8-2dc7" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="ab99-9994-2fc8-2dc7" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="89aa-ef1c-1306-7965" id="8305-1755-55d0-a3a7" primary="false" name="Regiment"/>
       </categoryLinks>
       <costs>
@@ -1636,7 +1647,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="be48-ced4-514e-4f22" primary="false" name="Infantry"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="0798-078d-df14-f833" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="ba15-0178-46c8-5b04" primary="false" name="Imperium"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="fef2-ccda-c632-3a84" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="fef2-ccda-c632-3a84" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="e338-111e-d0c6-b687" id="f107-0c43-5df7-784f" primary="false" name="Battleline"/>
         <categoryLink targetId="89aa-ef1c-1306-7965" id="8edc-7978-318c-7dcb" primary="false" name="Regiment"/>
         <categoryLink targetId="1c70-5305-71ef-b1cd" id="fc2f-a43e-055d-6f46" primary="false" name="Platoon"/>
@@ -2631,7 +2642,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="b0fe-a80b-64e6-03e0" primary="false" name="Infantry"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="c657-111d-2cb0-edc9" primary="false" name="Imperium"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="e6ae-14ef-e6f3-fffb" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="e6ae-14ef-e6f3-fffb" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="89aa-ef1c-1306-7965" id="ce90-25eb-8ff4-267a" primary="false" name="Regiment"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="c530-2023-ee51-52ff" primary="false" name="Grenades"/>
       </categoryLinks>
@@ -2725,7 +2736,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="730c-28af-7c23-314d" primary="false" name="Infantry"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="6cb9-a080-2cc7-be77" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="3c0e-6398-97ae-87aa" primary="false" name="Imperium"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="d281-eb3a-28bb-b6eb" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="d281-eb3a-28bb-b6eb" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="89aa-ef1c-1306-7965" id="6ed6-01a1-9da8-30e5" primary="false" name="Regiment"/>
       </categoryLinks>
       <modifiers>
@@ -2902,7 +2913,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="02d7-1e51-ec71-3250" primary="false" name="Infantry"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="7a0e-52b1-c31c-be83" primary="false" name="Grenades"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="f979-710e-fc9f-9cd9" primary="false" name="Imperium"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="95ae-e7de-950d-40aa" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="95ae-e7de-950d-40aa" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="b3e8-dfdd-1294-bd5d" id="6f7c-3db3-14dd-347b" primary="false" name="Ogryn"/>
         <categoryLink targetId="89aa-ef1c-1306-7965" id="9d25-a419-eed5-6646" primary="false" name="Regiment"/>
       </categoryLinks>
@@ -3187,7 +3198,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="2650-794d-d296-ea8d" primary="false" name="Imperium"/>
         <categoryLink targetId="6df-937-16bc-8c1a" id="4c25-436e-12c4-0e04" primary="false" name="Smoke"/>
         <categoryLink targetId="dbd4-63-af05-998" id="6a1c-bc6f-4b62-cc68" primary="false" name="Vehicle"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="281b-1e05-6786-6172" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="281b-1e05-6786-6172" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="a56c-4e46-8f1d-543b" id="26f1-3795-9d35-ce53" primary="false" name="Officer"/>
         <categoryLink targetId="5516-9b2f-bcdd-70e6" id="62ce-e092-c095-033d" primary="false" name="Squadron"/>
       </categoryLinks>
@@ -3205,7 +3216,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
         <categoryLink targetId="6df-937-16bc-8c1a" id="3441-309a-11ea-e202" primary="false" name="Smoke"/>
         <categoryLink targetId="dbd4-63-af05-998" id="12cb-a41d-3ba1-e922" primary="false" name="Vehicle"/>
         <categoryLink targetId="6dda-e157-334d-e93a" id="1f5d-0463-ded5-39ca" primary="false" name="Walker"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="6832-34aa-2559-fa46" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="6832-34aa-2559-fa46" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="89aa-ef1c-1306-7965" id="b8df-8609-bc6f-63f8" primary="false" name="Regiment"/>
         <categoryLink targetId="5516-9b2f-bcdd-70e6" id="5503-7e79-c1bb-e666" primary="false" name="Squadron"/>
       </categoryLinks>
@@ -3225,7 +3236,7 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Shooting phase, select one enemy unit within 18&quot; of and visible to this unit. Until the end of the phase, each time a friendly ASTRA MILITARUM model makes an attack that targets that unit, re‐roll a Hit roll of 1.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Kicking legs" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2d48-4596-de59-eac8">
+        <profile name="Mechanical legs" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2d48-4596-de59-eac8">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
             <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
@@ -3263,21 +3274,6 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
       <selectionEntryGroups>
         <selectionEntryGroup name="Heavy Weapon" id="7306-770f-f711-bcba" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Mutli-laser" hidden="false" id="f61c-89c9-2e08-b9f4">
-              <profiles>
-                <profile name="Mutli-laser" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="49bc-ac1f-aab8-e4ad">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="8ef9-b424-8680-c7a3">
               <profiles>
                 <profile name="Autocannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d3bb-02b3-ed22-4d95">
@@ -3308,54 +3304,17 @@ You can attach this model to the above unit even if one DEATH RIDER SQUADRON COM
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="f95e-5faf-b23f-267a">
+            <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="52ef-34d7-cce6-e36c">
               <profiles>
-                <profile name="Missile Launcher - Krak" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2756-9c95-6b90-cc46">
+                <profile name="Lascannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="07bd-8edf-a92a-2744">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Missile Launcher - Frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="749f-d399-93ef-a857">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Blast</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plasma Cannon" hidden="false" id="9697-1310-d76f-92f1">
-              <profiles>
-                <profile name="Plasma Cannon - Standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="038a-f478-9f24-212a">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Blast</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Plasma Cannon - Supercharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a79b-df0d-4c4f-c4b3">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Blast, Hazardous</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3920,7 +3879,7 @@ Instead of shooting an enemy unit you can target a friendly unit within range. T
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="bbf7-4f1e-4288-9edb" primary="false" name="Infantry"/>
         <categoryLink targetId="8cab-448d-37b7-32bc" id="f305-fec2-9277-ab01" primary="false" name="Artillery"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="5482-1aec-fe40-8b43" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="5482-1aec-fe40-8b43" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="89aa-ef1c-1306-7965" id="088c-4706-fe1a-f513" primary="false" name="Regiment"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="ac0c-749b-c7ee-e7da" primary="false" name="Imperium"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="5b4e-6d21-8925-c0b7" primary="false" name="Grenades"/>
@@ -4463,7 +4422,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
       <categoryLinks>
         <categoryLink targetId="6df-937-16bc-8c1a" id="1d8b-cba1-1c5e-4811" primary="false" name="Smoke"/>
         <categoryLink targetId="dbd4-63-af05-998" id="d365-0571-b50d-a16f" primary="false" name="Vehicle"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="93a5-958d-e696-0077" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="93a5-958d-e696-0077" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="5516-9b2f-bcdd-70e6" id="b656-642c-6142-b958" primary="false" name="Squadron"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="2004-2ff1-a5eb-3222" primary="false" name="Imperium"/>
       </categoryLinks>
@@ -4906,7 +4865,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
       <categoryLinks>
         <categoryLink name="Smoke" hidden="false" id="a700-11c7-08c7-b732" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="8b31-735d-a847-9cf7" targetId="dbd4-63-af05-998" primary="false"/>
-        <categoryLink name="Death Korps" hidden="false" id="8599-c3f1-af2c-735f" targetId="d94e-605e-7ac1-5fc2" primary="false"/>
+        <categoryLink name="Faction: Death Korps" hidden="false" id="8599-c3f1-af2c-735f" targetId="d94e-605e-7ac1-5fc2" primary="false"/>
         <categoryLink name="Squadron" hidden="false" id="2c62-ed18-1b38-3140" targetId="5516-9b2f-bcdd-70e6" primary="false"/>
         <categoryLink name="Imperium" hidden="false" id="69b9-0d11-492c-15d8" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="cb6b-520c-a98b-b216" primary="false" name="Character"/>
@@ -5451,7 +5410,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="c69c-8b54-3179-9819" primary="false" name="Imperium"/>
         <categoryLink targetId="5a61-81ac-eb7c-a87e" id="08d6-aa86-58bb-4bcc" primary="false" name="Grenades"/>
         <categoryLink targetId="89aa-ef1c-1306-7965" id="6678-cab3-a2ea-6b09" primary="false" name="Regiment"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="810b-a0d5-c768-8137" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="810b-a0d5-c768-8137" primary="false" name="Faction: Death Korps"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Death Korps Heavy Transport" hidden="false" id="387e-3972-3dba-9430">
@@ -5466,7 +5425,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="4bc5-d4ed-d291-c9b2" primary="false" name="Imperium"/>
         <categoryLink targetId="dbd4-63-af05-998" id="82e6-7923-6a13-9d79" primary="false" name="Vehicle"/>
         <categoryLink targetId="75e8-57c4-40e3-1817" id="2288-dc2e-66af-7ff7" primary="false" name="Transport"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="5b9e-8cff-56c4-29bc" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="5b9e-8cff-56c4-29bc" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="6df-937-16bc-8c1a" id="c96e-99c5-6fc4-3ea0" primary="false" name="Smoke"/>
         <categoryLink targetId="5516-9b2f-bcdd-70e6" id="e687-af51-7a4a-11aa" primary="false" name="Squadron"/>
       </categoryLinks>
@@ -5639,7 +5598,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="652f-3592-285f-cc06" primary="false" name="Vehicle"/>
         <categoryLink targetId="75e8-57c4-40e3-1817" id="b261-e2e2-9c96-f0f3" primary="false" name="Transport"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="e3ed-ec54-cbad-2c41" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="e3ed-ec54-cbad-2c41" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="5516-9b2f-bcdd-70e6" id="4f28-c93b-0e44-5ab5" primary="false" name="Squadron"/>
         <categoryLink targetId="6df-937-16bc-8c1a" id="d1c3-e525-fb07-d8d6" primary="false" name="Smoke"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="da23-e04e-bc76-84ae" primary="false" name="Imperium"/>
@@ -5671,7 +5630,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="ca6d-a7d8-957c-5e67" primary="false" name="Infantry"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="5078-d52a-101e-ab6c" primary="false" name="Imperium"/>
         <categoryLink targetId="8cab-448d-37b7-32bc" id="ebc4-7d8e-95a5-82bc" primary="false" name="Artillery"/>
-        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="f79e-57fd-8a63-8c79" primary="false" name="Death Korps"/>
+        <categoryLink targetId="d94e-605e-7ac1-5fc2" id="f79e-57fd-8a63-8c79" primary="false" name="Faction: Death Korps"/>
         <categoryLink targetId="89aa-ef1c-1306-7965" id="e73b-c999-5514-d097" primary="false" name="Regiment"/>
       </categoryLinks>
       <profiles>
@@ -5790,7 +5749,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Imperium" hidden="false" id="b247-f2d9-f02c-13f5" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
-        <categoryLink name="Death Korps" hidden="false" id="06c2-c109-3f3b-935a" targetId="d94e-605e-7ac1-5fc2" primary="false"/>
+        <categoryLink name="Faction: Death Korps" hidden="false" id="06c2-c109-3f3b-935a" targetId="d94e-605e-7ac1-5fc2" primary="false"/>
         <categoryLink name="Smoke" hidden="false" id="abf2-552b-2102-d23f" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink name="Squadron" hidden="false" id="4565-39b4-2b8f-6871" targetId="5516-9b2f-bcdd-70e6" primary="false"/>
         <categoryLink targetId="dbd4-63-af05-998" id="4c1b-8e0c-5aeb-e957" primary="false" name="Vehicle"/>
@@ -5865,8 +5824,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bae8-ca63-898f-bf7b">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can lead the following units:
-■[MOUNTED] Death Korps units
-</characteristic>
+■[MOUNTED] Death Korps units</characteristic>
           </characteristics>
         </profile>
         <profile name="Orders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b41d-2a02-b9c8-dccf">
@@ -7090,8 +7048,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="50b9-e410-a27d-6edb">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can lead the following units:
-■[INFANTRY] Death Korps units
-</characteristic>
+■[INFANTRY] Death Korps units</characteristic>
           </characteristics>
         </profile>
         <profile name="Orders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="67f6-27a3-b507-4d71">
@@ -7174,8 +7131,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a000-431d-27d0-cb65">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can lead the following units:
-■INFANTRYDeath Korps
-</characteristic>
+■INFANTRYDeath Korps</characteristic>
           </characteristics>
         </profile>
         <profile name="Force Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="e09c-441a-9d0a-43dc">
@@ -7246,8 +7202,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0276-24b4-d7e5-2a05">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can lead the following units:
-■INFANTRY Death Korps
-</characteristic>
+■INFANTRY Death Korps</characteristic>
           </characteristics>
         </profile>
         <profile name="War Hymns" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be8e-d566-070e-cbec">
@@ -7413,8 +7368,7 @@ That target unit is pounded. While a unit is pounded it can´t benefit from cove
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5638-6ff2-34e0-5188">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can lead the following units:
-■[INFANTRY] Death Korps units
-</characteristic>
+■[INFANTRY] Death Korps units</characteristic>
           </characteristics>
         </profile>
         <profile name="Enginseer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a37-fe37-8dc3-eac0">
