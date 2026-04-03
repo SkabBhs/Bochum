@@ -939,9 +939,9 @@ When this model joins a VEHICLE units to form an Attached Unit, all models in th
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 30 LEAGUES OF VOTANN INFANTRY models. Each EXO-ARMOUR model takes up the space of 2 models and each EXO-FRAME model takes up the space of 3 models.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Mount Up!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="baf4-7a1f-c0b5-d9fb">
+        <profile name="Emergency Combat Embarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="baf4-7a1f-c0b5-d9fb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your opponent’s Movement phase, if there are no models currently embarked within this Transport, you can select one friendly LEAGUES OF VOTANN INFANTRY unit that is wholly within 6&quot; of this Transport. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this Transport.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Emergency Combat Embarkation: Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one INFANTRY unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3&quot; of this TRANSPORT, it can embark within this TRANSPORT. The charging unit can then select new targets for its charge.</characteristic>
           </characteristics>
         </profile>
         <profile name="Twin Heavy Stubber" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="16d9-49a2-3f0f-3e9a">

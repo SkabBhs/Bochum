@@ -85,7 +85,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9ca0-f47a-59e7-6f79" name="Doctrina Imperatives" hidden="false" targetId="1b6b-46d4-f754-0a1d" type="rule"/>
         <infoLink id="c515-4ede-7fcf-0367" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -95,6 +94,7 @@
         <categoryLink id="52c5-b5e3-e477-6581" name="Thallax" hidden="false" targetId="5917-4007-86a7-1e9a" primary="false"/>
         <categoryLink id="ebf6-be3a-7ffb-5092" name="Jump Pack" hidden="false" targetId="dda2-bb0a-215e-ad9c" primary="false"/>
         <categoryLink id="65fa-955f-a5b5-f78d" name="Fly" hidden="false" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink targetId="3b4e-5e61-ac14-93de" id="e40c-b6a4-b62b-925a" primary="false" name="Legio Cybernetica"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="44b5-f29e-aa0c-a7b9" name="3-9 Thallax" hidden="false" collective="false" import="true" defaultSelectionEntryId="8cd2-17e5-9954-d754">
@@ -415,7 +415,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0e0e-fef3-34d3-4452" name="Doctrina Imperatives" hidden="false" targetId="1b6b-46d4-f754-0a1d" type="rule"/>
         <infoLink id="00de-d7bd-05d3-b020" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -425,6 +424,7 @@
         <categoryLink id="2905-7e9d-dd09-7e9b" name="Jump Pack" hidden="false" targetId="dda2-bb0a-215e-ad9c" primary="false"/>
         <categoryLink id="79b6-1657-cf7c-0d25" name="Fly" hidden="false" targetId="c619-2086-bbcf-69c9" primary="false"/>
         <categoryLink id="73d8-e05c-bbaa-60ed" name="Ursarax" hidden="false" targetId="21e4-f256-76e6-c3fc" primary="false"/>
+        <categoryLink targetId="3b4e-5e61-ac14-93de" id="03ee-56d0-6c3a-9326" primary="false" name="Legio Cybernetica"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="dda1-7e98-bf3c-256a" name="Ursarax" hidden="false" collective="false" import="true" defaultSelectionEntryId="6534-0ea7-2f7f-680f">
@@ -688,7 +688,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b5c8-0e09-ecc5-467c" name="Doctrina Imperatives" hidden="false" targetId="1b6b-46d4-f754-0a1d" type="rule"/>
         <infoLink id="7b32-f143-2ea2-38f2" name="Stealth" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -697,6 +696,7 @@
         <categoryLink id="e72f-da57-c2bc-30d3" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="be39-e232-e29f-5281" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink id="2508-5259-9bfb-f55f" name="Vorax" hidden="false" targetId="8203-c133-2425-33c5" primary="false"/>
+        <categoryLink targetId="3b4e-5e61-ac14-93de" id="0762-e30b-26cf-63e0" primary="false" name="Legio Cybernetica"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cf45-0b3d-b73e-6521" name="Vorax" hidden="false" collective="false" import="true" defaultSelectionEntryId="b5db-7044-1649-c6fc">
@@ -964,15 +964,13 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="28c8-6492-06b3-6655" name="Doctrina Imperatives" hidden="false" targetId="1b6b-46d4-f754-0a1d" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="d6fe-7d0c-7540-c68a" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5418-f86b-6e76-c5a" primary="false"/>
         <categoryLink id="80dd-1cab-e2a5-8b49" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
         <categoryLink id="4d7f-5f87-fecb-ca03" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="be93-cfb6-c5a1-59b9" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink id="3497-eb6f-928f-3b4d" name="Castellax" hidden="false" targetId="413f-3da4-aaae-c8c3" primary="false"/>
+        <categoryLink targetId="3b4e-5e61-ac14-93de" id="d7b3-10b6-16aa-0204" primary="false" name="Legio Cybernetica"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c73b-ec0e-f9d9-ebee" name="Castellax" hidden="false" collective="false" import="true" defaultSelectionEntryId="5d42-f800-ded2-ff7a">
@@ -1531,15 +1529,13 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="9e40-0c42-0d49-c863" name="Doctrina Imperatives" hidden="false" targetId="1b6b-46d4-f754-0a1d" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="b345-88c0-d941-b5ba" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5418-f86b-6e76-c5a" primary="false"/>
         <categoryLink id="c8b6-3450-3bf4-a630" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
         <categoryLink id="c6b9-aaba-f858-5e84" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="3289-0bdd-0ed6-3e51" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink id="c8bb-8cae-e934-6ebe" name="Domitar" hidden="false" targetId="58c7-68ab-b8ce-2cde" primary="false"/>
+        <categoryLink targetId="3b4e-5e61-ac14-93de" id="452a-e203-1194-54c2" primary="false" name="Legio Cybernetica"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1472-6c22-6e1b-a3e7" name="Graviton Hammers" hidden="false" collective="false" import="true" type="upgrade">
@@ -1722,9 +1718,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="49d4-92e0-a698-fc2e" name="Doctrina Imperatives" hidden="false" targetId="1b6b-46d4-f754-0a1d" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="ff34-dff0-9ff7-8df6" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5418-f86b-6e76-c5a" primary="false"/>
         <categoryLink id="26f0-2c79-cbfa-0951" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
@@ -1732,6 +1725,7 @@
         <categoryLink id="613b-40cc-f4a7-0a4f" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink id="020b-96ba-8c64-03f2" name="Arlatax" hidden="false" targetId="a6f9-d4b6-f907-02cb" primary="false"/>
         <categoryLink id="3808-6dd2-b55e-08f3" name="Fly" hidden="false" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink targetId="3b4e-5e61-ac14-93de" id="7cbf-db98-8cf8-e1dc" primary="false" name="Legio Cybernetica"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0bb9-6d9a-3d02-0323" name="Automata Power Blades" hidden="false" collective="false" import="true" type="upgrade">
@@ -1961,15 +1955,13 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="1baf-6e02-756b-9bbd" name="Doctrina Imperatives" hidden="false" targetId="1b6b-46d4-f754-0a1d" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="d28f-95a6-5215-9cff" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5418-f86b-6e76-c5a" primary="false"/>
         <categoryLink id="2370-0117-40f4-2d9c" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
         <categoryLink id="c913-c9d8-1e04-ee3e" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="e2a4-33c7-bb85-4e08" name="Walker" hidden="false" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink id="128b-6b2d-eb41-3228" name="Thanatar" hidden="false" targetId="0e8d-1a55-9faf-8ab3" primary="false"/>
+        <categoryLink targetId="3b4e-5e61-ac14-93de" id="4a6b-35d8-5cff-ae50" primary="false" name="Legio Cybernetica"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8761-c327-63dc-0abd" name="Twin Mauler Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2733,15 +2725,13 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="7988-b94d-64e7-4178" name="Doctrina Imperatives" hidden="false" targetId="1b6b-46d4-f754-0a1d" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="1282-e0e5-3e36-7180" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5418-f86b-6e76-c5a" primary="false"/>
         <categoryLink id="3012-6dd1-db89-de70" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
         <categoryLink id="70b6-9326-4886-c206" name="Vehicle" hidden="false" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink id="b12a-c876-962e-2f33" name="Fly" hidden="false" targetId="c619-2086-bbcf-69c9" primary="false"/>
         <categoryLink id="ffb3-e3d5-5386-c3c4" name="Vultarax Stratos-Automata" hidden="false" targetId="20ac-c466-92e2-82c2" primary="false"/>
+        <categoryLink targetId="3b4e-5e61-ac14-93de" id="b815-2910-8501-3a6c" primary="false" name="Legio Cybernetica"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c016-c647-2d97-b6d0" name="Vultarax Arc Blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -3979,14 +3969,12 @@ This model cannot transport Kataphron, Myrmidon or Pteraxii models.</characteris
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="2de4-a878-c1da-5239" name="Doctrina Imperatives" hidden="false" targetId="1b6b-46d4-f754-0a1d" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="02f6-8d64-1ef2-f87c" name="Tech Thralls" hidden="false" targetId="5c10-f978-196e-371b" primary="false"/>
         <categoryLink id="3ac0-6963-1287-8113" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5418-f86b-6e76-c5a" primary="false"/>
         <categoryLink id="76e5-150d-350a-ea40" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
         <categoryLink id="7927-7323-faeb-7130" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="true"/>
+        <categoryLink targetId="3b4e-5e61-ac14-93de" id="54d9-76bf-4305-de47" primary="false" name="Legio Cybernetica"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f151-1ca5-333d-707a" name="10-20 Tech Thralls" hidden="false" collective="false" import="true" defaultSelectionEntryId="a50b-ba87-9cb8-701c">
