@@ -1,0 +1,2373 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "71ea-c663-8777-7498",
+    "name": "5 - Aeldari - Drukhari",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 4,
+    "revision": 1,
+    "authorName": "Henrik",
+    "battleScribeVersion": "2.03",
+    "categoryEntries": [
+      {
+        "name": "Haemunculus Coven",
+        "id": "5d15-bede-4c28-0507",
+        "hidden": false
+      }
+    ],
+    "catalogueLinks": [
+      {
+        "type": "catalogue",
+        "name": "Xenos - Drukhari",
+        "id": "9bf1-44b3-9367-64b2",
+        "targetId": "38de-521f-1ce0-44a0"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Collector Ark",
+        "hidden": false,
+        "id": "12bd-cdce-9634-c8f5",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 180
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Vehicle",
+            "hidden": false,
+            "id": "0b1f-c418-f19b-f6d0",
+            "targetId": "dbd4-63-af05-998",
+            "primary": false
+          },
+          {
+            "name": "Transport",
+            "hidden": false,
+            "id": "2705-1aa9-8103-36dc",
+            "targetId": "75e8-57c4-40e3-1817",
+            "primary": false
+          },
+          {
+            "name": "Haemunculus Coven",
+            "hidden": false,
+            "id": "a6b3-981c-1a77-ba96",
+            "targetId": "5d15-bede-4c28-0507",
+            "primary": false
+          },
+          {
+            "name": "Dedicated Transport",
+            "hidden": false,
+            "id": "2e7d-dee9-d9a6-815b",
+            "targetId": "ba07-411c-2832-1f79",
+            "primary": false
+          },
+          {
+            "name": "Fly",
+            "hidden": false,
+            "id": "02ce-9c46-1f38-fb03",
+            "targetId": "c619-2086-bbcf-69c9",
+            "primary": false
+          },
+          {
+            "name": "Faction: Asuryani",
+            "hidden": false,
+            "id": "e19d-9a9c-3559-9b06",
+            "targetId": "4378-1827-4988-be4e",
+            "primary": false
+          },
+          {
+            "name": "Faction: Drukhari",
+            "hidden": false,
+            "id": "f5f6-fc5d-eaf7-8635",
+            "targetId": "1015-db48-a2fa-c7da",
+            "primary": false
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Collector Ark",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "11dd-d6ee-50e0-3e22",
+            "characteristics": [
+              {
+                "$text": "14\"",
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1"
+              },
+              {
+                "$text": "8",
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4"
+              },
+              {
+                "$text": "4+",
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da"
+              },
+              {
+                "$text": "10",
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe"
+              },
+              {
+                "$text": "6+",
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc"
+              },
+              {
+                "$text": "2",
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Invulnerable Save",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "1a2b-56c7-51c5-263a",
+            "characteristics": [
+              {
+                "$text": "4+",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Supreme Aethersails",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "e3d1-f391-f1b4-0ce3",
+            "characteristics": [
+              {
+                "$text": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model. In addition this model can charge in a turn in which it made an advance move.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "0c13-8dd2-56b7-0051",
+            "characteristics": [
+              {
+                "$text": "This model has a transport capacity of 11 Drukhari Infantry models. Each Grotesque model takes up the space of 3 models. This model cannot transport models that can Fly.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Liquifier gun",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "0e0c-dbc0-043a-5862",
+            "characteristics": [
+              {
+                "$text": "12\"",
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc"
+              },
+              {
+                "$text": "D6",
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08"
+              },
+              {
+                "$text": "N/A",
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e"
+              },
+              {
+                "$text": "4",
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3"
+              },
+              {
+                "$text": "-1",
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15"
+              },
+              {
+                "$text": "4",
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3"
+              },
+              {
+                "$text": "Torrent, Ignores Cover",
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          },
+          {
+            "name": "Hydraulic Claws",
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "hidden": false,
+            "id": "a2d0-8142-f9bd-b65c",
+            "characteristics": [
+              {
+                "$text": "Melee",
+                "name": "Range",
+                "typeId": "914c-b413-91e3-a132"
+              },
+              {
+                "$text": "5",
+                "name": "A",
+                "typeId": "2337-daa1-6682-b110"
+              },
+              {
+                "$text": "4+",
+                "name": "WS",
+                "typeId": "95d1-95f-45b4-11d6"
+              },
+              {
+                "$text": "8",
+                "name": "S",
+                "typeId": "ab33-d393-96ce-ccba"
+              },
+              {
+                "$text": "-2",
+                "name": "AP",
+                "typeId": "41a0-1301-112a-e2f2"
+              },
+              {
+                "$text": "3",
+                "name": "D",
+                "typeId": "3254-9fe6-d824-513e"
+              },
+              {
+                "name": "Keywords",
+                "typeId": "893f-9000-ccf7-648e"
+              }
+            ]
+          },
+          {
+            "name": "Crew´s weapons",
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "hidden": false,
+            "id": "6579-c066-bb67-e819",
+            "characteristics": [
+              {
+                "$text": "Melee",
+                "name": "Range",
+                "typeId": "914c-b413-91e3-a132"
+              },
+              {
+                "$text": "2D6",
+                "name": "A",
+                "typeId": "2337-daa1-6682-b110"
+              },
+              {
+                "$text": "3+",
+                "name": "WS",
+                "typeId": "95d1-95f-45b4-11d6"
+              },
+              {
+                "$text": "3",
+                "name": "S",
+                "typeId": "ab33-d393-96ce-ccba"
+              },
+              {
+                "$text": "0",
+                "name": "AP",
+                "typeId": "41a0-1301-112a-e2f2"
+              },
+              {
+                "$text": "1",
+                "name": "D",
+                "typeId": "3254-9fe6-d824-513e"
+              },
+              {
+                "$text": "Anti-Infantry 4+, Extra Attacks",
+                "name": "Keywords",
+                "typeId": "893f-9000-ccf7-648e"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Deadly Demise D3",
+            "id": "fd3e-f239-39f5-801d",
+            "hidden": false,
+            "description": "See Rule book."
+          },
+          {
+            "name": "Deep Strike",
+            "id": "053d-fd80-d7d3-d57c",
+            "hidden": false,
+            "description": "See Rule book."
+          },
+          {
+            "name": "Firing Deck 11",
+            "id": "4630-5b9b-8003-97d6",
+            "hidden": false,
+            "description": "See Rule book."
+          },
+          {
+            "name": "Power from Pain",
+            "id": "357a-57eb-1bac-077a",
+            "hidden": false,
+            "description": "See Drukhari codex."
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Harvester Barque",
+        "hidden": false,
+        "id": "cd7e-01ce-4367-78c1",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 230
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Vehicle",
+            "hidden": false,
+            "id": "6359-cbc3-d7f3-dda9",
+            "targetId": "dbd4-63-af05-998",
+            "primary": false
+          },
+          {
+            "name": "Transport",
+            "hidden": false,
+            "id": "4203-51cc-d9f5-4104",
+            "targetId": "75e8-57c4-40e3-1817",
+            "primary": false
+          },
+          {
+            "name": "Fly",
+            "hidden": false,
+            "id": "7181-2dd6-9973-00fd",
+            "targetId": "c619-2086-bbcf-69c9",
+            "primary": false
+          },
+          {
+            "name": "Faction: Asuryani",
+            "hidden": false,
+            "id": "fb9f-166c-9727-7d16",
+            "targetId": "4378-1827-4988-be4e",
+            "primary": false
+          },
+          {
+            "name": "Faction: Drukhari",
+            "hidden": false,
+            "id": "9330-a49e-eaab-e2be",
+            "targetId": "1015-db48-a2fa-c7da",
+            "primary": false
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Harvester Barque",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "aee5-89d4-1db0-d8ea",
+            "characteristics": [
+              {
+                "$text": "16\"",
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1"
+              },
+              {
+                "$text": "10",
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4"
+              },
+              {
+                "$text": "4+",
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da"
+              },
+              {
+                "$text": "18",
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe"
+              },
+              {
+                "$text": "6+",
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc"
+              },
+              {
+                "$text": "5",
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Invulnerable Save",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "87e7-dfa5-b4f0-5f4b",
+            "characteristics": [
+              {
+                "$text": "5+",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Pain Nexus",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "8c95-8c7e-d131-c126",
+            "characteristics": [
+              {
+                "$text": "While a friendly HAEMONCULUS COVEN unit is within 6\", that unit has an 5+ Invulnerable Save.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Damaged",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "0fa6-20a4-7963-4422",
+            "characteristics": [
+              {
+                "$text": "While this model has 1-6 wounds remaining, each time it makes an attack, subtract 1 from the Hit roll.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Transport",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "916b-ff28-992d-f54c",
+            "characteristics": [
+              {
+                "$text": "This model has a transport capacity of 19 Drukhari Infantry models. Each Grotesque model takes up the space of 3 models. This model cannot transport models that can Fly.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Double Shock prow",
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "hidden": false,
+            "id": "910d-fd82-a88f-0153",
+            "characteristics": [
+              {
+                "$text": "Melee",
+                "name": "Range",
+                "typeId": "914c-b413-91e3-a132"
+              },
+              {
+                "$text": "6",
+                "name": "A",
+                "typeId": "2337-daa1-6682-b110"
+              },
+              {
+                "$text": "4+",
+                "name": "WS",
+                "typeId": "95d1-95f-45b4-11d6"
+              },
+              {
+                "$text": "8",
+                "name": "S",
+                "typeId": "ab33-d393-96ce-ccba"
+              },
+              {
+                "$text": "-1",
+                "name": "AP",
+                "typeId": "41a0-1301-112a-e2f2"
+              },
+              {
+                "$text": "2",
+                "name": "D",
+                "typeId": "3254-9fe6-d824-513e"
+              },
+              {
+                "name": "Keywords",
+                "typeId": "893f-9000-ccf7-648e"
+              }
+            ]
+          },
+          {
+            "name": "Pulse disintegrators",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "a942-aa53-2570-02a5",
+            "characteristics": [
+              {
+                "$text": "36\"",
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc"
+              },
+              {
+                "$text": "12",
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08"
+              },
+              {
+                "$text": "3+",
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e"
+              },
+              {
+                "$text": "10",
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3"
+              },
+              {
+                "$text": "-2",
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15"
+              },
+              {
+                "$text": "2",
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3"
+              },
+              {
+                "$text": "Assault",
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Deadly Demise D3",
+            "id": "8629-def1-1c07-883e",
+            "hidden": false,
+            "description": "See Rule book."
+          },
+          {
+            "name": "Deep Strike",
+            "id": "702b-1f6f-ff0f-4df1",
+            "hidden": false,
+            "description": "See Rule book."
+          },
+          {
+            "name": "Firing Deck 16",
+            "id": "7c56-e0a7-a685-045b",
+            "hidden": false,
+            "description": "See Rule book."
+          },
+          {
+            "name": "Power from Pain",
+            "id": "6d0f-6bc8-b162-f66b",
+            "hidden": false,
+            "description": "See Drukhari codex."
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Master Slaver",
+        "hidden": false,
+        "id": "f823-bf78-f4a9-3f6a",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 30
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Infantry",
+            "hidden": false,
+            "id": "cc5a-5346-6b97-3b78",
+            "targetId": "cf47-a0d7-7207-29dc",
+            "primary": false
+          },
+          {
+            "name": "Character",
+            "hidden": false,
+            "id": "53ea-6e6f-ccbe-108e",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Master Slaver",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "f1f8-a158-c044-da82",
+            "characteristics": [
+              {
+                "$text": "6\"",
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1"
+              },
+              {
+                "$text": "3",
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4"
+              },
+              {
+                "$text": "5+",
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da"
+              },
+              {
+                "$text": "3",
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe"
+              },
+              {
+                "$text": "7+",
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc"
+              },
+              {
+                "$text": "1",
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Pawns",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "744c-2d5f-4e5c-964f",
+            "characteristics": [
+              {
+                "$text": "When this unit fails a Battle-shock test you gain 1 Pain token.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Combat Drugs",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "cbb4-76fe-055d-15ba",
+            "characteristics": [
+              {
+                "$text": "When this unit needs to do a Battle-shock test you can decide to pass or the fail the test automatically - no roll required.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "4406-0b2a-a157-c0f6",
+            "characteristics": [
+              {
+                "$text": "This unit can lead the following units:\n■Slavers",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Catch them alive!",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "fece-8546-c1d1-1642",
+            "characteristics": [
+              {
+                "$text": "When an enemy unit fails a battle-shock test within 6\" of this unit, the enemy units suffers D3 Mortal wounds. If this causes the enemy unit to loose a model, then this model is considered to be captured by the slavers and it generates 1 Pain token in addition to the failed battle-shock test.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Scrap pistol",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "d24a-034b-1817-682d",
+            "characteristics": [
+              {
+                "$text": "12\"",
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc"
+              },
+              {
+                "$text": "1",
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08"
+              },
+              {
+                "$text": "3+",
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e"
+              },
+              {
+                "$text": "3",
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3"
+              },
+              {
+                "$text": "0",
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15"
+              },
+              {
+                "$text": "1",
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3"
+              },
+              {
+                "$text": "Pistol",
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          },
+          {
+            "name": "Chain lance",
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "hidden": false,
+            "id": "d85f-f096-727c-38bf",
+            "characteristics": [
+              {
+                "$text": "Melee",
+                "name": "Range",
+                "typeId": "914c-b413-91e3-a132"
+              },
+              {
+                "$text": "3",
+                "name": "A",
+                "typeId": "2337-daa1-6682-b110"
+              },
+              {
+                "$text": "3+",
+                "name": "WS",
+                "typeId": "95d1-95f-45b4-11d6"
+              },
+              {
+                "$text": "5",
+                "name": "S",
+                "typeId": "ab33-d393-96ce-ccba"
+              },
+              {
+                "$text": "-1",
+                "name": "AP",
+                "typeId": "41a0-1301-112a-e2f2"
+              },
+              {
+                "$text": "1",
+                "name": "D",
+                "typeId": "3254-9fe6-d824-513e"
+              },
+              {
+                "$text": "Lance",
+                "name": "Keywords",
+                "typeId": "893f-9000-ccf7-648e"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Scout 6\"",
+            "id": "ed35-8312-94dd-3409",
+            "hidden": false,
+            "description": "See Rule book."
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Slaver Beast",
+        "hidden": false,
+        "id": "ed30-069a-ff34-6065",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 50
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Beast",
+            "hidden": false,
+            "id": "6aee-8530-e215-06e5",
+            "targetId": "4c3e-9310-a516-3590",
+            "primary": false
+          },
+          {
+            "name": "Infantry",
+            "hidden": false,
+            "id": "d95c-3544-29be-b2d5",
+            "targetId": "cf47-a0d7-7207-29dc",
+            "primary": false
+          },
+          {
+            "name": "Character",
+            "hidden": false,
+            "id": "3094-2935-40bd-bd7f",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Slaver Beastmaster",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "fe5e-0791-1bbd-78f0",
+            "characteristics": [
+              {
+                "$text": "6\"",
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1"
+              },
+              {
+                "$text": "3",
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4"
+              },
+              {
+                "$text": "5+",
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da"
+              },
+              {
+                "$text": "3",
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe"
+              },
+              {
+                "$text": "7+",
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc"
+              },
+              {
+                "$text": "1",
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Duneskuttler",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "5e03-905f-d005-4b1f",
+            "characteristics": [
+              {
+                "$text": "6\"",
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1"
+              },
+              {
+                "$text": "5",
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4"
+              },
+              {
+                "$text": "3+",
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da"
+              },
+              {
+                "$text": "5",
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe"
+              },
+              {
+                "$text": "8+",
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc"
+              },
+              {
+                "$text": "1",
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Surprise Attack",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "d406-00a1-e465-1144",
+            "characteristics": [
+              {
+                "$text": "When this unit finishes a charge move, one unit within engagement range of the Duneskuttler must do a battle-shock test.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Among the masses",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "34f7-ddd7-2fee-ab44",
+            "characteristics": [
+              {
+                "$text": "As long the unit is within 3\" to any other friendly infantry unit, this unit has the Lone operative ability.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Chain lance",
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "hidden": false,
+            "id": "5af3-820b-21a6-3605",
+            "characteristics": [
+              {
+                "$text": "Melee",
+                "name": "Range",
+                "typeId": "914c-b413-91e3-a132"
+              },
+              {
+                "$text": "2",
+                "name": "A",
+                "typeId": "2337-daa1-6682-b110"
+              },
+              {
+                "$text": "4+",
+                "name": "WS",
+                "typeId": "95d1-95f-45b4-11d6"
+              },
+              {
+                "$text": "5",
+                "name": "S",
+                "typeId": "ab33-d393-96ce-ccba"
+              },
+              {
+                "$text": "-1",
+                "name": "AP",
+                "typeId": "41a0-1301-112a-e2f2"
+              },
+              {
+                "$text": "1",
+                "name": "D",
+                "typeId": "3254-9fe6-d824-513e"
+              },
+              {
+                "$text": "Lance",
+                "name": "Keywords",
+                "typeId": "893f-9000-ccf7-648e"
+              }
+            ]
+          },
+          {
+            "name": "Mandibles",
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "hidden": false,
+            "id": "54c8-79ce-b0e2-3b7d",
+            "characteristics": [
+              {
+                "$text": "Melee",
+                "name": "Range",
+                "typeId": "914c-b413-91e3-a132"
+              },
+              {
+                "$text": "5",
+                "name": "A",
+                "typeId": "2337-daa1-6682-b110"
+              },
+              {
+                "$text": "4+",
+                "name": "WS",
+                "typeId": "95d1-95f-45b4-11d6"
+              },
+              {
+                "$text": "5",
+                "name": "S",
+                "typeId": "ab33-d393-96ce-ccba"
+              },
+              {
+                "$text": "-1",
+                "name": "AP",
+                "typeId": "41a0-1301-112a-e2f2"
+              },
+              {
+                "$text": "2",
+                "name": "D",
+                "typeId": "3254-9fe6-d824-513e"
+              },
+              {
+                "$text": "Anti-Infantry 4+",
+                "name": "Keywords",
+                "typeId": "893f-9000-ccf7-648e"
+              }
+            ]
+          },
+          {
+            "name": "Scrap Pistol",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "ec19-c42f-7e3f-6a5b",
+            "characteristics": [
+              {
+                "$text": "12\"",
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc"
+              },
+              {
+                "$text": "1",
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08"
+              },
+              {
+                "$text": "4+",
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e"
+              },
+              {
+                "$text": "3",
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3"
+              },
+              {
+                "$text": "0",
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15"
+              },
+              {
+                "$text": "1",
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3"
+              },
+              {
+                "$text": "Pistol",
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Scout 6\"",
+            "id": "6f06-73b6-c3e1-20da",
+            "hidden": false,
+            "description": "See Rule book."
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Slavers",
+        "hidden": false,
+        "id": "69b5-bbb9-bf32-e203",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 50
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Infantry",
+            "hidden": false,
+            "id": "7d7c-7663-a56d-53a1",
+            "targetId": "cf47-a0d7-7207-29dc",
+            "primary": false
+          },
+          {
+            "name": "Faction: Drukhari",
+            "hidden": false,
+            "id": "df92-7cfe-b647-7df0",
+            "targetId": "1015-db48-a2fa-c7da",
+            "primary": false
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Slavers",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "b23a-e663-6ebd-32c3",
+            "characteristics": [
+              {
+                "$text": "6\"",
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1"
+              },
+              {
+                "$text": "3",
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4"
+              },
+              {
+                "$text": "5+",
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da"
+              },
+              {
+                "$text": "1",
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe"
+              },
+              {
+                "$text": "7+",
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc"
+              },
+              {
+                "$text": "1",
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Pawns",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "170e-e578-92b7-1058",
+            "characteristics": [
+              {
+                "$text": "When this unit fails a Battle-shock test you gain 1 Pain token.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Combat Drugs",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "4079-ea87-f227-247d",
+            "characteristics": [
+              {
+                "$text": "When this unit needs to do a Battle-shock test you can decide to pass or the fail the test automatically - no roll required.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Scout 6\"",
+            "id": "183a-c388-8524-4b15",
+            "hidden": false,
+            "description": "See Rule book."
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Squad Members",
+            "id": "9a3d-1fb2-572a-dc1f",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "model",
+                "import": true,
+                "name": "Slaver with Scrap Rifle",
+                "hidden": false,
+                "id": "c400-f7d0-1cff-7326",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 9,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a90c-ffa1-f2fe-1275"
+                  },
+                  {
+                    "type": "min",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5d78-2164-36c9-fa0a"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Close combat weapon",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "0793-35cf-5c14-d5a7",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "0",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Scrap Rifle",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "242a-8eb3-b1e1-ec3b",
+                    "characteristics": [
+                      {
+                        "$text": "24\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "0",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "$text": "Rapid Fire 1",
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "model",
+                "import": true,
+                "name": "Slaver Leader",
+                "hidden": false,
+                "id": "5abb-7807-bfba-dc59",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7947-c76e-a0d2-123d"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0879-8d8a-7872-c931"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Chain lance",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "a88e-b50c-39d8-699d",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "5",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-1",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "Lance",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Scrap pistol",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "16f3-7954-81f1-1bb8",
+                    "characteristics": [
+                      {
+                        "$text": "12\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "0",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "$text": "Pistol",
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "model",
+                "import": true,
+                "name": "Slaver with Charge Caster",
+                "hidden": false,
+                "id": "928f-f55d-66d6-2a50",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b908-c0fd-268a-47e2"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Close combat weapon",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "a186-e91f-ed4a-d2f4",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "0",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Charge Caster",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "baf3-86ba-4b97-01e2",
+                    "characteristics": [
+                      {
+                        "$text": "24\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "D3",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "5+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "9",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "-2",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "$text": "Blast, Heavy",
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "model",
+                "import": true,
+                "name": "Slaver with Long Rifle",
+                "hidden": false,
+                "id": "6050-300d-cdc1-fa42",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fac0-a2a1-597b-6b09"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Close combat weapon",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "7658-c5cb-4b1f-7b8b",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "0",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Long Rifle",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "2dad-d488-c1ea-8cbf",
+                    "characteristics": [
+                      {
+                        "$text": "36\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "-2",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "$text": "Heavy, Precision",
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 10,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "adfa-a9c2-6e2b-550d"
+              },
+              {
+                "type": "max",
+                "value": 10,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "3144-50cd-806b-d501"
+              }
+            ],
+            "defaultSelectionEntryId": "c400-f7d0-1cff-7326"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Slavers on Helamite",
+        "hidden": false,
+        "id": "fe68-5c06-8e2e-438f",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 80
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Mounted",
+            "hidden": false,
+            "id": "1357-9ae2-267b-7ec6",
+            "targetId": "14a0-40c9-2748-ae6e",
+            "primary": false
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Slavers on Helamite",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "d1cf-cfdd-a929-ed9e",
+            "characteristics": [
+              {
+                "$text": "12\"",
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1"
+              },
+              {
+                "$text": "4",
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4"
+              },
+              {
+                "$text": "5+",
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da"
+              },
+              {
+                "$text": "3",
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe"
+              },
+              {
+                "$text": "7+",
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc"
+              },
+              {
+                "$text": "1",
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Pawns",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "58d9-e458-f429-a428",
+            "characteristics": [
+              {
+                "$text": "When this unit fails a Battle-shock test you gain 1 Pain token.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Combat Drugs",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "672a-6606-16af-fe81",
+            "characteristics": [
+              {
+                "$text": "When this unit needs to do a Battle-shock test you can decide to pass or the fail the test automatically - no roll required.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Scout 6\"",
+            "id": "17fd-6de4-94cc-375a",
+            "hidden": false,
+            "description": "See Rule book."
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Squad Members",
+            "id": "c14a-85dd-3902-f65c",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Slaver with Chain lance",
+                "hidden": false,
+                "id": "1fa7-c350-0371-b580",
+                "profiles": [
+                  {
+                    "name": "Scrap Pistol",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "c219-f9f5-2289-207c",
+                    "characteristics": [
+                      {
+                        "$text": "12\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "0",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "$text": "Pistol",
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chain lance",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "8b18-8d4a-8ae8-2d23",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "5",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-1",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chitin Horn",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "1a5f-4c81-de26-4a5e",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "5",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-1",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "Extra Attacks",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d38f-9302-d0e8-74b6"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Slaver with Longrifle",
+                "hidden": false,
+                "id": "7e50-8481-c0bf-e56d",
+                "profiles": [
+                  {
+                    "name": "Chitin Horn",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "45f4-fe15-b656-92d8",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "5",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-1",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "Extra Attacks",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Close combat weapon",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "eaf3-1e15-a08c-c5f4",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "0",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Longrifle",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "3cc4-20d9-b0b2-d64a",
+                    "characteristics": [
+                      {
+                        "$text": "36\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "4+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "-2",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "$text": "Heavy, Precision",
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c328-50d4-2bbb-12fe"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 4,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0b30-14ba-b3b2-852b"
+              },
+              {
+                "type": "max",
+                "value": 4,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "c5a9-5c52-f1ea-3783"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": "Collector Ark",
+        "hidden": false,
+        "id": "8928-1323-2c2e-4bfa",
+        "categoryLinks": [
+          {
+            "name": "Vehicle",
+            "hidden": false,
+            "id": "90f6-5ccc-0c2d-bf99",
+            "targetId": "dbd4-63-af05-998",
+            "primary": true
+          }
+        ],
+        "type": "selectionEntry",
+        "targetId": "12bd-cdce-9634-c8f5"
+      },
+      {
+        "import": true,
+        "name": "Harvester Barque",
+        "hidden": false,
+        "id": "e8ec-15c0-d7ff-40ab",
+        "categoryLinks": [
+          {
+            "name": "Vehicle",
+            "hidden": false,
+            "id": "534f-0a21-2d06-c06e",
+            "targetId": "dbd4-63-af05-998",
+            "primary": true
+          },
+          {
+            "name": "Haemunculus Coven",
+            "hidden": false,
+            "id": "7992-f950-b256-1d27",
+            "targetId": "5d15-bede-4c28-0507",
+            "primary": false
+          }
+        ],
+        "type": "selectionEntry",
+        "targetId": "cd7e-01ce-4367-78c1"
+      },
+      {
+        "import": true,
+        "name": "Master Slaver",
+        "hidden": false,
+        "id": "370c-9cb2-458f-544e",
+        "categoryLinks": [
+          {
+            "name": "Character",
+            "hidden": false,
+            "id": "9a56-8569-c554-33b4",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": true
+          }
+        ],
+        "type": "selectionEntry",
+        "targetId": "f823-bf78-f4a9-3f6a"
+      },
+      {
+        "import": true,
+        "name": "Slaver Beast",
+        "hidden": false,
+        "id": "a937-9a57-f9f7-d376",
+        "categoryLinks": [
+          {
+            "name": "Beast",
+            "hidden": false,
+            "id": "30da-5787-1043-78c8",
+            "targetId": "4c3e-9310-a516-3590",
+            "primary": true
+          }
+        ],
+        "type": "selectionEntry",
+        "targetId": "ed30-069a-ff34-6065"
+      },
+      {
+        "import": true,
+        "name": "Slavers",
+        "hidden": false,
+        "id": "b75a-253c-b02c-7daf",
+        "categoryLinks": [
+          {
+            "name": "Infantry",
+            "hidden": false,
+            "id": "a1fd-1cb2-7e14-8373",
+            "targetId": "cf47-a0d7-7207-29dc",
+            "primary": true
+          }
+        ],
+        "type": "selectionEntry",
+        "targetId": "69b5-bbb9-bf32-e203"
+      },
+      {
+        "import": true,
+        "name": "Slavers on Helamite",
+        "hidden": false,
+        "id": "97a6-3177-e095-979e",
+        "categoryLinks": [
+          {
+            "name": "Mounted",
+            "hidden": false,
+            "id": "f51c-87e0-7b5e-cc80",
+            "targetId": "14a0-40c9-2748-ae6e",
+            "primary": true
+          }
+        ],
+        "type": "selectionEntry",
+        "targetId": "fe68-5c06-8e2e-438f"
+      }
+    ],
+    "type": "catalogue"
+  }
+}
