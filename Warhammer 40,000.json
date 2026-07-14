@@ -55,8 +55,7 @@
                 "childId": "bb9d-299a-ed60-2d8a",
                 "shared": true,
                 "includeChildSelections": true,
-                "includeChildForces": true,
-                "childName": "Army Roster"
+                "includeChildForces": true
               }
             ],
             "scope": "roster"
@@ -154,8 +153,7 @@
                 "childId": "bb9d-299a-ed60-2d8a",
                 "shared": true,
                 "includeChildSelections": true,
-                "includeChildForces": true,
-                "childName": "Army Roster"
+                "includeChildForces": true
               }
             ],
             "scope": "roster"
@@ -199,18 +197,7 @@
           },
           {
             "name": "InSv",
-            "id": "55a7-5b54-c60d-11dc",
-            "formatRules": [
-              {
-                "name": "New Format Rule",
-                "id": "11c5-ee61-344f-d1a1",
-                "hidden": false,
-                "type": "regex",
-                "match": "^$",
-                "replace": "-",
-                "comment": "Empty → -"
-              }
-            ]
+            "id": "55a7-5b54-c60d-11dc"
           }
         ],
         "id": "c547-1836-d8a-ff4f",
@@ -267,8 +254,7 @@
         "characteristicTypes": [
           {
             "id": "914c-b413-91e3-a132",
-            "name": "Range",
-            "defaultValue": "Melee"
+            "name": "Range"
           },
           {
             "id": "2337-daa1-6682-b110",
@@ -886,8 +872,7 @@
                         "childId": "1cf9-0660-4ef2-4d18",
                         "shared": true,
                         "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "Bellatus"
+                        "includeChildForces": true
                       }
                     ],
                     "type": "or"
@@ -981,8 +966,7 @@
                         "childId": "1cf9-0660-4ef2-4d18",
                         "shared": true,
                         "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "Bellatus"
+                        "includeChildForces": true
                       }
                     ],
                     "type": "or"
@@ -1076,8 +1060,7 @@
                         "childId": "1cf9-0660-4ef2-4d18",
                         "shared": true,
                         "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "Bellatus"
+                        "includeChildForces": true
                       }
                     ],
                     "type": "or"
@@ -1248,8 +1231,7 @@
                     "field": "selections",
                     "scope": "primary-catalogue",
                     "childId": "c8da-e875-58f7-f6d6",
-                    "shared": true,
-                    "childName": "Chaos - Chaos Space Marines"
+                    "shared": true
                   },
                   {
                     "type": "greaterThan",
@@ -1279,8 +1261,7 @@
                     "field": "selections",
                     "scope": "primary-catalogue",
                     "childId": "c8da-e875-58f7-f6d6",
-                    "shared": true,
-                    "childName": "Chaos - Chaos Space Marines"
+                    "shared": true
                   },
                   {
                     "type": "greaterThan",
@@ -1310,8 +1291,7 @@
                     "field": "selections",
                     "scope": "primary-catalogue",
                     "childId": "c8da-e875-58f7-f6d6",
-                    "shared": true,
-                    "childName": "Chaos - Chaos Space Marines"
+                    "shared": true
                   },
                   {
                     "type": "greaterThan",
@@ -1988,8 +1968,7 @@
                 "scope": "parent",
                 "childId": "e08b-2448-5606-fefb",
                 "shared": true,
-                "includeChildSelections": true,
-                "childName": "Show Agents of the Imperium"
+                "includeChildSelections": true
               }
             ]
           }
@@ -2012,8 +1991,7 @@
                 "scope": "parent",
                 "childId": "f26b-79db-80e0-3a3b",
                 "shared": true,
-                "includeChildSelections": true,
-                "childName": "Show Titans"
+                "includeChildSelections": true
               }
             ]
           }
@@ -2036,8 +2014,7 @@
                 "scope": "parent",
                 "childId": "aeb4-96de-7401-eaa3",
                 "shared": true,
-                "includeChildSelections": true,
-                "childName": "Show Chaos Knights"
+                "includeChildSelections": true
               }
             ]
           }
@@ -2060,8 +2037,7 @@
                 "scope": "parent",
                 "childId": "2973-ea51-7f8d-5403",
                 "shared": true,
-                "includeChildSelections": true,
-                "childName": "Show Unaligned Forces"
+                "includeChildSelections": true
               }
             ]
           }
@@ -2089,8 +2065,7 @@
                 "scope": "parent",
                 "childId": "e82c-6f8c-2b97-a287",
                 "shared": true,
-                "includeChildSelections": true,
-                "childName": "Show Imperial Knights"
+                "includeChildSelections": true
               }
             ]
           }
@@ -2123,8 +2098,7 @@
                 "scope": "parent",
                 "childId": "f26b-79db-80e0-3a3b",
                 "shared": true,
-                "includeChildSelections": true,
-                "childName": "Show Titans"
+                "includeChildSelections": true
               }
             ]
           }
@@ -2351,8 +2325,7 @@
                 "scope": "force",
                 "childId": "baf8-997f-e323-a090",
                 "shared": true,
-                "includeChildSelections": true,
-                "childName": "2. Strike Force (2000 Point limit)"
+                "includeChildSelections": true
               }
             ]
           },
@@ -2368,8 +2341,7 @@
                 "scope": "force",
                 "childId": "4204-82d0-908c-a62a",
                 "shared": true,
-                "includeChildSelections": true,
-                "childName": "3. Onslaught (3000 Point limit)"
+                "includeChildSelections": true
               }
             ]
           },
@@ -2388,8 +2360,7 @@
                     "scope": "force",
                     "childId": "baf8-997f-e323-a090",
                     "shared": true,
-                    "includeChildSelections": true,
-                    "childName": "2. Strike Force (2000 Point limit)"
+                    "includeChildSelections": true
                   },
                   {
                     "type": "equalTo",
@@ -2398,8 +2369,7 @@
                     "scope": "force",
                     "childId": "c6ea-562c-984f-6c25",
                     "shared": true,
-                    "includeChildSelections": true,
-                    "childName": "Override points limit?"
+                    "includeChildSelections": true
                   }
                 ]
               }
@@ -2420,8 +2390,7 @@
                     "scope": "force",
                     "childId": "c6ea-562c-984f-6c25",
                     "shared": true,
-                    "includeChildSelections": true,
-                    "childName": "Override points limit?"
+                    "includeChildSelections": true
                   },
                   {
                     "type": "atLeast",
@@ -2430,8 +2399,7 @@
                     "scope": "force",
                     "childId": "4204-82d0-908c-a62a",
                     "shared": true,
-                    "includeChildSelections": true,
-                    "childName": "3. Onslaught (3000 Point limit)"
+                    "includeChildSelections": true
                   }
                 ]
               }
@@ -2451,8 +2419,7 @@
                 "shared": true,
                 "roundUp": false,
                 "includeChildSelections": true,
-                "includeChildForces": true,
-                "childName": "Points limit"
+                "includeChildForces": true
               }
             ]
           },
@@ -2471,8 +2438,7 @@
                     "scope": "force",
                     "childId": "d62d-db22-4893-4bc0",
                     "shared": true,
-                    "includeChildSelections": true,
-                    "childName": "1. Incursion (1000 Point limit)"
+                    "includeChildSelections": true
                   },
                   {
                     "type": "equalTo",
@@ -2481,8 +2447,7 @@
                     "scope": "force",
                     "childId": "c6ea-562c-984f-6c25",
                     "shared": true,
-                    "includeChildSelections": true,
-                    "childName": "Override points limit?"
+                    "includeChildSelections": true
                   }
                 ]
               }
@@ -2500,8 +2465,7 @@
                 "scope": "force",
                 "childId": "d62d-db22-4893-4bc0",
                 "shared": true,
-                "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
+                "includeChildSelections": true
               }
             ]
           }
@@ -3417,7 +3381,6 @@
                 "name": "Points limit",
                 "hidden": false,
                 "id": "83ac-f5e5-d3da-5441",
-                "step": "250",
                 "modifiers": [
                   {
                     "type": "set",
@@ -3431,8 +3394,7 @@
                         "scope": "564e-fbc6-5266-3ea4",
                         "childId": "d62d-db22-4893-4bc0",
                         "shared": true,
-                        "includeChildSelections": false,
-                        "childName": "1. Incursion (1000 Point limit)"
+                        "includeChildSelections": false
                       }
                     ]
                   },
@@ -3448,8 +3410,7 @@
                         "scope": "564e-fbc6-5266-3ea4",
                         "childId": "baf8-997f-e323-a090",
                         "shared": true,
-                        "includeChildSelections": false,
-                        "childName": "2. Strike Force (2000 Point limit)"
+                        "includeChildSelections": false
                       }
                     ]
                   },
@@ -3465,8 +3426,7 @@
                         "scope": "564e-fbc6-5266-3ea4",
                         "childId": "4204-82d0-908c-a62a",
                         "shared": true,
-                        "includeChildSelections": false,
-                        "childName": "3. Onslaught (3000 Point limit)"
+                        "includeChildSelections": false
                       }
                     ]
                   }
@@ -4760,8 +4720,7 @@
                     "childId": "57cc-822a-1d43-be52",
                     "shared": true,
                     "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "childName": "Show Crucible Characters"
+                    "includeChildForces": true
                   },
                   {
                     "type": "atLeast",
@@ -4771,8 +4730,7 @@
                     "childId": "e2bc-fc0c-1099-3e75",
                     "shared": true,
                     "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "childName": "Crucible"
+                    "includeChildForces": true
                   }
                 ],
                 "type": "and"
@@ -5116,7 +5074,6 @@
                 "scope": "roster",
                 "childId": "fd80-17e3-3c1a-6570",
                 "shared": true,
-                "childName": "Armageddon",
                 "includeChildSelections": true,
                 "includeChildForces": true
               }
@@ -5266,7 +5223,6 @@
                     "scope": "roster",
                     "childId": "fd80-17e3-3c1a-6570",
                     "shared": true,
-                    "childName": "Armageddon",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -5366,7 +5322,6 @@
                 "scope": "roster",
                 "childId": "fd80-17e3-3c1a-6570",
                 "shared": true,
-                "childName": "Armageddon",
                 "includeChildSelections": true,
                 "includeChildForces": true
               }
@@ -5508,7 +5463,6 @@
                     "scope": "roster",
                     "childId": "fd80-17e3-3c1a-6570",
                     "shared": true,
-                    "childName": "Armageddon",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -5601,7 +5555,6 @@
                 "scope": "roster",
                 "childId": "fd80-17e3-3c1a-6570",
                 "shared": true,
-                "childName": "Armageddon",
                 "includeChildSelections": true,
                 "includeChildForces": true
               }
@@ -5743,7 +5696,6 @@
                     "scope": "roster",
                     "childId": "fd80-17e3-3c1a-6570",
                     "shared": true,
-                    "childName": "Armageddon",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -5843,7 +5795,6 @@
                 "scope": "roster",
                 "childId": "fd80-17e3-3c1a-6570",
                 "shared": true,
-                "childName": "Armageddon",
                 "includeChildSelections": true,
                 "includeChildForces": true
               }
@@ -6064,8 +6015,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "childId": "e08b-2448-5606-fefb",
-                "shared": true,
-                "childName": "Show Imperial Agents"
+                "shared": true
               }
             ]
           }
@@ -27725,7 +27675,6 @@
                     "scope": "root-entry",
                     "childId": "cdec-18f6-3a70-c6dc",
                     "shared": true,
-                    "childName": "Front-line Champions",
                     "includeChildSelections": true
                   }
                 ],
@@ -27742,7 +27691,6 @@
                     "scope": "root-entry",
                     "childId": "cdec-18f6-3a70-c6dc",
                     "shared": true,
-                    "childName": "Front-line Champions",
                     "includeChildSelections": true
                   }
                 ],
@@ -32820,8 +32768,7 @@
                     "childId": "ecf8-cf72-7d5b-1b5b",
                     "shared": true,
                     "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "childName": "Disruption"
+                    "includeChildForces": true
                   }
                 ]
               }
@@ -32847,8 +32794,7 @@
                     "childId": "0936-9767-1cc7-52ae",
                     "shared": true,
                     "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "childName": "Priority Assets"
+                    "includeChildForces": true
                   }
                 ]
               }
@@ -32874,8 +32820,7 @@
                     "childId": "6fe0-3dbe-f7e0-10bb",
                     "shared": true,
                     "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "childName": "Purge the Foe"
+                    "includeChildForces": true
                   }
                 ]
               }
@@ -32901,8 +32846,7 @@
                     "childId": "1cc1-f11a-4e8f-1bcc",
                     "shared": true,
                     "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "childName": "Take and Hold"
+                    "includeChildForces": true
                   }
                 ]
               }
@@ -32928,8 +32872,7 @@
                     "childId": "b4a7-5083-fe94-4d24",
                     "shared": true,
                     "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "childName": "Reconnaissance"
+                    "includeChildForces": true
                   }
                 ]
               }
@@ -32960,7 +32903,7 @@
     ],
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "id": "sys-352e-adc2-7639-d610",
-    "name": "Warhammer 40,000 11th Edition",
+    "name": "Wh40k 11th Edition - Bochum",
     "revision": 4,
     "battleScribeVersion": 2.03,
     "type": "gameSystem",
