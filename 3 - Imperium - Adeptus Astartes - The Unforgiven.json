@@ -19404,7 +19404,7 @@
         "hidden": false,
         "id": "9932-b5dc-6e94-d640",
         "collective": false,
-        "targetId": "9bf9-1e30-e4b4-939c",
+        "targetId": "06c6-9085-66f1-1fcb",
         "type": "selectionEntry"
       },
       {
@@ -19413,7 +19413,7 @@
         "hidden": false,
         "id": "4bff-981b-e572-ccb2",
         "collective": false,
-        "targetId": "81bd-ce4e-229f-a88",
+        "targetId": "96cd-0356-e57b-2fbf",
         "type": "selectionEntry"
       },
       {
@@ -19439,16 +19439,16 @@
         "hidden": false,
         "id": "7e58-bcc3-2baf-586f",
         "collective": false,
-        "targetId": "bf62-244b-f9db-6cf",
+        "targetId": "81d3-dd51-e01b-6b8c",
         "type": "selectionEntry"
       },
       {
         "import": true,
-        "name": "Deathwing Command Squad [Legends]",
+        "name": "Deathwing Command Squad",
         "hidden": false,
         "id": "635d-8c07-e0be-208c",
         "collective": false,
-        "targetId": "48fb-ebd6-dd17-729b",
+        "targetId": "28ea-f78e-bc08-c60f",
         "type": "selectionEntry"
       },
       {
@@ -19457,16 +19457,16 @@
         "hidden": false,
         "id": "aa36-0466-efbe-f5bd",
         "collective": false,
-        "targetId": "a6cc-9a65-dbf1-71b0",
+        "targetId": "01da-c506-2b0d-19a5",
         "type": "selectionEntry"
       },
       {
         "import": true,
-        "name": "Deathwing Strikemaster [Legends]",
+        "name": "Deathwing Strikemaster",
         "hidden": false,
         "id": "7402-1e83-c234-fb12",
         "collective": false,
-        "targetId": "ebd0-6939-6305-6d16",
+        "targetId": "a97b-93d0-b4f5-8f91",
         "type": "selectionEntry"
       },
       {
@@ -19475,7 +19475,7 @@
         "hidden": false,
         "id": "d894-5452-1151-a2c3",
         "collective": false,
-        "targetId": "6135-d842-8e61-889d",
+        "targetId": "47bc-0839-182e-2332",
         "type": "selectionEntry"
       },
       {
@@ -19484,7 +19484,7 @@
         "hidden": false,
         "id": "8815-3dd8-f4a2-2015",
         "collective": false,
-        "targetId": "38c9-66a1-fe60-46af",
+        "targetId": "3636-bf5f-8262-f07a",
         "type": "selectionEntry"
       },
       {
@@ -19493,7 +19493,7 @@
         "hidden": false,
         "id": "2abb-a646-1ff3-68c8",
         "collective": false,
-        "targetId": "f34-e2f9-c98e-1916",
+        "targetId": "f313-897d-08f1-e23d",
         "type": "selectionEntry"
       },
       {
@@ -19502,7 +19502,7 @@
         "hidden": false,
         "id": "e8eb-8cce-bc5c-74be",
         "collective": false,
-        "targetId": "b4a0-d2fe-a988-f28b",
+        "targetId": "9d13-7876-afd8-2b34",
         "type": "selectionEntry"
       },
       {
@@ -19511,7 +19511,7 @@
         "hidden": false,
         "id": "9038-b5dd-647a-331c",
         "collective": false,
-        "targetId": "4b0d-45ff-fab3-7472",
+        "targetId": "883b-445a-ea7f-33d6",
         "type": "selectionEntry"
       },
       {
@@ -19520,7 +19520,7 @@
         "hidden": false,
         "id": "0c40-a476-879a-6608",
         "collective": false,
-        "targetId": "15d3-ebc7-d28b-daf4",
+        "targetId": "cfba-d0d6-2658-6a87",
         "type": "selectionEntry"
       },
       {
@@ -19529,7 +19529,7 @@
         "hidden": false,
         "id": "222d-eb3a-c66c-57b2",
         "collective": false,
-        "targetId": "4f36-6609-efac-baa6",
+        "targetId": "1d7d-545f-fe14-cac8",
         "type": "selectionEntry"
       },
       {
@@ -19538,7 +19538,7 @@
         "hidden": false,
         "id": "b86f-e84f-9078-7280",
         "collective": false,
-        "targetId": "212d-f302-aaaf-5c12",
+        "targetId": "3471-f2d2-4fdf-316d",
         "type": "selectionEntry"
       },
       {
@@ -19547,7 +19547,7 @@
         "hidden": false,
         "id": "0479-442d-e495-8412",
         "collective": false,
-        "targetId": "e87d-f173-88b9-aa84",
+        "targetId": "5d04-dbe8-9c34-bf14",
         "type": "selectionEntry"
       },
       {
@@ -19556,7 +19556,7 @@
         "hidden": false,
         "id": "0289-fdff-5079-6479",
         "collective": false,
-        "targetId": "9b3d-e812-4248-522",
+        "targetId": "939d-1c44-2a3f-29ff",
         "type": "selectionEntry"
       },
       {
@@ -19565,16 +19565,16 @@
         "hidden": false,
         "id": "25c6-aa62-8cfc-4de6",
         "collective": false,
-        "targetId": "152b-a271-df2b-21a9",
+        "targetId": "378a-9968-3f33-f6ab",
         "type": "selectionEntry"
       },
       {
         "import": true,
-        "name": "Ravenwing Talonmaster [Legends]",
+        "name": "Ravenwing Talonmaster",
         "hidden": false,
         "id": "4929-ddb8-31ac-4c0d",
         "collective": false,
-        "targetId": "a2b6-e35-67a8-d76e",
+        "targetId": "4a07-64db-32a0-0611",
         "type": "selectionEntry"
       },
       {
@@ -19583,7 +19583,7 @@
         "hidden": false,
         "id": "ad66-b045-9a91-ccda",
         "collective": false,
-        "targetId": "8f4b-c343-bef5-6779",
+        "targetId": "66ec-8cbd-e163-71c7",
         "type": "selectionEntry"
       },
       {
