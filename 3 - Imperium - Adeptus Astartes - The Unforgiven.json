@@ -37,34 +37,34 @@
             "id": "6eac-e689-010e-c9df",
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "5+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "5+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
@@ -485,34 +485,34 @@
             "id": "76ef-1a15-b122-7588",
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
@@ -895,7 +895,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 140
           },
           {
             "name": "Crusade Points",
@@ -916,6 +916,31 @@
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "page": 7,
@@ -930,7 +955,7 @@
         "modifiers": [
           {
             "type": "set",
-            "value": 230,
+            "value": 260,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
@@ -967,34 +992,34 @@
             "id": "d8df-2b6c-0ea2-02d8",
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
@@ -1103,7 +1128,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 130
           },
           {
             "name": "Crusade Points",
@@ -1123,6 +1148,31 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -2080,34 +2130,34 @@
             "id": "a397-6ffd-2330-8c14",
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
@@ -2466,7 +2516,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 75
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "page": 9,
@@ -2690,34 +2785,34 @@
                     "id": "99f3-128a-6926-2f5b",
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
@@ -3055,34 +3150,34 @@
                     "id": "97e1-553f-2705-26ad",
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
@@ -3420,34 +3515,34 @@
                     "id": "beff-9094-f29c-33c6",
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
@@ -3615,34 +3710,34 @@
                     "id": "c0d3-ef24-482b-afe1",
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
@@ -3966,34 +4061,34 @@
                     "id": "a4b7-07d2-92cc-9c62",
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
@@ -4708,7 +4803,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 200
+            "value": 185
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "collective": false
@@ -4928,34 +5068,34 @@
                     "id": "bfbb-378e-bef6-aaad",
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "4",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "4"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
@@ -5006,34 +5146,34 @@
                     "id": "87ad-8b6b-630e-2968",
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "4",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "4"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
@@ -5374,7 +5514,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 250
+            "value": 240
           },
           {
             "name": "Crusade Points",
@@ -5394,6 +5534,31 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -5416,34 +5581,34 @@
             "id": "6f80-e112-2c3e-7def",
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "5",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
@@ -6060,7 +6225,7 @@
         "modifiers": [
           {
             "type": "set",
-            "value": 360,
+            "value": 330,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
@@ -7016,34 +7181,34 @@
                     "id": "a1e6-c5bd-e366-5a3b",
                     "characteristics": [
                       {
-                        "$text": "5\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "5\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
@@ -7744,7 +7909,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 165
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "collective": false
@@ -7777,34 +7987,34 @@
             "id": "e584-0266-b290-7f54",
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
@@ -7830,16 +8040,16 @@
             "page": 7
           },
           {
-            "name": "Engulfing Fear [Psychic]",
+            "name": "Mental Fortress [Psychic]",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
             "id": "0ef2-4a68-cfa9-0d10",
             "characteristics": [
               {
-                "$text": "In your Shooting phase, you can select one enemy unit within 18\" of this model. That enemy unit must take a Battle-shock test.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is leading a unit, models in that unit have a 4+ invulnerable save."
               }
             ],
             "page": 13
@@ -8348,7 +8558,7 @@
         "modifiers": [
           {
             "type": "set",
-            "value": 180,
+            "value": 170,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
@@ -8416,34 +8626,34 @@
             "id": "3601-232e-2d4a-addc",
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "3",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "3"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
@@ -9031,7 +9241,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 80
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "collective": false
@@ -9051,34 +9306,34 @@
             "id": "21d8-171d-a600-bf7c",
             "characteristics": [
               {
-                "$text": "14\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "14\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
@@ -9191,6 +9446,12 @@
             "id": "9a09-c1c9-c282-3254",
             "targetId": "e9c7-1590-1bda-bf7f",
             "primary": false
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "5d6d-37d8-6f04-6f25",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "selectionEntries": [
@@ -9233,39 +9494,39 @@
                 "id": "042a-c6e8-07c9-6fae",
                 "characteristics": [
                   {
-                    "$text": "36\"",
                     "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc"
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "36\""
                   },
                   {
-                    "$text": "D6+1",
                     "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08"
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "D6+1"
                   },
                   {
-                    "$text": "3+",
                     "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e"
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
                   },
                   {
-                    "$text": "8",
                     "name": "S",
-                    "typeId": "2229-f494-25db-c5d3"
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "8"
                   },
                   {
-                    "$text": "-2",
                     "name": "AP",
-                    "typeId": "9ead-8a10-520-de15"
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
                   },
                   {
-                    "$text": "1",
                     "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3"
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
                   },
                   {
-                    "$text": "Blast, Twin-Linked",
                     "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c"
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Blast, Twin-Linked"
                   }
                 ],
                 "page": 35
@@ -9278,39 +9539,39 @@
                 "id": "378b-a713-16e1-7b75",
                 "characteristics": [
                   {
-                    "$text": "36\"",
                     "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc"
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "36\""
                   },
                   {
-                    "$text": "D6+1",
                     "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08"
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "D6+1"
                   },
                   {
-                    "$text": "3+",
                     "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e"
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
                   },
                   {
-                    "$text": "9",
                     "name": "S",
-                    "typeId": "2229-f494-25db-c5d3"
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "9"
                   },
                   {
-                    "$text": "-3",
                     "name": "AP",
-                    "typeId": "9ead-8a10-520-de15"
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-3"
                   },
                   {
-                    "$text": "2",
                     "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3"
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "3"
                   },
                   {
-                    "$text": "Blast, Hazardous, Twin-Linked",
                     "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c"
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Blast, Hazardous, Twin-Linked"
                   }
                 ],
                 "page": 35
@@ -9674,34 +9935,34 @@
             "id": "df0f-996a-8dfa-315b",
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "5",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
@@ -10070,34 +10331,34 @@
             "id": "e9a4-01dd-72a5-fa48",
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "5+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "5+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
@@ -10115,24 +10376,24 @@
             "id": "1be8-7031-74ff-da23",
             "characteristics": [
               {
-                "$text": "In your Command phase, select one Primarch of the First Legion abilities (see left). Until the start of your next Command phase, this model has that ability.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Command phase, select two Primarch of the First Legion abilities (see left). Until the start of your next Command phase, this model has that ability."
               }
             ],
             "page": 41
           },
           {
-            "name": "All Secrets Revealed",
+            "name": "Mist-wreathed Shadow Realms",
             "typeId": "a400-f511-a59-fca7",
             "typeName": "Primarch of the First Legion",
             "hidden": false,
             "id": "e683-e80a-48c8-8c2a",
             "characteristics": [
               {
-                "$text": "Once per turn, when your opponent targets a unit from their army with a Stratagem but before that Stratagem’s effects are resolved, if that unit is within 12\" of this model, you gain 1CP and that enemy unit must take a Battle-shock test. If that test is failed, in addition to that unit being Battle-shocked, that Stratagem’s effects are not resolved (that Stratagem still counts as having been used this phase).",
                 "name": "Effect",
-                "typeId": "d9a-5fdb-d4de-51a8"
+                "typeId": "d9a-5fdb-d4de-51a8",
+                "$text": "In your Command phase, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
               }
             ],
             "page": 41
@@ -10145,9 +10406,9 @@
             "id": "703b-ce97-7d2c-edbf",
             "characteristics": [
               {
-                "$text": "While a friendly Adeptus Astartes unit is within 6\" of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll.",
                 "name": "Effect",
-                "typeId": "d9a-5fdb-d4de-51a8"
+                "typeId": "d9a-5fdb-d4de-51a8",
+                "$text": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, each time a model in that unit makes a melee attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
               }
             ],
             "page": 41
@@ -10160,9 +10421,9 @@
             "id": "2bbb-efab-9702-44f1",
             "characteristics": [
               {
-                "$text": "While a friendly Adeptus Astartes unit is within 6\" of this model, models in that unit have the Feel No Pain 4+ ability against mortal wounds.",
                 "name": "Effect",
-                "typeId": "d9a-5fdb-d4de-51a8"
+                "typeId": "d9a-5fdb-d4de-51a8",
+                "$text": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, models in that unit have the Feel No Pain 4+ ability against mortal wounds."
               }
             ],
             "page": 41
@@ -10175,9 +10436,9 @@
             "id": "37b4-a5c0-588b-713b",
             "characteristics": [
               {
-                "$text": "Each time a melee attack is allocated to this model, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time an attack is allocated to this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll."
               }
             ],
             "page": 41
@@ -10617,7 +10878,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 315
+            "value": 285
           },
           {
             "name": "Crusade Points",
@@ -10637,6 +10898,31 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -10658,34 +10944,34 @@
             "id": "eb79-142b-8806-6277",
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20+\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "11",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "11"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
@@ -11287,7 +11573,7 @@
         "modifiers": [
           {
             "type": "set",
-            "value": 180,
+            "value": 150,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
@@ -11481,34 +11767,34 @@
                     "id": "0960-b928-52b5-3c92",
                     "characteristics": [
                       {
-                        "$text": "12\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "12\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "3+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "2",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
@@ -11892,34 +12178,34 @@
                     "id": "a9c3-9203-e6b9-071b",
                     "characteristics": [
                       {
-                        "$text": "12\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "12\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "3+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "2",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
@@ -12291,34 +12577,34 @@
                     "id": "2223-5572-b530-825f",
                     "characteristics": [
                       {
-                        "$text": "12\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "12\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "3+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "2",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
@@ -12645,7 +12931,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 75
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "page": 31,
@@ -12852,34 +13183,34 @@
                 "id": "4cfe-582b-d15f-5626",
                 "characteristics": [
                   {
-                    "$text": "12\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "12\""
                   },
                   {
-                    "$text": "5",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "5"
                   },
                   {
-                    "$text": "3+",
-                    "name": "SV",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "3+"
                   },
                   {
-                    "$text": "4",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "4"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "2",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "2"
                   },
                   {
                     "name": "InSv",
@@ -13390,34 +13721,34 @@
                 "id": "01c0-cc7e-5e13-9b6a",
                 "characteristics": [
                   {
-                    "$text": "12\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "12\""
                   },
                   {
-                    "$text": "5",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "5"
                   },
                   {
-                    "$text": "3+",
-                    "name": "SV",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "3+"
                   },
                   {
-                    "$text": "4",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "4"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "2",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "2"
                   },
                   {
                     "name": "InSv",
@@ -13928,34 +14259,34 @@
                 "id": "a4bf-2a71-454c-68ce",
                 "characteristics": [
                   {
-                    "$text": "12\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "12\""
                   },
                   {
-                    "$text": "5",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "5"
                   },
                   {
-                    "$text": "3+",
-                    "name": "SV",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "3+"
                   },
                   {
-                    "$text": "4",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "4"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "2",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "2"
                   },
                   {
                     "name": "InSv",
@@ -14444,7 +14775,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 115
           },
           {
             "name": "Crusade Points",
@@ -14464,6 +14795,31 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -14486,34 +14842,34 @@
             "id": "14f9-b647-68ee-7b42",
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20+\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "11",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "11"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
@@ -14935,7 +15291,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 210
+            "value": 200
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "page": 37,
@@ -14986,34 +15387,34 @@
             "id": "4ac3-ad7d-702c-f509",
             "characteristics": [
               {
-                "$text": "14\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "14\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
@@ -15096,6 +15497,12 @@
             "id": "b51c-057e-5283-ffc9",
             "targetId": "e9c7-1590-1bda-bf7f",
             "primary": false
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "219e-9548-67df-28aa",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "selectionEntries": [
@@ -15377,7 +15784,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 80
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "page": 33,
@@ -15398,34 +15850,34 @@
             "id": "f069-42e7-2f3e-653a",
             "characteristics": [
               {
-                "$text": "16\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "16\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
@@ -16088,6 +16540,12 @@
             "id": "5518-eebc-232c-f51b",
             "targetId": "ce1a-41d8-27a6-0a96",
             "primary": false
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "6142-ef89-6413-2c9c",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "selectionEntries": [
@@ -16466,7 +16924,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 105
           },
           {
             "name": "Crusade Points",
@@ -16486,6 +16944,31 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -16539,17 +17022,6 @@
             "id": "c822-b3bc-aa28-5df8",
             "constraints": [
               {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "a3e4-57cd-a123-2c83",
-                "percentValue": false,
-                "includeChildSelections": false,
-                "includeChildForces": false
-              },
-              {
                 "type": "min",
                 "value": 1,
                 "field": "selections",
@@ -16565,12 +17037,12 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "The Inner Circle",
+                "name": "The Inner Circle (2 dp)",
                 "hidden": false,
                 "id": "246f-a206-67b1-2b88",
                 "profiles": [
                   {
-                    "name": "Inner Circle",
+                    "name": "Vowed Target",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
@@ -16626,7 +17098,7 @@
                           {
                             "name": "pts",
                             "typeId": "51b2-306e-1021-d207",
-                            "value": 15
+                            "value": 30
                           },
                           {
                             "name": "Crusade Points",
@@ -16646,6 +17118,31 @@
                           {
                             "name": "Crusade: Weapon Modifications",
                             "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
                             "value": 0
                           }
                         ]
@@ -16686,7 +17183,7 @@
                           {
                             "name": "pts",
                             "typeId": "51b2-306e-1021-d207",
-                            "value": 15
+                            "value": 20
                           },
                           {
                             "name": "Crusade Points",
@@ -16706,6 +17203,31 @@
                           {
                             "name": "Crusade: Weapon Modifications",
                             "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
                             "value": 0
                           }
                         ]
@@ -16806,7 +17328,7 @@
                           {
                             "name": "pts",
                             "typeId": "51b2-306e-1021-d207",
-                            "value": 15
+                            "value": 30
                           },
                           {
                             "name": "Crusade Points",
@@ -16826,6 +17348,31 @@
                           {
                             "name": "Crusade: Weapon Modifications",
                             "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
                             "value": 0
                           }
                         ]
@@ -16847,12 +17394,12 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "The Unforgiven",
+                "name": "The Unforgiven (neu)",
                 "hidden": false,
                 "id": "4d76-5e4f-f0ab-9451",
                 "profiles": [
                   {
-                    "name": "The Unforgiven",
+                    "name": "Sacred Standards",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
@@ -17129,7 +17676,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "A company of Hunters",
+                "name": "A company of Hunters (2 dp)",
                 "hidden": false,
                 "id": "699a-1b68-20bd-dedd",
                 "profiles": [
@@ -17190,7 +17737,7 @@
                           {
                             "name": "pts",
                             "typeId": "51b2-306e-1021-d207",
-                            "value": 15
+                            "value": 20
                           },
                           {
                             "name": "Crusade Points",
@@ -17210,6 +17757,31 @@
                           {
                             "name": "Crusade: Weapon Modifications",
                             "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
                             "value": 0
                           }
                         ]
@@ -17310,7 +17882,7 @@
                           {
                             "name": "pts",
                             "typeId": "51b2-306e-1021-d207",
-                            "value": 15
+                            "value": 10
                           },
                           {
                             "name": "Crusade Points",
@@ -17330,6 +17902,31 @@
                           {
                             "name": "Crusade: Weapon Modifications",
                             "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
                             "value": 0
                           }
                         ]
@@ -17370,6 +17967,91 @@
                           {
                             "name": "pts",
                             "typeId": "51b2-306e-1021-d207",
+                            "value": 30
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 4,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "e40b-4954-0346-2d1b"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Dark Age Arsenal (1 dp)",
+                "hidden": false,
+                "id": "bf08-b009-a620-14b3",
+                "selectionEntryGroups": [
+                  {
+                    "name": "Enhancements",
+                    "id": "aba2-73b0-b889-3323",
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Petition of stability",
+                        "hidden": false,
+                        "id": "1d05-ac78-1bd0-13c9",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
                             "value": 15
                           },
                           {
@@ -17391,18 +18073,1308 @@
                             "name": "Crusade: Weapon Modifications",
                             "typeId": "716d-91b7-d55a-1022",
                             "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 3,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "22a4-8434-5c40-7088"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Petition of stability",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "499d-3d21-6b10-2e56",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "ADEPTUS ASTARTES unit only. This unit’s plasma attacks have +6\" R."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Perpetual Ardour",
+                        "hidden": false,
+                        "id": "904e-80fb-9767-8ab2",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 3,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "3f46-851b-2ac7-3939"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Perpetual Ardour",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "de3f-3916-717d-158f",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "HELLBLASTER SQUAD only. This unit’s snap shooting attacks hit on unmodified hit rolls of 5+."
+                              }
+                            ]
                           }
                         ]
                       }
-                    ],
-                    "constraints": [
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Invocations of ancient fury",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "255e-9595-db7e-bee8",
+                    "characteristics": [
                       {
-                        "type": "max",
-                        "value": 4,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "e40b-4954-0346-2d1b"
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "▪ Friendly ADEPTUS ASTARTES units’ weapon profiles with ‘Plasma’ in their names are plasma weapon profiles.\n▪ Plasma weapon profiles have +1 S."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Darkflight Pursuit (1 dp)",
+                "hidden": false,
+                "id": "830b-abbc-d4e8-a6be",
+                "selectionEntryGroups": [
+                  {
+                    "name": "Enhancements",
+                    "id": "c223-f476-08b0-488f",
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Nightforged Battery",
+                        "hidden": false,
+                        "id": "de50-cdff-44c7-c0ff",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 3,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "a6b4-72e6-18d3-3b05"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Nightforged Battery",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "d046-fce2-fb33-0463",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "LAND SPEEDER VENGEANCE unit only. This unit can re‑roll:\n▪ Rolls to determine the A of a weapon.\n▪ Hazard rolls"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Thundercoil Turbines",
+                        "hidden": false,
+                        "id": "c003-66d7-8f6f-c447",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 3,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "5d66-3527-8d55-b654"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Thundercoil Turbines",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "d15d-b219-be88-990a",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "RAVENWING FLY unit only. In your first Movement phase, this unit can make an ingress move."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Black-winged Vigilance",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "3249-a9ae-eddc-b243",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Friendly RAVENWING FLY units’ ranged attacks have [IGNORES COVER].\n\n"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Interrogation Conclave (1 dp)",
+                "hidden": false,
+                "id": "e335-b5b4-87ee-e07d",
+                "profiles": [
+                  {
+                    "name": "Dread Catechism",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "817c-9a4c-3f7f-c326",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "▪ In the Fight phase, when a friendly CHAPLAIN unit destroys an enemy unit, enemy units within 6\" of that CHAPLAIN unit make a battle-shock roll.\n▪ Friendly CHAPLAIN units have the following ability:\nSower of Dread (Aura): While an enemy unit is within 6\" of this unit, that enemy unit has ‑1 Ld.\n\n"
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Enhancements",
+                    "id": "1113-0c54-aeee-22c9",
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Limitless Zeal",
+                        "hidden": false,
+                        "id": "456a-1e83-131c-0a93",
+                        "profiles": [
+                          {
+                            "name": "Limitless Zeal",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "4af9-361b-a92e-8c2d",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "CHAPLAIN model only. This unit has +1 to charge rolls."
+                              }
+                            ]
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "801e-0b56-af61-c4e5"
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 10
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Inescapable Interrogation",
+                        "hidden": false,
+                        "id": "1a55-65e5-3349-1433",
+                        "profiles": [
+                          {
+                            "name": "Inescapable Interrogation",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "17a0-6c9e-313d-99d7",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "CHAPLAIN model only. This unit’s ranged attacks have [IGNORES COVER].\n\n"
+                              }
+                            ]
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "3ff4-6afa-737a-883c"
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 20
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Lion´s Blade Task Force (2 dp)",
+                "hidden": false,
+                "id": "afcc-9cd4-9e0d-6125",
+                "selectionEntryGroups": [
+                  {
+                    "name": "Enhancements",
+                    "id": "93a0-b886-29ba-ce03",
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Calibanite Armaments",
+                        "hidden": false,
+                        "id": "4cc2-4e74-31eb-a3ab",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Calibanite Armaments",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "c3ab-adf7-3a1a-0120",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "ADEPTUS ASTARTES model only. Add 1 to the Damage characteristic of the bearer’s melee weapons."
+                              }
+                            ]
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "5aff-fedf-0ebf-7523"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Lord of the Hunt",
+                        "hidden": false,
+                        "id": "bdf2-9e03-54d3-8a12",
+                        "profiles": [
+                          {
+                            "name": "Lord of the Hunt",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "6272-82aa-3894-84e1",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "RAVENWING model only. The bearer’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back and you can re‑roll Desperate Escape tests taken for models in the bearer’s unit."
+                              }
+                            ]
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "c9c1-5a48-58d3-bb91"
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Stalwart Champion",
+                        "hidden": false,
+                        "id": "db0f-183f-2579-c8c5",
+                        "profiles": [
+                          {
+                            "name": "Stalwart Champion",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "e611-b206-4720-6354",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "CAPTAIN, CHAPLAIN or LIEUTENANT model only. While the bearer’s unit is not Battle‑shocked, add 1 to the Objective Control characteristic of models in the bearer’s unit."
+                              }
+                            ]
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "e1f2-960b-c0e0-1c95"
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 25
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Fulgus Magna",
+                        "hidden": false,
+                        "id": "8266-e530-a87b-1f2c",
+                        "profiles": [
+                          {
+                            "name": "Fulgus Magna",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "b4dd-8282-e45e-cef0",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "DEATHWING model only. Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, remove the bearer’s unit from the battlefield and place it into Strategic Reserves."
+                              }
+                            ]
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "dcbd-42ae-5e2a-6528"
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 20
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "In the Lion´s claws",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "d080-2460-46bc-b50f",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more RAVENWING units from your army Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle‑shocked, subtract 1 from each of those tests.\n\n\nEach time a DEATHWING unit from your army declares a charge, if one or more targets of that charge are within Engagement Range of one or more RAVENWING units from your army, add 2 to the Charge roll.\n\n"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Wrath of the Rock (3 dp)",
+                "hidden": false,
+                "id": "0f2d-a23a-fcda-e0c0",
+                "selectionEntryGroups": [
+                  {
+                    "name": "Enhancements",
+                    "id": "b859-42c3-780d-5f27",
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Tempered in Battle",
+                        "hidden": false,
+                        "id": "2bcd-c466-b89b-5929",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "cf02-345c-4475-9241"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Tempered in Battle",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "4e34-f34b-a53f-0a9b",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "ADEPTUS ASTARTES model only. While a friendly ADEPTUS ASTARTES unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 10
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Ancient Weapons",
+                        "hidden": false,
+                        "id": "c24d-e78b-916c-4819",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "2efc-d232-5977-5630"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Ancient Weapons",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "4b93-0e44-7594-974f",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "ADEPTUS ASTARTES model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, and improve the Armour Penetration and Damage characteristics of those weapons by 1.\n\n"
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 25
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Deathwing Assault",
+                        "hidden": false,
+                        "id": "9e08-f5a2-e9db-7b81",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "4b90-086f-eb89-ef46"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Deathwing Assault",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "7c10-7b12-0fc1-e455",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "DEATHWING model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Lord of the Ravenwing",
+                        "hidden": false,
+                        "id": "7325-2d2d-b776-b66c",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "1673-fac0-88c2-232d"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Lord of the Ravenwing",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "c13e-7941-9923-2000",
+                            "characteristics": [
+                              {
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "RAVENWING model only. You can re-roll Advance and Charge rolls made for the bearer’s unit."
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 10
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Dutiful Tenacity",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "87a6-8d21-30de-1d51",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Each time an attack targets an ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
                       }
                     ]
                   }
