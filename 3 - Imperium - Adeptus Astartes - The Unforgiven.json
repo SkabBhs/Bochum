@@ -16981,30 +16981,6 @@
         "name": "Unforgiven: Detachment",
         "hidden": false,
         "id": "e2f6-5500-f72a-afb1",
-        "constraints": [
-          {
-            "type": "min",
-            "value": 1,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "16e5-f7b0-b568-ef92",
-            "percentValue": false,
-            "includeChildSelections": false,
-            "includeChildForces": false
-          },
-          {
-            "type": "max",
-            "value": 1,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "1aa3-8deb-2adb-46aa",
-            "percentValue": false,
-            "includeChildSelections": false,
-            "includeChildForces": false
-          }
-        ],
         "categoryLinks": [
           {
             "name": "Configuration",
@@ -17389,6 +17365,16 @@
                       }
                     ]
                   }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0534-bdf1-7282-656a"
+                  }
                 ]
               },
               {
@@ -17670,6 +17656,16 @@
                         "id": "3362-5ea9-1275-1cfb"
                       }
                     ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "db76-164c-6786-e924"
                   }
                 ]
               },
@@ -18028,6 +18024,16 @@
                       }
                     ]
                   }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c2e4-6909-dedc-c7b3"
+                  }
                 ]
               },
               {
@@ -18229,6 +18235,16 @@
                         "$text": "▪ Friendly ADEPTUS ASTARTES units’ weapon profiles with ‘Plasma’ in their names are plasma weapon profiles.\n▪ Plasma weapon profiles have +1 S."
                       }
                     ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "eec5-e2e4-8b0a-ae61"
                   }
                 ]
               },
@@ -18432,6 +18448,16 @@
                       }
                     ]
                   }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7d12-fffc-5344-d9c7"
+                  }
                 ]
               },
               {
@@ -18633,6 +18659,16 @@
                         ]
                       }
                     ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "73b5-8a3e-6edb-b5b8"
                   }
                 ]
               },
@@ -19006,6 +19042,16 @@
                       }
                     ]
                   }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8e05-39c4-17b5-4ac5"
+                  }
                 ]
               },
               {
@@ -19378,6 +19424,16 @@
                       }
                     ]
                   }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c01a-a63d-c9e1-d918"
+                  }
                 ]
               }
             ],
@@ -19590,16 +19646,7 @@
         "import": true,
         "name": "Unforgiven: Detachment",
         "hidden": false,
-        "id": "8593-732d-9809-ab82",
-        "categoryLinks": [
-          {
-            "name": "Configuration",
-            "hidden": false,
-            "id": "d85d-2ba5-13e0-4d6d",
-            "targetId": "4ac9-fd30-1e3d-b249",
-            "primary": true
-          }
-        ],
+        "id": "82ba-3856-e179-ce2f",
         "type": "selectionEntry",
         "targetId": "e2f6-5500-f72a-afb1"
       }
