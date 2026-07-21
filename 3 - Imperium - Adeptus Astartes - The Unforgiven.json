@@ -16990,685 +16990,13 @@
             "primary": true
           }
         ],
-        "entryLinks": [
+        "collective": false,
+        "selectionEntryGroups": [
           {
-            "import": true,
-            "name": "Detachment",
+            "name": "Unforgiven - Detachments",
+            "id": "b1f6-30c9-3e7d-f9b3",
             "hidden": false,
-            "id": "c822-b3bc-aa28-5df8",
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "578c-f969-f13b-5a64",
-                "percentValue": false,
-                "includeChildSelections": false,
-                "includeChildForces": false
-              }
-            ],
             "selectionEntries": [
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "The Inner Circle (2 dp)",
-                "hidden": false,
-                "id": "246f-a206-67b1-2b88",
-                "profiles": [
-                  {
-                    "name": "Vowed Target",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "7402-612c-5c1f-bb76",
-                    "characteristics": [
-                      {
-                        "$text": "At the start of your Movement phase, select one of the following:\n\t\n- Defensive Footing: Select one or more objective marker you control. Until the start of your next Movement phase, that objective marker is one of your Vowed objective markers. If a rule refers to a unit or model being within range of your Vowed objective marker, that rule takes effect if that unit or model is within range of one or more of your Vowed objective markers.\nEach time an DEATHWING unit from your army is in range of one or more of your Vowed objective markers and makes an attack, add 1 to the Wound roll.\n  \n- Aggressive Push: Select one or more objective markers you do not control. Until the start of your next Movement phase, each of those objective markers is one of your Vowed objective markers. If a rule refers to a unit or model being within range of your Vowed objective marker, that rule takes effect if that unit or model is within range of one or more of your Vowed objective markers. \nEach time an DEATHWING unit from your army makes an attack that targets a unit within range of one or more of your Vowed objective markers, add 1 to the Wound roll.",
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
-                  }
-                ],
-                "selectionEntryGroups": [
-                  {
-                    "name": "Enhancements",
-                    "id": "b12a-27fd-b662-9092",
-                    "hidden": false,
-                    "selectionEntries": [
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Deathwing Assault",
-                        "hidden": false,
-                        "id": "ec35-8742-7642-d260",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "0eee-7d6b-701e-0117"
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "name": "Deathwing Assault",
-                            "typeId": "9cc3-6d83-4dd3-9b64",
-                            "typeName": "Abilities",
-                            "hidden": false,
-                            "id": "f8a9-503c-61dd-b7d6",
-                            "characteristics": [
-                              {
-                                "$text": "DEATHWING model. If the bearer’s unit starts the battle in Strategic Reserves, its points value does not count towards the combined points limit for units from your army that are in Strategic Reserve, and for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is.",
-                                "name": "Description",
-                                "typeId": "9b8f-694b-e5e-b573"
-                              }
-                            ]
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 30
-                          },
-                          {
-                            "name": "Crusade Points",
-                            "typeId": "b03b-c239-15a5-da55",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Battle Honours",
-                            "typeId": "75bb-ded1-c86d-bdf0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Experience",
-                            "typeId": "a623-fe74-1d33-cddf",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Weapon Modifications",
-                            "typeId": "716d-91b7-d55a-1022",
-                            "value": 0
-                          },
-                          {
-                            "name": "Blackstone Fragments",
-                            "typeId": "ac6b-ced3-9b5e-9a6e",
-                            "value": 0
-                          },
-                          {
-                            "name": "Detachment Points",
-                            "typeId": "82ae-1066-5107-6ae0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Enhancements",
-                            "typeId": "f759-1bc4-cb3a-f0d2",
-                            "value": 0
-                          },
-                          {
-                            "name": "Honour Points",
-                            "typeId": "8135-9a2f-6627-09e2",
-                            "value": 0
-                          },
-                          {
-                            "name": "Relic Fragments",
-                            "typeId": "0ece-6541-4662-ece2",
-                            "value": 0
-                          }
-                        ]
-                      },
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Singular Will",
-                        "hidden": false,
-                        "id": "71e2-aae8-c3e3-2395",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "25d0-cd2f-899d-dcb9"
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "name": "Singular Will",
-                            "typeId": "9cc3-6d83-4dd3-9b64",
-                            "typeName": "Abilities",
-                            "hidden": false,
-                            "id": "cc66-10d6-a778-aa91",
-                            "characteristics": [
-                              {
-                                "$text": "DEATHWING model only. Each time the bearer’s unit Piles In or Consolidates, models in that unit can move an additional 3\".",
-                                "name": "Description",
-                                "typeId": "9b8f-694b-e5e-b573"
-                              }
-                            ]
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 20
-                          },
-                          {
-                            "name": "Crusade Points",
-                            "typeId": "b03b-c239-15a5-da55",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Battle Honours",
-                            "typeId": "75bb-ded1-c86d-bdf0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Experience",
-                            "typeId": "a623-fe74-1d33-cddf",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Weapon Modifications",
-                            "typeId": "716d-91b7-d55a-1022",
-                            "value": 0
-                          },
-                          {
-                            "name": "Blackstone Fragments",
-                            "typeId": "ac6b-ced3-9b5e-9a6e",
-                            "value": 0
-                          },
-                          {
-                            "name": "Detachment Points",
-                            "typeId": "82ae-1066-5107-6ae0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Enhancements",
-                            "typeId": "f759-1bc4-cb3a-f0d2",
-                            "value": 0
-                          },
-                          {
-                            "name": "Honour Points",
-                            "typeId": "8135-9a2f-6627-09e2",
-                            "value": 0
-                          },
-                          {
-                            "name": "Relic Fragments",
-                            "typeId": "0ece-6541-4662-ece2",
-                            "value": 0
-                          }
-                        ]
-                      },
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Champion of the Deathwing",
-                        "hidden": false,
-                        "id": "fe44-6c57-97a4-3cf0",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "62b0-5d9e-f471-da6b"
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "name": "Champion of the Deathwing",
-                            "typeId": "9cc3-6d83-4dd3-9b64",
-                            "typeName": "Abilities",
-                            "hidden": false,
-                            "id": "04d4-e3e8-81e1-6042",
-                            "characteristics": [
-                              {
-                                "$text": "DEATHWING only. Melee weapons equipped by the bearer´s unit have the [lethal hits] ability, and each time the bearer`s unit makes a melee attack, if it is within range of your Vowed objective marker, a Critical Hit is scored on an unmodified Hit roll of 5+.",
-                                "name": "Description",
-                                "typeId": "9b8f-694b-e5e-b573"
-                              }
-                            ]
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 15
-                          },
-                          {
-                            "name": "Crusade Points",
-                            "typeId": "b03b-c239-15a5-da55",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Battle Honours",
-                            "typeId": "75bb-ded1-c86d-bdf0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Experience",
-                            "typeId": "a623-fe74-1d33-cddf",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Weapon Modifications",
-                            "typeId": "716d-91b7-d55a-1022",
-                            "value": 0
-                          }
-                        ]
-                      },
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Pennant of Rememberence",
-                        "hidden": false,
-                        "id": "a903-8133-0571-c3fc",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "4535-e7f4-a883-53a6"
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "name": "Pennant of Rememberence",
-                            "typeId": "9cc3-6d83-4dd3-9b64",
-                            "typeName": "Abilities",
-                            "hidden": false,
-                            "id": "ccb0-7a36-ed5f-b43a",
-                            "characteristics": [
-                              {
-                                "$text": "DEATHWING ANCIENT model only. Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack.",
-                                "name": "Description",
-                                "typeId": "9b8f-694b-e5e-b573"
-                              }
-                            ]
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 30
-                          },
-                          {
-                            "name": "Crusade Points",
-                            "typeId": "b03b-c239-15a5-da55",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Battle Honours",
-                            "typeId": "75bb-ded1-c86d-bdf0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Experience",
-                            "typeId": "a623-fe74-1d33-cddf",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Weapon Modifications",
-                            "typeId": "716d-91b7-d55a-1022",
-                            "value": 0
-                          },
-                          {
-                            "name": "Blackstone Fragments",
-                            "typeId": "ac6b-ced3-9b5e-9a6e",
-                            "value": 0
-                          },
-                          {
-                            "name": "Detachment Points",
-                            "typeId": "82ae-1066-5107-6ae0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Enhancements",
-                            "typeId": "f759-1bc4-cb3a-f0d2",
-                            "value": 0
-                          },
-                          {
-                            "name": "Honour Points",
-                            "typeId": "8135-9a2f-6627-09e2",
-                            "value": 0
-                          },
-                          {
-                            "name": "Relic Fragments",
-                            "typeId": "0ece-6541-4662-ece2",
-                            "value": 0
-                          }
-                        ]
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 4,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "8217-ee57-9f5f-8a32"
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "0534-bdf1-7282-656a"
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "The Unforgiven (neu)",
-                "hidden": false,
-                "id": "4d76-5e4f-f0ab-9451",
-                "profiles": [
-                  {
-                    "name": "Sacred Standards",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "1cf5-9bf2-0d21-19ae",
-                    "characteristics": [
-                      {
-                        "$text": "If an ADEPTUS ASTARTES unit is within 12\" of an ANCIENT unit, each ranged weapon gets the Rapid Fire 1 ability. If the weapon already has the Rapid Fire ability, then increase the number of extra shots provided by the Rapid Fire ability by +1.",
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
-                  }
-                ],
-                "selectionEntryGroups": [
-                  {
-                    "name": "Enhancements",
-                    "id": "e485-f80a-a032-4bf7",
-                    "hidden": false,
-                    "selectionEntries": [
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Weapons of the Dark Ages",
-                        "hidden": false,
-                        "id": "6a6d-ca3a-806b-e31c",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "a528-bedf-debe-9e63"
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "name": "Weapons of the Dark Ages",
-                            "typeId": "9cc3-6d83-4dd3-9b64",
-                            "typeName": "Abilities",
-                            "hidden": false,
-                            "id": "6a81-6320-b7fc-a14f",
-                            "characteristics": [
-                              {
-                                "$text": "ADEPTUS ASTARTES model only. While the bearer is leading a unit, ranged weapons of the unit that have the word \"plasma\" in its name have the IGNORE COVER ability. In addition the unit can reroll all Hazardous Tests.",
-                                "name": "Description",
-                                "typeId": "9b8f-694b-e5e-b573"
-                              }
-                            ]
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 15
-                          },
-                          {
-                            "name": "Crusade Points",
-                            "typeId": "b03b-c239-15a5-da55",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Battle Honours",
-                            "typeId": "75bb-ded1-c86d-bdf0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Experience",
-                            "typeId": "a623-fe74-1d33-cddf",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Weapon Modifications",
-                            "typeId": "716d-91b7-d55a-1022",
-                            "value": 0
-                          }
-                        ]
-                      },
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Shroud of Heroes",
-                        "hidden": false,
-                        "id": "2ead-6ed6-ff23-9d99",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "da44-31ae-8623-6e22"
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "name": "Shroud of Heroes",
-                            "typeId": "9cc3-6d83-4dd3-9b64",
-                            "typeName": "Abilities",
-                            "hidden": false,
-                            "id": "dfad-ada3-2891-36ac",
-                            "characteristics": [
-                              {
-                                "$text": "ADEPTUS ASTARTES model only. Each time an attack targets the bearer or his unit subtract 1 from the Hit roll.",
-                                "name": "Description",
-                                "typeId": "9b8f-694b-e5e-b573"
-                              }
-                            ]
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 15
-                          },
-                          {
-                            "name": "Crusade Points",
-                            "typeId": "b03b-c239-15a5-da55",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Battle Honours",
-                            "typeId": "75bb-ded1-c86d-bdf0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Experience",
-                            "typeId": "a623-fe74-1d33-cddf",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Weapon Modifications",
-                            "typeId": "716d-91b7-d55a-1022",
-                            "value": 0
-                          }
-                        ]
-                      },
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Eye of the Unseen",
-                        "hidden": false,
-                        "id": "ecac-3d31-6180-1c55",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "5740-d8b7-a0d7-93f3"
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "name": "Eye of the Unseen",
-                            "typeId": "9cc3-6d83-4dd3-9b64",
-                            "typeName": "Abilities",
-                            "hidden": false,
-                            "id": "f6aa-cf19-104b-c53f",
-                            "characteristics": [
-                              {
-                                "$text": "ADEPTUS ASTARTES PSYKER TACTICUS model only. While the bearer is in engagement range with an enemy CHARACTER unit, the bearer and his unit have the Fight First ability.",
-                                "name": "Description",
-                                "typeId": "9b8f-694b-e5e-b573"
-                              }
-                            ]
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 15
-                          },
-                          {
-                            "name": "Crusade Points",
-                            "typeId": "b03b-c239-15a5-da55",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Battle Honours",
-                            "typeId": "75bb-ded1-c86d-bdf0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Experience",
-                            "typeId": "a623-fe74-1d33-cddf",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Weapon Modifications",
-                            "typeId": "716d-91b7-d55a-1022",
-                            "value": 0
-                          }
-                        ]
-                      },
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Monster slayer of Caliban",
-                        "hidden": false,
-                        "id": "dd80-d9ed-7ca2-5342",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "a736-0257-22f1-6777"
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "name": "Monster slayer of Caliban",
-                            "typeId": "9cc3-6d83-4dd3-9b64",
-                            "typeName": "Abilities",
-                            "hidden": false,
-                            "id": "6800-aa95-5e0a-7efb",
-                            "characteristics": [
-                              {
-                                "$text": "ADEPTUS ASTARTES model only. The melee weapons of the bearer have the ANTI-VEHICLE 4+ and ANTI-MONSTER 4+ abilities.",
-                                "name": "Description",
-                                "typeId": "9b8f-694b-e5e-b573"
-                              }
-                            ]
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 15
-                          },
-                          {
-                            "name": "Crusade Points",
-                            "typeId": "b03b-c239-15a5-da55",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Battle Honours",
-                            "typeId": "75bb-ded1-c86d-bdf0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Experience",
-                            "typeId": "a623-fe74-1d33-cddf",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Weapon Modifications",
-                            "typeId": "716d-91b7-d55a-1022",
-                            "value": 0
-                          }
-                        ]
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 4,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "3362-5ea9-1275-1cfb"
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "db76-164c-6786-e924"
-                  }
-                ]
-              },
               {
                 "type": "upgrade",
                 "import": true,
@@ -19057,6 +18385,665 @@
               {
                 "type": "upgrade",
                 "import": true,
+                "name": "The Inner Circle (2 dp)",
+                "hidden": false,
+                "id": "246f-a206-67b1-2b88",
+                "profiles": [
+                  {
+                    "name": "Vowed Target",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "7402-612c-5c1f-bb76",
+                    "characteristics": [
+                      {
+                        "$text": "At the start of your Movement phase, select one of the following:\n\t\n- Defensive Footing: Select one or more objective marker you control. Until the start of your next Movement phase, that objective marker is one of your Vowed objective markers. If a rule refers to a unit or model being within range of your Vowed objective marker, that rule takes effect if that unit or model is within range of one or more of your Vowed objective markers.\nEach time an DEATHWING unit from your army is in range of one or more of your Vowed objective markers and makes an attack, add 1 to the Wound roll.\n  \n- Aggressive Push: Select one or more objective markers you do not control. Until the start of your next Movement phase, each of those objective markers is one of your Vowed objective markers. If a rule refers to a unit or model being within range of your Vowed objective marker, that rule takes effect if that unit or model is within range of one or more of your Vowed objective markers. \nEach time an DEATHWING unit from your army makes an attack that targets a unit within range of one or more of your Vowed objective markers, add 1 to the Wound roll.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Enhancements",
+                    "id": "b12a-27fd-b662-9092",
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Deathwing Assault",
+                        "hidden": false,
+                        "id": "ec35-8742-7642-d260",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "0eee-7d6b-701e-0117"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Deathwing Assault",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "f8a9-503c-61dd-b7d6",
+                            "characteristics": [
+                              {
+                                "$text": "DEATHWING model. If the bearer’s unit starts the battle in Strategic Reserves, its points value does not count towards the combined points limit for units from your army that are in Strategic Reserve, and for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is.",
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573"
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 30
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Singular Will",
+                        "hidden": false,
+                        "id": "71e2-aae8-c3e3-2395",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "25d0-cd2f-899d-dcb9"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Singular Will",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "cc66-10d6-a778-aa91",
+                            "characteristics": [
+                              {
+                                "$text": "DEATHWING model only. Each time the bearer’s unit Piles In or Consolidates, models in that unit can move an additional 3\".",
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573"
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 20
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Champion of the Deathwing",
+                        "hidden": false,
+                        "id": "fe44-6c57-97a4-3cf0",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "62b0-5d9e-f471-da6b"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Champion of the Deathwing",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "04d4-e3e8-81e1-6042",
+                            "characteristics": [
+                              {
+                                "$text": "DEATHWING only. Melee weapons equipped by the bearer´s unit have the [lethal hits] ability, and each time the bearer`s unit makes a melee attack, if it is within range of your Vowed objective marker, a Critical Hit is scored on an unmodified Hit roll of 5+.",
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573"
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Pennant of Rememberence",
+                        "hidden": false,
+                        "id": "a903-8133-0571-c3fc",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "4535-e7f4-a883-53a6"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Pennant of Rememberence",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "ccb0-7a36-ed5f-b43a",
+                            "characteristics": [
+                              {
+                                "$text": "DEATHWING ANCIENT model only. Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack.",
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573"
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 30
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Honour Points",
+                            "typeId": "8135-9a2f-6627-09e2",
+                            "value": 0
+                          },
+                          {
+                            "name": "Relic Fragments",
+                            "typeId": "0ece-6541-4662-ece2",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 4,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "8217-ee57-9f5f-8a32"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0534-bdf1-7282-656a"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Unforgiven (neu)",
+                "hidden": false,
+                "id": "4d76-5e4f-f0ab-9451",
+                "profiles": [
+                  {
+                    "name": "Sacred Standards",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "1cf5-9bf2-0d21-19ae",
+                    "characteristics": [
+                      {
+                        "$text": "If an ADEPTUS ASTARTES unit is within 12\" of an ANCIENT unit, each ranged weapon gets the Rapid Fire 1 ability. If the weapon already has the Rapid Fire ability, then increase the number of extra shots provided by the Rapid Fire ability by +1.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Enhancements",
+                    "id": "e485-f80a-a032-4bf7",
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Weapons of the Dark Ages",
+                        "hidden": false,
+                        "id": "6a6d-ca3a-806b-e31c",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "a528-bedf-debe-9e63"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Weapons of the Dark Ages",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "6a81-6320-b7fc-a14f",
+                            "characteristics": [
+                              {
+                                "$text": "ADEPTUS ASTARTES model only. While the bearer is leading a unit, ranged weapons of the unit that have the word \"plasma\" in its name have the IGNORE COVER ability. In addition the unit can reroll all Hazardous Tests.",
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573"
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Shroud of Heroes",
+                        "hidden": false,
+                        "id": "2ead-6ed6-ff23-9d99",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "da44-31ae-8623-6e22"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Shroud of Heroes",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "dfad-ada3-2891-36ac",
+                            "characteristics": [
+                              {
+                                "$text": "ADEPTUS ASTARTES model only. Each time an attack targets the bearer or his unit subtract 1 from the Hit roll.",
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573"
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Eye of the Unseen",
+                        "hidden": false,
+                        "id": "ecac-3d31-6180-1c55",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "5740-d8b7-a0d7-93f3"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Eye of the Unseen",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "f6aa-cf19-104b-c53f",
+                            "characteristics": [
+                              {
+                                "$text": "ADEPTUS ASTARTES PSYKER TACTICUS model only. While the bearer is in engagement range with an enemy CHARACTER unit, the bearer and his unit have the Fight First ability.",
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573"
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Monster slayer of Caliban",
+                        "hidden": false,
+                        "id": "dd80-d9ed-7ca2-5342",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "a736-0257-22f1-6777"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Monster slayer of Caliban",
+                            "typeId": "9cc3-6d83-4dd3-9b64",
+                            "typeName": "Abilities",
+                            "hidden": false,
+                            "id": "6800-aa95-5e0a-7efb",
+                            "characteristics": [
+                              {
+                                "$text": "ADEPTUS ASTARTES model only. The melee weapons of the bearer have the ANTI-VEHICLE 4+ and ANTI-MONSTER 4+ abilities.",
+                                "name": "Description",
+                                "typeId": "9b8f-694b-e5e-b573"
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 4,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "3362-5ea9-1275-1cfb"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "db76-164c-6786-e924"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
                 "name": "Wrath of the Rock (3 dp)",
                 "hidden": false,
                 "id": "0f2d-a23a-fcda-e0c0",
@@ -19437,12 +19424,21 @@
                 ]
               }
             ],
-            "collective": false,
-            "targetId": "821b-9477-6c47-eab5",
-            "type": "selectionEntryGroup"
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "578c-f969-f13b-5a64",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              }
+            ]
           }
-        ],
-        "collective": false
+        ]
       }
     ],
     "catalogueLinks": [
