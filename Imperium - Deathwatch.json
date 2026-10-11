@@ -912,6 +912,15 @@
             "sortIndex": 1,
             "targetId": "9a99-f13c-a667-e698",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "0e36-c64c-74b3-9de1",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
@@ -2519,6 +2528,15 @@
             "sortIndex": 1,
             "targetId": "9a99-f13c-a667-e698",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "d0be-8b3b-6686-b6c1",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
@@ -2891,6 +2909,15 @@
             "import": true,
             "sortIndex": 1,
             "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "a64d-197a-5549-2160",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "targetId": "9e5d-de4c-c5d1-1d3e",
             "type": "selectionEntryGroup"
           }
         ],
@@ -3986,6 +4013,15 @@
             "sortIndex": 1,
             "targetId": "9a99-f13c-a667-e698",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "df58-867e-655e-be55",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [{"name": "Combat Doctrines", "id": "4ab0-9f19-aaa5-c671", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}],
@@ -4824,6 +4860,15 @@
             "import": true,
             "sortIndex": 1,
             "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "b6be-96e4-59b3-80df",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "9e5d-de4c-c5d1-1d3e",
             "type": "selectionEntryGroup"
           }
         ],
@@ -6015,6 +6060,15 @@
             "sortIndex": 1,
             "targetId": "9a99-f13c-a667-e698",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "4241-c367-6a07-3cf0",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
@@ -6225,7 +6279,7 @@
                     "constraints": [{"id": "0076-385c-4717-9fcf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}]
                   }
                 ],
-                "infoLinks": [{"name": "Deathwatch Veterans", "id": "53d6-2b0c-7861-4844", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}]
+                "infoLinks": [{"name": "Deathwatch Veteran", "id": "53d6-2b0c-7861-4844", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}]
               },
               {
                 "name": "Veteran w/ heavy thunder hammer",
@@ -6234,7 +6288,7 @@
                 "import": true,
                 "type": "model",
                 "constraints": [{"id": "02d7-c764-d431-99ae", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 4}],
-                "infoLinks": [{"name": "Deathwatch Veterans", "id": "5876-bb3e-6b87-49a5", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
+                "infoLinks": [{"name": "Deathwatch Veteran", "id": "5876-bb3e-6b87-49a5", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
                 "modifiers": [
                   {
                     "field": "error",
@@ -6313,7 +6367,7 @@
                   },
                   {"name": "Frag cannon", "id": "0fbb-cae1-e956-19ea", "hidden": false, "import": true, "targetId": "efbd-2915-b637-83f8", "type": "selectionEntry"}
                 ],
-                "infoLinks": [{"name": "Deathwatch Veterans", "id": "1349-c0c0-7a63-4a21", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
+                "infoLinks": [{"name": "Deathwatch Veteran", "id": "1349-c0c0-7a63-4a21", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
                 "modifiers": [
                   {
                     "field": "error",
@@ -6367,7 +6421,7 @@
                     ]
                   }
                 ],
-                "infoLinks": [{"name": "Deathwatch Veterans", "id": "93a7-e459-0750-48dd", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
+                "infoLinks": [{"name": "Deathwatch Veteran", "id": "93a7-e459-0750-48dd", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
                 "modifiers": [
                   {
                     "field": "error",
@@ -6404,7 +6458,7 @@
                     "type": "selectionEntry",
                     "constraints": [{"id": "72df-7b9b-bee4-9ba8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}]
                   },
-                  {"name": "Astartes shield", "id": "7eed-c1c2-aa6b-97f4", "hidden": false, "import": true, "targetId": "b547-440b-71ea-f424", "type": "selectionEntry"},
+                  {"name": "Storm shield", "id": "7eed-c1c2-aa6b-97f4", "hidden": false, "import": true, "targetId": "b547-440b-71ea-f424", "type": "selectionEntry"},
                   {
                     "name": "Knives and Fists",
                     "id": "959d-04f1-d12d-3479",
@@ -6418,7 +6472,7 @@
                     ]
                   }
                 ],
-                "infoLinks": [{"name": "Deathwatch Veterans", "id": "b33d-b1c3-7cdb-e272", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
+                "infoLinks": [{"name": "Deathwatch Veteran", "id": "b33d-b1c3-7cdb-e272", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
                 "modifiers": [
                   {
                     "field": "error",
@@ -6455,9 +6509,9 @@
                     "type": "selectionEntry",
                     "constraints": [{"id": "b95b-fb6f-c715-a91f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}]
                   },
-                  {"name": "Astartes shield", "id": "7805-96fb-00c1-f2e5", "hidden": false, "import": true, "targetId": "b547-440b-71ea-f424", "type": "selectionEntry"}
+                  {"name": "Storm shield", "id": "7805-96fb-00c1-f2e5", "hidden": false, "import": true, "targetId": "b547-440b-71ea-f424", "type": "selectionEntry"}
                 ],
-                "infoLinks": [{"name": "Deathwatch Veterans", "id": "981d-eca8-86e3-47e7", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
+                "infoLinks": [{"name": "Deathwatch Veteran", "id": "981d-eca8-86e3-47e7", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
                 "modifiers": [
                   {
                     "field": "error",
@@ -6498,7 +6552,7 @@
                     ]
                   }
                 ],
-                "infoLinks": [{"name": "Deathwatch Veterans", "id": "641d-f783-b789-392b", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
+                "infoLinks": [{"name": "Deathwatch Veteran", "id": "641d-f783-b789-392b", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
                 "modifiers": [
                   {
                     "field": "error",
@@ -6575,7 +6629,7 @@
                     ]
                   }
                 ],
-                "infoLinks": [{"name": "Deathwatch Veterans", "id": "2d4d-8ca3-7bc0-8617", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
+                "infoLinks": [{"name": "Deathwatch Veteran", "id": "2d4d-8ca3-7bc0-8617", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
                 "modifiers": [
                   {
                     "field": "error",
@@ -6635,7 +6689,7 @@
                 "publicationId": "4115-3627-e608-39f6",
                 "type": "model",
                 "constraints": [{"id": "8ea5-381d-d6bc-6c3c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "infoLinks": [{"name": "Deathwatch Veterans", "id": "0f6c-abe6-33a4-f400", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
+                "infoLinks": [{"name": "Deathwatch Veteran", "id": "0f6c-abe6-33a4-f400", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
                 "selectionEntries": [
                   {
                     "name": "Black Shield blades",
@@ -6699,7 +6753,7 @@
                           {"name": "Weapon Modifications", "id": "3bd2-c47d-6d87-097f", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                         ]
                       },
-                      {"name": "Astartes shield", "id": "87e3-dc53-bb1a-07c0", "hidden": false, "import": true, "targetId": "b547-440b-71ea-f424", "type": "selectionEntry"},
+                      {"name": "Storm shield", "id": "87e3-dc53-bb1a-07c0", "hidden": false, "import": true, "targetId": "b547-440b-71ea-f424", "type": "selectionEntry"},
                       {
                         "name": "Terminator Honours upgrade",
                         "id": "e211-ba56-d5a9-429f",
@@ -6711,7 +6765,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Deathwatch Veterans",
+                        "name": "Deathwatch Veteran",
                         "id": "5427-59da-a9d0-beed",
                         "hidden": false,
                         "targetId": "8cfe-ed9f-bf3e-4335",
@@ -6766,7 +6820,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Deathwatch Veterans",
+                        "name": "Deathwatch Veteran",
                         "id": "f795-dc17-b17f-c879",
                         "hidden": false,
                         "targetId": "8cfe-ed9f-bf3e-4335",
@@ -6824,7 +6878,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Deathwatch Veterans",
+                        "name": "Deathwatch Veteran",
                         "id": "0127-3c8d-ee18-8578",
                         "hidden": false,
                         "targetId": "8cfe-ed9f-bf3e-4335",
@@ -6882,7 +6936,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Deathwatch Veterans",
+                        "name": "Deathwatch Veteran",
                         "id": "f6e7-3935-90db-a8c8",
                         "hidden": false,
                         "targetId": "8cfe-ed9f-bf3e-4335",
@@ -6917,7 +6971,7 @@
                           {"name": "Weapon Modifications", "id": "b5af-1c77-7909-ca56", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                         ]
                       },
-                      {"name": "Astartes shield", "id": "63b5-dee7-6265-32e3", "hidden": false, "import": true, "targetId": "b547-440b-71ea-f424", "type": "selectionEntry"},
+                      {"name": "Storm shield", "id": "63b5-dee7-6265-32e3", "hidden": false, "import": true, "targetId": "b547-440b-71ea-f424", "type": "selectionEntry"},
                       {
                         "name": "Terminator Honours upgrade",
                         "id": "f942-10a6-170e-4095",
@@ -6929,7 +6983,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Deathwatch Veterans",
+                        "name": "Deathwatch Veteran",
                         "id": "9ac1-d2f1-ea4b-6221",
                         "hidden": false,
                         "targetId": "8cfe-ed9f-bf3e-4335",
@@ -7129,6 +7183,15 @@
             "import": true,
             "sortIndex": 1,
             "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "9301-9e15-53a5-3047",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "9e5d-de4c-c5d1-1d3e",
             "type": "selectionEntryGroup"
           }
         ],
@@ -7953,7 +8016,26 @@
           {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
           {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
         ],
-        "entryLinks": [{"name": "Crusade", "id": "9e7d-58bc-71d9-9d85", "hidden": false, "import": true, "targetId": "9a99-f13c-a667-e698", "type": "selectionEntryGroup"}],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "9e7d-58bc-71d9-9d85",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "274f-5738-7d89-dc5e",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "type": "selectionEntryGroup"
+          }
+        ],
         "infoLinks": [
           {"name": "Combat Doctrines", "id": "53c9-8868-0fac-d7f4", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
           {"name": "Death to the Alien", "id": "8bf6-7108-1b40-d15f", "hidden": false, "targetId": "079c-c14f-83f1-25a6", "type": "profile"}
@@ -8118,6 +8200,7 @@
             "id": "27aa-0757-7a11-2050",
             "defaultSelectionEntryId": "dc49-0e3b-208b-c2ad",
             "hidden": false,
+            "sortIndex": 2,
             "constraints": [
               {"id": "07d4-8f31-6fe2-c816-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "07d4-8f31-6fe2-c816-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
