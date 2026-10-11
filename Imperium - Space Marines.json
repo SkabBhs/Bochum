@@ -54251,13 +54251,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "affects": "group.recursive.profiles.Unit",
-            "field": "bef7-942a-1a23-59f8",
-            "type": "increment",
-            "value": 1,
-            "conditions": [{"childId": "any", "field": "associations", "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
           }
         ],
         "profiles": [
