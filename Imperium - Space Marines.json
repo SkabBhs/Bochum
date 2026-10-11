@@ -9865,28 +9865,6 @@
           {"name": "Blast", "id": "431d-a768-74b9-7369", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
           {"name": "Torrent", "id": "5185-2af8-8de1-f872", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
         ],
-        "modifiers": [
-          {
-            "affects": "group.profiles.Ranged Weapons",
-            "field": "3bb-c35f-f54-fb08",
-            "type": "set",
-            "value": "D6+1",
-            "conditions": [
-              {
-                "childId": "93f5-604f-2378-4afe",
-                "childName": "Immolator",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "root-entry",
-                "shared": true,
-                "traverseAssociationGroup": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          }
-        ],
         "profiles": [
           {
             "name": "Pyreblaster",
@@ -13330,11 +13308,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "warning",
-            "type": "add",
-            "value": "If you are seeing this message, Space Marines and all their associated Chapters have not yet been updated to the new Codex.\n\n\n**You do not need to report any issues regarding this fact.**\n\n\nThe volunteer data authors are working (for free, in their spare time) to update the 200+ datasheets and 30+ Detachments as soon as possible.\n\n\nWe understand that the wait may be frustrating, but any Codex update represents days of work, and Marines are around 3 times as large as any other Faction.\n\n\nWhen this message is no longer on your list, Space Marines will have been updated."
           }
         ]
       },
@@ -15746,7 +15719,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Vanguard Veteran wtih Jump Packs",
+                "name": "Vanguard Veteran with Jump Packs",
                 "id": "5ca1-8654-298a-b29f",
                 "hidden": false,
                 "import": true,
@@ -16858,12 +16831,6 @@
             ]
           },
           {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [{"childId": "36d3-36bc-68dd-40ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
-          },
-          {
             "field": "fa9d-6f33-000c-4269",
             "type": "set",
             "value": 2,
@@ -17643,7 +17610,7 @@
                         "typeName": "Ranged Weapons",
                         "characteristics": [
                           {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                           {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
@@ -19357,12 +19324,6 @@
             "conditions": [{"childId": "f89b-84e0-6e3b-f1e2", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
           {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [{"childId": "36d3-36bc-68dd-40ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
-          },
-          {
             "field": "4ead-b0d0-0e9c-7f64",
             "type": "set",
             "value": 2,
@@ -19715,6 +19676,18 @@
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
+                        "costs": [
+                          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+                          {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+                          {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+                        ],
                         "entryLinks": [
                           {
                             "name": "Storm bolter",
@@ -25001,10 +24974,10 @@
                           {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
                           {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "9", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "D6", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Melta 2, Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "D", "$text": "D3+2", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "Keywords", "$text": "Melta 3, Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
                     ]
@@ -39833,12 +39806,6 @@
                 "value": 0
               }
             ]
-          },
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [{"childId": "36d3-36bc-68dd-40ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
           {
             "field": "category",
@@ -55954,6 +55921,15 @@
                   {
                     "childId": "f790-2929-6951-c241",
                     "childName": "Sword Brethren Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "e1e2-0be9-8f9f-1e32",
+                    "childName": "Inner Circle Companions",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -74639,7 +74615,7 @@
             "hidden": false,
             "constraints": [
               {"id": "d86a-f1ea-cb38-bd09", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
-              {"id": "d684-6814-b82d-60ed", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 5}
+              {"id": "d684-6814-b82d-60ed", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 6}
             ],
             "selectionEntries": [
               {
@@ -76631,7 +76607,7 @@
             "typeName": "Melee Weapons",
             "characteristics": [
               {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
-              {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+              {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
               {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
               {"name": "S", "$text": "4", "typeId": "ab33-d393-96ce-ccba"},
               {"name": "AP", "$text": "-1", "typeId": "41a0-1301-112a-e2f2"},
@@ -76784,8 +76760,8 @@
               {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
               {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
               {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-              {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
-              {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Close-quarters, Twin-linked", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
@@ -77866,8 +77842,8 @@
             "import": true,
             "type": "upgrade",
             "categoryLinks": [
-              {"name": "Priority Assets", "id": "0265-c86b-26ea-4f41", "primary": false, "targetId": "0936-9767-1cc7-52ae"},
-              {"name": "3DP Detachment", "id": "d671-ff9a-2b81-8e1a", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"}
+              {"name": "3DP Detachment", "id": "d671-ff9a-2b81-8e1a", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"},
+              {"name": "Take and Hold", "id": "0a1a-7497-3254-bd48", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}
             ],
             "constraints": [{"id": "3a01-4025-5cf6-5618", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
@@ -78487,7 +78463,7 @@
               {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
             ],
             "displayCosts": [{"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}],
-            "rules": [{"name": "Wrath of the Chapter", "id": "08f8-05fb-3139-34f4", "hidden": false}]
+            "rules": [{"name": "Wrath of the Chapter", "id": "08f8-05fb-3139-34f4", "description": "Friendly Tacticus units can re-roll advance rolls.", "hidden": false}]
           },
           {
             "name": "Tacticus Firestorm Force",
@@ -79406,7 +79382,7 @@
                     "value": true,
                     "conditionGroups": [
                       {
-                        "type": "or",
+                        "type": "and",
                         "conditions": [
                           {
                             "childId": "6e-71bd-2538-d468",
@@ -79718,7 +79694,6 @@
                 ],
                 "modifiers": [
                   {
-                    "affects": "self.entries",
                     "field": "hidden",
                     "type": "set",
                     "value": true,
@@ -79743,7 +79718,15 @@
                       {
                         "type": "or",
                         "conditions": [
-                          {"childId": "75e8-57c4-40e3-1817", "childName": "Transport", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "ba07-411c-2832-1f79",
+                            "childName": "Dedicated Transport",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
                           {"childId": "c619-2086-bbcf-69c9", "childName": "Fly", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
                           {"childId": "6dda-e157-334d-e93a", "childName": "Walker", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
                         ]
@@ -79796,7 +79779,15 @@
                       {
                         "type": "or",
                         "conditions": [
-                          {"childId": "75e8-57c4-40e3-1817", "childName": "Transport", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "ba07-411c-2832-1f79",
+                            "childName": "Dedicated Transport",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
                           {"childId": "c619-2086-bbcf-69c9", "childName": "Fly", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
                           {"childId": "6dda-e157-334d-e93a", "childName": "Walker", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
                         ]
@@ -79804,7 +79795,6 @@
                     ]
                   },
                   {
-                    "affects": "self.entries",
                     "field": "hidden",
                     "type": "set",
                     "value": true,
@@ -83355,7 +83345,7 @@
                 "type": "upgrade",
                 "constraints": [{"id": "19b3-4b65-b82d-68d6", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1}],
                 "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
                   {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                   {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -83369,6 +83359,15 @@
                 "modifiers": [
                   {
                     "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                    "field": "893f-9000-ccf7-648e",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Lethal Hits",
+                    "type": "append",
+                    "value": "Lethal Hits"
+                  },
+                  {
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
                     "field": "893f-9000-ccf7-648e",
                     "join": ", ",
                     "scope": "parent",
@@ -83456,7 +83455,7 @@
                     "value": true,
                     "conditionGroups": [
                       {
-                        "type": "or",
+                        "type": "and",
                         "conditions": [
                           {
                             "childId": "cf47-a0d7-7207-29dc",

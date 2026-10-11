@@ -4841,7 +4841,18 @@
                   {"id": "81b9-90fe-fce1-6342-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
               },
-              {"name": "Ceramite Fists", "id": "33a2-9ac9-9d77-6e8d", "hidden": false, "import": true, "targetId": "3a9a-05a5-41e6-7e70", "type": "selectionEntry"}
+              {
+                "name": "Ceramite Fists",
+                "id": "33a2-9ac9-9d77-6e8d",
+                "hidden": false,
+                "import": true,
+                "targetId": "3a9a-05a5-41e6-7e70",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "d0b8-8917-d2ee-c375", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "c559-2ad2-ce66-cbee", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ]
+              }
             ],
             "profiles": [
               {
@@ -5334,7 +5345,7 @@
           {"name": "Tacticus", "id": "f66c-dddf-6038-2253", "hidden": false, "primary": false, "targetId": "6c22-f7e3-6731-b974"},
           {"name": "Faction: Adeptus Astartes", "id": "dd7b-afb4-3ee5-04af", "hidden": false, "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Ultramarines", "id": "7fdf-0113-f6d4-1f3e", "hidden": false, "primary": false, "targetId": "1a2d-2f00-c054-4dcb"},
-          {"name": "Characte", "id": "38ed-3dd0-6c4c-7735", "hidden": false, "primary": false, "targetId": "5618-37c5-2431-ea30"},
+          {"name": "Character", "id": "38ed-3dd0-6c4c-7735", "hidden": false, "primary": false, "targetId": "5618-37c5-2431-ea30"},
           {"name": "Support", "id": "0804-6df1-1d78-6aff", "hidden": false, "primary": false, "targetId": "7dcd-7f61-69a7-0294"}
         ],
         "constraints": [{"id": "648d-0353-0da3-6bca", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
