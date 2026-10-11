@@ -6675,16 +6675,7 @@
             ]
           }
         ],
-        "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 240},
-          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
-          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
-          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
-          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
-          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0}
-        ],
-        "infoLinks": [
-          {"name": "Damaged: 1-6 wounds remaining", "id": "1f4e-974a-976c-4513", "hidden": false, "targetId": "8edb-b088-4c26-2fef", "type": "profile"},
+        "profiles": [
           {
             "name": "Sicaran Battle Tank",
             "id": "530f-121c-2df8-ca87",
@@ -6701,10 +6692,6 @@
               {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
             ]
           },
-          {"name": "Oath of Moment", "id": "8c1a-6e36-247b-1b12", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "167d-dd5b-9e5b-43f4", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
-        ],
-        "modifiers": [
           {
             "name": "Armoured Spearhead",
             "id": "580-5564-9e3b-f24f",
@@ -6969,9 +6956,7 @@
                             "value": 2
                           }
                         ],
-                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
-                        "infoLinks": [{"name": "Devastating Wounds", "id": "c3d7-b437-62f1-479a", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"}],
-                        "profiles": [
+                        "entryLinks": [
                           {
                             "name": "Weapon Modifications",
                             "id": "3694-f213-8e13-86fa",
@@ -7465,7 +7450,6 @@
                   {"id": "c089-a382-55da-becf", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "5404-371a-b24c-72c4", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
-                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
                 "entryLinks": [
                   {
                     "name": "Weapon Modifications",
@@ -7518,7 +7502,7 @@
                 ]
               }
             ],
-            "selectionEntryGroups": [
+            "selectionEntries": [
               {
                 "name": "Venator neutron laser",
                 "id": "17fc-29fd-a1bb-2fd6",
@@ -8224,7 +8208,7 @@
                 ]
               }
             ],
-            "selectionEntryGroups": [
+            "selectionEntries": [
               {
                 "name": "Omega plasma array",
                 "id": "a490-ac28-c26-ffe3",
@@ -8282,7 +8266,9 @@
                     ]
                   }
                 ]
-              },
+              }
+            ],
+            "selectionEntryGroups": [
               {
                 "name": "Sponsons",
                 "id": "48be-9ec8-4d39-e84",
@@ -8400,7 +8386,6 @@
                             "value": 2
                           }
                         ],
-                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
                         "entryLinks": [
                           {
                             "name": "Weapon Modifications",
@@ -8590,7 +8575,7 @@
                   {"id": "74d8-2a6d-ed53-87b3", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "8cdf-3e1a-5dbe-6266", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
-                "entryLinks": [
+                "selectionEntries": [
                   {
                     "name": "Graviton cannon",
                     "id": "7ae5-6407-4e90-6568",
@@ -9063,7 +9048,7 @@
             ]
           }
         ],
-        "modifiers": [
+        "profiles": [
           {
             "name": "Vindicator Laser Destroyer",
             "id": "82db-41ac-839e-6b08",
@@ -9160,7 +9145,7 @@
                 ]
               }
             ],
-            "selectionEntryGroups": [
+            "selectionEntries": [
               {
                 "name": "Laservolley cannon",
                 "id": "38d2-3b20-6d20-837e",
@@ -9798,7 +9783,7 @@
                   {"id": "f123-69a9-380a-8a9e", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "6aa0-1539-1275-3292", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
-                "selectionEntries": [
+                "entryLinks": [
                   {
                     "name": "Weapon Modifications",
                     "id": "4a60-6fa5-f5f1-b076",
@@ -9855,7 +9840,6 @@
           {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0}
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-5 wounds remaining", "id": "8ad9-131d-5315-5f4b", "hidden": false, "targetId": "3106-d752-30b8-b24d", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "b5bb-644b-53ed-d053",
@@ -9904,10 +9888,6 @@
               }
             ]
           },
-          {"name": "Oath of Moment", "id": "7272-4a9b-1a66-07e8", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "c921-885a-9f9c-9de7", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
-        ],
-        "modifiers": [
           {
             "field": "category",
             "type": "add",
@@ -10151,7 +10131,7 @@
                           {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
                           {"name": "Keywords", "$text": "Blast", "typeId": "7f1b-8591-2fcf-d01c"}
                         ],
-                        "entryLinks": [
+                        "modifiers": [
                           {
                             "field": "3bb-c35f-f54-fb08",
                             "join": "",
@@ -10176,7 +10156,7 @@
                           {"name": "D", "$text": "D6", "typeId": "a354-c1c8-a745-f9e3"},
                           {"name": "Keywords", "typeId": "7f1b-8591-2fcf-d01c"}
                         ],
-                        "entryLinks": [
+                        "modifiers": [
                           {
                             "field": "a354-c1c8-a745-f9e3",
                             "join": "",
@@ -10355,7 +10335,6 @@
         ],
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 290}],
         "infoLinks": [
-          {"name": "Damaged: 1-5 wounds remaining", "id": "ee54-8efc-7059-8ebd", "hidden": false, "targetId": "3106-d752-30b8-b24d", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "a99e-25d9-592b-84f1",
@@ -10387,10 +10366,6 @@
               }
             ]
           },
-          {"name": "Oath of Moment", "id": "22af-af27-82ac-d49b", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "ca29-9980-dce3-d245", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
-        ],
-        "modifiers": [
           {
             "field": "category",
             "type": "add",
@@ -10510,7 +10485,7 @@
                 ]
               }
             ],
-            "selectionEntries": [
+            "selectionEntryGroups": [
               {
                 "name": "Door weapons",
                 "id": "5375-8b44-9188-ec17",
@@ -10520,8 +10495,7 @@
                   {"id": "43cc-34ca-e1f9-111e", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "1f08-2a7c-ef78-9380", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
-                "infoLinks": [{"name": "Hazardous", "id": "f4e2-15ba-b7bd-3a9c", "hidden": false, "targetId": "8367-374c-f87-c627", "type": "rule"}],
-                "profiles": [
+                "selectionEntries": [
                   {
                     "name": "Two twin autocannons",
                     "id": "eb13-ff43-e33a-1d92",
@@ -11153,7 +11127,7 @@
                 ]
               }
             ],
-            "selectionEntries": [
+            "selectionEntryGroups": [
               {
                 "name": "Pintle weapon",
                 "id": "ad1c-bbeb-9394-9104",
@@ -11334,7 +11308,6 @@
           {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
           {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0}
         ],
-        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 200}],
         "infoLinks": [
           {"name": "Damaged: 1-6 wounds remaining", "id": "4762-47eb-615-b538", "hidden": false, "targetId": "8edb-b088-4c26-2fef", "type": "profile"},
           {
@@ -11367,11 +11340,6 @@
               }
             ]
           },
-          {"name": "Deep Strike", "id": "c64-9d84-5fa6-fc4", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"},
-          {"name": "Oath of Moment", "id": "e1a8-867f-c665-df87", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "5162-ea76-d159-2631", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
-        ],
-        "modifiers": [
           {
             "field": "category",
             "type": "add",
@@ -12206,7 +12174,6 @@
                           {"name": "Sustained Hits", "id": "be4d-8582-a8a0-434a", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"},
                           {"name": "Twin-linked", "id": "8f19-3ccd-a31c-1c79", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}
                         ],
-                        "infoLinks": [{"name": "Twin-linked", "id": "4215-2ec9-3470-2c89", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}],
                         "profiles": [
                           {
                             "name": "Quad heavy bolter",
@@ -12317,19 +12284,6 @@
               }
             ]
           }
-        ]
-      },
-      {
-        "name": "Fire Raptor Gunship [Legends]",
-        "id": "1fc7-7880-e4d4-acbf",
-        "hidden": false,
-        "import": true,
-        "type": "model",
-        "categoryLinks": [
-          {"name": "Vehicle", "id": "10ee-ef68-2e3d-d151", "primary": true, "targetId": "dbd4-63-af05-998"},
-          {"name": "Fly", "id": "4fe4-e740-50-513d", "primary": false, "targetId": "c619-2086-bbcf-69c9"},
-          {"name": "Aircraft", "id": "3c9c-1983-9329-b536", "primary": false, "targetId": "63f1-e6e8-f6f6-a4f0"},
-          {"name": "Fire Raptor Gunship", "id": "3bdd-0e37-99d2-3a8a", "hidden": false, "primary": false, "targetId": "2f3c-b429-17fd-f5ea"}
         ],
         "selectionEntryGroups": [
           {
@@ -12379,16 +12333,6 @@
                     "targetId": "f9da-852a-d7f0-92e9",
                     "type": "selectionEntryGroup"
                   }
-                ]
-              },
-              {
-                "name": "Wing weapons",
-                "id": "acac-e978-cd95-4640",
-                "defaultSelectionEntryId": "831-7d99-a4e8-60df",
-                "hidden": false,
-                "constraints": [
-                  {"id": "c312-b5be-f74b-cea", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "de4c-b0ba-f775-6bf5", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
                 "infoLinks": [
                   {"name": "Blast", "id": "892b-a786-42bb-3fc7", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
@@ -12414,7 +12358,7 @@
                 ]
               }
             ],
-            "selectionEntries": [
+            "selectionEntryGroups": [
               {
                 "name": "Frontal weapon",
                 "id": "f7ef-21a2-edb4-e1fc",
@@ -13647,27 +13591,6 @@
               }
             ]
           }
-        ]
-      },
-      {
-        "name": "Falchion [Legends]",
-        "id": "625b-29e4-7be7-db5a",
-        "hidden": false,
-        "import": true,
-        "type": "model",
-        "categoryLinks": [
-          {"name": "Vehicle", "id": "df39-dd9e-fcb8-d7e1", "primary": true, "targetId": "dbd4-63-af05-998"},
-          {"name": "Titanic", "id": "e86-dc0c-ae9-f433", "primary": false, "targetId": "5929-ad51-d006-e008"},
-          {"name": "Smoke", "id": "f673-d48d-d427-7e9c", "primary": false, "targetId": "6df-937-16bc-8c1a"},
-          {"name": "Falchion", "id": "d62e-a829-635d-7a68", "primary": false, "targetId": "2423-750-51f-b957"}
-        ],
-        "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 420},
-          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
-          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
-          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
-          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
-          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0}
         ],
         "selectionEntryGroups": [
           {
@@ -14152,20 +14075,6 @@
                     "targetId": "f9da-852a-d7f0-92e9",
                     "type": "selectionEntryGroup"
                   }
-                ]
-              }
-            ],
-            "selectionEntries": [
-              {
-                "name": "Siege melta array",
-                "id": "8460-d306-cb15-35be",
-                "hidden": false,
-                "import": true,
-                "type": "upgrade",
-                "categoryLinks": [{"name": "Damage Dx Weapon", "id": "634b-a121-9983-44ac", "hidden": false, "primary": false, "targetId": "4986-bf86-beb4-13ac"}],
-                "constraints": [
-                  {"id": "76d0-f62f-6bd8-8a6", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "fa90-3325-2210-c7e2", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
                 "infoLinks": [{"name": "Lethal Hits", "id": "430f-d56d-3797-434", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}],
                 "profiles": [
@@ -14207,18 +14116,6 @@
                     "targetId": "f9da-852a-d7f0-92e9",
                     "type": "selectionEntryGroup"
                   }
-                ]
-              }
-            ],
-            "selectionEntryGroups": [
-              {
-                "name": "Front sponsons",
-                "id": "e367-9c3c-2de2-a727",
-                "defaultSelectionEntryId": "6e58-2f4-8f80-ec72",
-                "hidden": false,
-                "constraints": [
-                  {"id": "3f40-3637-c398-fa93", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "287c-ecad-fbc-9695", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
                 "infoLinks": [{"name": "Lethal Hits", "id": "edd7-b179-5d78-a63a", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}],
                 "profiles": [
@@ -14514,7 +14411,7 @@
               {"id": "c6f4-a1e6-4c3d-5678", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "f605-f75a-2fd7-e285", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
-            "entryLinks": [
+            "selectionEntries": [
               {
                 "name": "Impaler harpoon and slaughter blade",
                 "id": "c84d-86d9-a7d4-e160",
@@ -14678,7 +14575,6 @@
           {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0}
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-4 wounds remaining", "id": "988e-eae2-5b26-285f", "hidden": false, "targetId": "d44e-2f5-cadf-9eb", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "a993-a7c9-c6c8-254",
@@ -14709,7 +14605,7 @@
             ]
           }
         ],
-        "modifiers": [
+        "profiles": [
           {
             "name": "Runes of the Blood God",
             "id": "7a21-d7fb-1f83-f292",
@@ -14864,7 +14760,6 @@
                   {"id": "1600-f700-1df6-3dd7", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "1358-59c9-945b-7183", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
-                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
                 "entryLinks": [
                   {
                     "name": "Weapon Modifications",
@@ -15071,7 +14966,6 @@
                     "type": "selectionEntryGroup"
                   }
                 ],
-                "infoLinks": [{"name": "Sustained Hits", "id": "347d-7a34-6497-68f0", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"}],
                 "profiles": [
                   {
                     "name": "➤ Kytan cleaver - strike",
@@ -15128,7 +15022,6 @@
                     "type": "selectionEntryGroup"
                   }
                 ],
-                "infoLinks": [{"name": "Lethal Hits", "id": "430f-d56d-3797-434", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}],
                 "profiles": [
                   {
                     "name": "Kytan gatling cannon",
@@ -16020,12 +15913,6 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
-          },
-          {
-            "field": "b03b-c239-15a5-da55",
-            "type": "set",
-            "value": 2,
-            "conditions": [{"childId": "5929-ad51-d006-e008", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}]
           }
         ]
       }
