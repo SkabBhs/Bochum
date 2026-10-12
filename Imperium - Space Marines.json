@@ -8037,23 +8037,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Blood Angels tax",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditions": [
-              {
-                "childId": "4ef9-15ce-e3e6-36de",
-                "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                "field": "selections",
-                "scope": "primary-catalogue",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
           }
         ],
         "profiles": [
@@ -41296,62 +41279,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "set",
-            "value": 230,
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "470a-6daa-9014-12df",
-                    "childName": "Imperium - Adeptus Astartes - Dark Angels",
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "primary-catalogue",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "4ef9-15ce-e3e6-36de",
-                    "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "primary-catalogue",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "94bb-3284-ee14-57a1",
-                    "childName": "Imperium - Adeptus Astartes - Space Wolves",
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "primary-catalogue",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "f89b-84e0-6e3b-f1e2",
-                    "childName": "Imperium - Adeptus Astartes - Deathwatch",
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "primary-catalogue",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -46009,8 +45936,20 @@
             "type": "and",
             "conditions": [{"childId": "any", "field": "associations", "includeChildSelections": false, "scope": "self", "shared": true, "type": "atLeast", "value": 1}],
             "modifiers": [
-              {"affects": "self.entries.group.recursive.profiles.Ranged Weapons", "field": "7f1b-8591-2fcf-d01c", "join": ", ", "type": "append", "value": "Lethal Hits"},
-              {"affects": "self.entries.group.recursive.profiles.Melee Weapons", "field": "893f-9000-ccf7-648e", "join": ", ", "type": "append", "value": "Lethal Hits"}
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "type": "append",
+                "value": "Lethal Hits: Non-Monster/Vehicle"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                "field": "893f-9000-ccf7-648e",
+                "join": ", ",
+                "type": "append",
+                "value": "Lethal Hits: Non-Monster/Vehicle"
+              }
             ]
           }
         ],
@@ -46566,8 +46505,20 @@
             "type": "and",
             "conditions": [{"childId": "any", "field": "associations", "includeChildSelections": false, "scope": "self", "shared": true, "type": "atLeast", "value": 1}],
             "modifiers": [
-              {"affects": "self.entries.group.recursive.profiles.Ranged Weapons", "field": "7f1b-8591-2fcf-d01c", "join": ", ", "type": "append", "value": "Lethal Hits"},
-              {"affects": "self.entries.group.recursive.profiles.Melee Weapons", "field": "893f-9000-ccf7-648e", "join": ", ", "type": "append", "value": "Lethal Hits"}
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "type": "append",
+                "value": "Lethal Hits: Non-Monster/Vehicle"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                "field": "893f-9000-ccf7-648e",
+                "join": ", ",
+                "type": "append",
+                "value": "Lethal Hits: Non-Monster/Vehicle"
+              }
             ]
           }
         ],
@@ -46965,8 +46916,20 @@
             "type": "and",
             "conditions": [{"childId": "any", "field": "associations", "includeChildSelections": false, "scope": "self", "shared": true, "type": "atLeast", "value": 1}],
             "modifiers": [
-              {"affects": "self.entries.group.recursive.profiles.Ranged Weapons", "field": "7f1b-8591-2fcf-d01c", "join": ", ", "type": "append", "value": "Lethal Hits"},
-              {"affects": "self.entries.group.recursive.profiles.Melee Weapons", "field": "893f-9000-ccf7-648e", "join": ", ", "type": "append", "value": "Lethal Hits"}
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "type": "append",
+                "value": "Lethal Hits: Non-Monster/Vehicle"
+              },
+              {
+                "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                "field": "893f-9000-ccf7-648e",
+                "join": ", ",
+                "type": "append",
+                "value": "Lethal Hits: Non-Monster/Vehicle"
+              }
             ]
           }
         ],
@@ -50563,7 +50526,8 @@
           {"name": "Faction: Adeptus Astartes", "id": "dd69-3676-23b1-8273", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Fly", "id": "a36b-b954-3465-55b5", "primary": false, "targetId": "c619-2086-bbcf-69c9"},
           {"name": "Jump Pack", "id": "b8e5-88ba-773d-eb9c", "primary": false, "targetId": "dda2-bb0a-215e-ad9c"},
-          {"name": "Leader", "id": "40a8-08e5-487a-e095", "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Leader", "id": "40a8-08e5-487a-e095", "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Tacticus", "id": "aa02-41fc-3198-0db1", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"}
         ],
         "constraints": [
           {"id": "3df8-644d-7e51-b2a7", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
@@ -68181,55 +68145,6 @@
             ]
           },
           {
-            "comment": "Blood Angels tax",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditions": [
-              {
-                "childId": "4ef9-15ce-e3e6-36de",
-                "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                "field": "selections",
-                "scope": "primary-catalogue",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "comment": "Blood Angels tax",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "4ef9-15ce-e3e6-36de",
-                    "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "id": "d4ac-a6a9-9c3a-8821",
-                    "childId": "39ae-d203-80cc-60d4",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "cdd9-efda-95-e7b2",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 6
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "affects": "self.entries.recursive.profiles.Unit",
             "field": "bef7-942a-1a23-59f8",
             "type": "increment",
@@ -85530,7 +85445,7 @@
                     "value": true,
                     "conditionGroups": [
                       {
-                        "type": "or",
+                        "type": "and",
                         "conditions": [
                           {"childId": "14a0-40c9-2748-ae6e", "childName": "Mounted", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
                           {"childId": "c619-2086-bbcf-69c9", "childName": "Fly", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}

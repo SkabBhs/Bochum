@@ -9162,26 +9162,60 @@
                   {"id": "2b17-a5e-966e-35f7", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "133b-cd6c-eb4e-5131", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
-              },
+              }
+            ],
+            "selectionEntryGroups": [
               {
-                "name": "Power fist",
-                "id": "559a-2b2d-14e1-e068",
+                "name": "Melee",
+                "id": "5367-d6d2-731f-938a",
                 "hidden": false,
-                "import": true,
-                "targetId": "f8d8-7e77-4b71-faac",
-                "type": "selectionEntry",
                 "constraints": [
-                  {"id": "49c7-4150-c97e-ca73-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "49c7-4150-c97e-ca73-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {"id": "e5f5-c5c8-5131-e557", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "da7f-9207-bee7-e390", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
                 ],
                 "entryLinks": [
-                  {"name": "Weapon Modifications", "id": "c8c7-1cf3-9e04-7f6e", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                  {
+                    "name": "Power fist",
+                    "id": "9f13-78a2-64de-99c1",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f8d8-7e77-4b71-faac",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "551e-ebf3-8888-71eb", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "4966-f02c-dfc6-fc02",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "5a2-c6a5-9b4b-605f",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "4468-906e-1867-17ea", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "entryLinks": [
+                      {"name": "Weapon Modifications", "id": "9a76-0c62-4557-7e96", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                    ]
+                  },
+                  {
+                    "name": "Power weapon",
+                    "id": "a953-7c53-ac6e-d67b",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "e1b5-a74f-b2ec-c7ed",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "6591-3449-c2b0-5554", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "efb9-3dbc-97b9-63b5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Weapon Modifications", "id": "95d7-ad4c-3a7c-babb", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                    ]
+                  }
                 ]
               }
             ]
           },
           {
-            "name": "Heavy Flamer & Power Fist",
+            "name": "Heavy Flamer",
             "id": "8fef-ad24-3222-a2b8",
             "hidden": false,
             "import": true,
@@ -9199,26 +9233,60 @@
                   {"id": "e8f3-96e6-901c-5768", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "425a-14d6-d51-7cd8", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
-              },
+              }
+            ],
+            "selectionEntryGroups": [
               {
-                "name": "Power fist",
-                "id": "63ab-e513-c124-1358",
+                "name": "Melee",
+                "id": "08c3-afa5-b88c-f9e9",
                 "hidden": false,
-                "import": true,
-                "targetId": "f8d8-7e77-4b71-faac",
-                "type": "selectionEntry",
                 "constraints": [
-                  {"id": "7213-8160-bb8c-5651-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "7213-8160-bb8c-5651-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {"id": "6f04-c3a6-bb3f-82d2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "2d47-c503-fe40-6ec8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
                 ],
                 "entryLinks": [
-                  {"name": "Weapon Modifications", "id": "ceff-2f2e-8d77-a0c5", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                  {
+                    "name": "Power fist",
+                    "id": "6781-f4c9-dddf-f65b",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f8d8-7e77-4b71-faac",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "cc32-defc-3a18-e3fc", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "d4b0-c45c-e55e-e5ab",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "5a2-c6a5-9b4b-605f",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "5a5a-05d9-8d11-64cf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "entryLinks": [
+                      {"name": "Weapon Modifications", "id": "8b9c-5169-ef2a-98fe", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                    ]
+                  },
+                  {
+                    "name": "Power weapon",
+                    "id": "7c98-3f8a-25a2-1563",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "e1b5-a74f-b2ec-c7ed",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "f0bf-0b39-2dae-bbc8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "dfd3-04dc-1369-c099", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Weapon Modifications", "id": "1226-acaa-a44b-a8fb", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                    ]
+                  }
                 ]
               }
             ]
           },
           {
-            "name": "Plasma Cannon & Power Fist",
+            "name": "Plasma Cannon",
             "id": "8d7-b5ed-f870-e86e",
             "hidden": false,
             "import": true,
@@ -9236,17 +9304,54 @@
                   {"id": "e8b2-8dd7-c5a4-c30c", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "38a0-b614-f655-a690", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
-              },
+              }
+            ],
+            "selectionEntryGroups": [
               {
-                "name": "Power fist",
-                "id": "2317-08cc-fb2b-ddf4",
+                "name": "Melee",
+                "id": "f41d-0f75-ccf3-976a",
                 "hidden": false,
-                "import": true,
-                "targetId": "f8d8-7e77-4b71-faac",
-                "type": "selectionEntry",
                 "constraints": [
-                  {"id": "27ad-293f-b823-8907", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "2d05-8464-4f40-6eca", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {"id": "50f3-a378-a0cf-6944", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "64d8-8796-0eff-c07c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Power fist",
+                    "id": "2317-08cc-fb2b-ddf4",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f8d8-7e77-4b71-faac",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "2d05-8464-4f40-6eca", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "c722-c299-13db-42a0",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "5a2-c6a5-9b4b-605f",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "c437-b153-0933-6d40", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "entryLinks": [
+                      {"name": "Weapon Modifications", "id": "f0d4-6554-59e3-5997", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                    ]
+                  },
+                  {
+                    "name": "Power weapon",
+                    "id": "110e-403f-f832-4afc",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "e1b5-a74f-b2ec-c7ed",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "d6ce-7878-5651-2e8e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "7f94-22df-d745-5f6d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Weapon Modifications", "id": "11d0-2720-02b4-110a", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                    ]
+                  }
                 ]
               }
             ]
@@ -9322,7 +9427,22 @@
                   {"id": "3f6e-149c-9dac-3764-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
                 "entryLinks": [
-                  {"name": "Weapon Modifications", "id": "d8d2-c091-e60c-8af8", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                  {"name": "Weapon Modifications", "id": "d8d2-c091-e60c-8af8", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"},
+                  {
+                    "name": "Power weapon",
+                    "id": "6e0f-b32c-2a8d-afda",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "e1b5-a74f-b2ec-c7ed",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "e083-9f72-0e34-aa1a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "f084-3195-9ef7-7706", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Weapon Modifications", "id": "0685-671f-b04e-02e9", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                    ]
+                  }
                 ]
               }
             ]

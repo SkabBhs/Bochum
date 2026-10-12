@@ -370,6 +370,14 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "The Lion Helm",
+            "id": "03a6-d653-43a3-1ca8",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This unit has a 4+ InSv", "typeId": "9b8f-694b-e5e-b573"}]
           }
         ],
         "selectionEntries": [
