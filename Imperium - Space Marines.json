@@ -11725,7 +11725,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 151700,
+            "value": 170,
             "conditions": [
               {
                 "id": "e229-7de0-1622-b2ee",
@@ -53876,13 +53876,7 @@
               }
             ]
           },
-          {
-            "affects": "group.recursive.profiles.Unit",
-            "field": "bef7-942a-1a23-59f8",
-            "type": "increment",
-            "value": 1,
-            "conditions": [{"childId": "any", "field": "associations", "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
-          }
+          {"affects": "group.recursive.profiles.Unit", "field": "bef7-942a-1a23-59f8", "type": "increment", "value": 1}
         ],
         "profiles": [
           {
@@ -54708,10 +54702,6 @@
             "defaultSelectionEntryId": "c352-4bc4-16a-ee96",
             "hidden": false,
             "sortIndex": 4,
-            "constraints": [
-              {"id": "4501-56b6-9cd5-6c91", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "8f8f-2025-8fb0-4c79", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ],
             "entryLinks": [
               {
                 "name": "Storm bolter",

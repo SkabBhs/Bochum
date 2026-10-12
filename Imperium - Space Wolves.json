@@ -2965,7 +2965,7 @@
         ],
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 75}],
         "entryLinks": [
-          {"name": "Crushing teeth and claws", "id": "6f53-4f4-8af1-18e", "hidden": false, "import": true, "targetId": "4700-100e-6b9e-336a", "type": "selectionEntry"},
+          {"name": "Teeth and claws", "id": "6f53-4f4-8af1-18e", "hidden": false, "import": true, "targetId": "4700-100e-6b9e-336a", "type": "selectionEntry"},
           {"name": "Warlord", "id": "5151-9065-2de7-c95d", "hidden": false, "import": true, "targetId": "caa-f869-3cbd-b48e", "type": "selectionEntry"}
         ],
         "infoLinks": [
@@ -4192,7 +4192,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "Crushing teeth and claws",
+                "name": "Teeth and claws",
                 "id": "26f0-9978-1be3-d54d",
                 "hidden": false,
                 "import": true,
@@ -4981,7 +4981,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "Crushing teeth and claws",
+                "name": "Teeth and claws",
                 "id": "31d3-efdd-59d6-2548",
                 "hidden": false,
                 "import": true,
@@ -10019,7 +10019,7 @@
                     ]
                   },
                   {
-                    "name": "Crushing teeth and claws",
+                    "name": "Teeth and claws",
                     "id": "7023-227f-aaea-12c9",
                     "hidden": false,
                     "import": true,
@@ -10114,7 +10114,7 @@
                     ]
                   },
                   {
-                    "name": "Crushing teeth and claws",
+                    "name": "Teeth and claws",
                     "id": "b5b-23e3-c1df-a7e6",
                     "hidden": false,
                     "import": true,
@@ -10193,7 +10193,7 @@
                     ]
                   },
                   {
-                    "name": "Crushing teeth and claws",
+                    "name": "Teeth and claws",
                     "id": "a994-993-728a-1a54",
                     "hidden": false,
                     "import": true,
@@ -18138,7 +18138,7 @@
             "sortIndex": 4,
             "entryLinks": [
               {
-                "name": "Crushing teeth and claws",
+                "name": "Teeth and claws",
                 "id": "7a52-347c-7423-4d22",
                 "hidden": false,
                 "import": true,
@@ -19818,12 +19818,16 @@
           }
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 100},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 125},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
           {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
-          {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0}
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+          {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+          {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
         ],
         "entryLinks": [
           {
@@ -19963,7 +19967,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 200,
+            "value": 250,
             "conditions": [
               {
                 "id": "8078-7a71-8c1a-2887",
@@ -19997,7 +20001,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 10,
+            "value": 20,
             "conditionGroups": [
               {
                 "type": "and",
@@ -21302,7 +21306,7 @@
                     "constraints": [{"id": "a54e-4aca-74f7-f5cb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "entryLinks": [
                       {
-                        "name": "Combat Blade",
+                        "name": "Combat Knife",
                         "id": "336b-cff0-c609-905e",
                         "hidden": false,
                         "import": true,
@@ -21618,7 +21622,7 @@
             ]
           },
           {
-            "name": "Combat Blade",
+            "name": "Combat Knife",
             "id": "330e-15eb-782b-6502",
             "hidden": false,
             "import": true,
@@ -21631,7 +21635,7 @@
             ]
           }
         ],
-        "infoLinks": [{"name": "Wolf Scouts", "id": "e2a2-bdd8-d39c-195f", "hidden": false, "targetId": "bef1-bffc-f075-5382", "type": "profile"}],
+        "infoLinks": [{"name": "Wolf Scout", "id": "e2a2-bdd8-d39c-195f", "hidden": false, "targetId": "bef1-bffc-f075-5382", "type": "profile"}],
         "selectionEntries": [
           {
             "name": "Haywire Mine",
@@ -21672,7 +21676,7 @@
         "constraints": [{"id": "8fc8-f048-6b0e-fa1a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
         "entryLinks": [
           {
-            "name": "Combat Blade",
+            "name": "Combat Knife",
             "id": "d4f4-5426-75b0-a681",
             "hidden": false,
             "import": true,
@@ -21698,7 +21702,7 @@
             ]
           }
         ],
-        "infoLinks": [{"name": "Wolf Scouts", "id": "922c-7680-8049-b0f4", "hidden": false, "targetId": "bef1-bffc-f075-5382", "type": "profile"}]
+        "infoLinks": [{"name": "Wolf Scout", "id": "922c-7680-8049-b0f4", "hidden": false, "targetId": "bef1-bffc-f075-5382", "type": "profile"}]
       },
       {
         "name": "Wolf Scout w/ runic stave and Thunderclap",
@@ -21721,7 +21725,7 @@
             ]
           }
         ],
-        "infoLinks": [{"name": "Wolf Scouts", "id": "d5c4-89c3-84f7-29a2", "hidden": false, "targetId": "bef1-bffc-f075-5382", "type": "profile"}],
+        "infoLinks": [{"name": "Wolf Scout", "id": "d5c4-89c3-84f7-29a2", "hidden": false, "targetId": "bef1-bffc-f075-5382", "type": "profile"}],
         "selectionEntries": [
           {
             "name": "Runic Stave",
@@ -21809,7 +21813,7 @@
             ]
           },
           {
-            "name": "Combat Blade",
+            "name": "Combat Knife",
             "id": "b8c3-21c5-37f4-07ed",
             "hidden": false,
             "import": true,
@@ -21822,7 +21826,7 @@
             ]
           }
         ],
-        "infoLinks": [{"name": "Wolf Scouts", "id": "574f-8838-9fc0-4c49", "hidden": false, "targetId": "bef1-bffc-f075-5382", "type": "profile"}]
+        "infoLinks": [{"name": "Wolf Scout", "id": "574f-8838-9fc0-4c49", "hidden": false, "targetId": "bef1-bffc-f075-5382", "type": "profile"}]
       },
       {
         "name": "Wolf Scout Pack Leader",
@@ -21864,7 +21868,7 @@
             ]
           }
         ],
-        "infoLinks": [{"name": "Wolf Scouts", "id": "ddd2-c477-0532-b6f6", "hidden": false, "targetId": "bef1-bffc-f075-5382", "type": "profile"}]
+        "infoLinks": [{"name": "Wolf Scout", "id": "ddd2-c477-0532-b6f6", "hidden": false, "targetId": "bef1-bffc-f075-5382", "type": "profile"}]
       },
       {
         "name": "Wolf Guard Headtaker w/ paired weapons",

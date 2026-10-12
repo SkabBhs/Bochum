@@ -9101,10 +9101,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "constraints": [
-          {"id": "56e0-48da-6da2-733f-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-          {"id": "56e0-48da-6da2-733f-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-        ],
         "entryLinks": [
           {"name": "Weapon Modifications", "id": "61b5-bf46-3e5e-baeb", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
         ],
