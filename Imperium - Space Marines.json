@@ -78324,7 +78324,7 @@
               {
                 "name": "Legacy of the Angel",
                 "id": "fe54-db84-ea4e-a5be",
-                "description": "Friendly Blood Angels Character units:\n\n▪ Can re-roll hit rolls of 1.\n▪ Can re-roll wound rolls of 1.\n\n\nRestrictions: Your army can include Blood Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.",
+                "description": "Friendly Blood Angels Character units:\n\n▪ Can re-roll hit rolls of 1.\n▪ Can re-roll wound rolls of 1.\n\nRestrictions: Your army can include Blood Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.",
                 "hidden": false
               }
             ]
@@ -78335,10 +78335,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "3DP Detachment", "id": "d671-ff9a-2b81-8e1a", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"},
-              {"name": "Take and Hold", "id": "0a1a-7497-3254-bd48", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}
-            ],
+            "categoryLinks": [{"name": "Take and Hold", "id": "0a1a-7497-3254-bd48", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}],
             "constraints": [{"id": "3a01-4025-5cf6-5618", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -78601,10 +78598,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "Take and Hold", "id": "ae07-9a57-cf2b-4daa", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"},
-              {"name": "3DP Detachment", "id": "b0f0-c6f7-ef13-ace8", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"}
-            ],
+            "categoryLinks": [{"name": "Take and Hold", "id": "ae07-9a57-cf2b-4daa", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}],
             "constraints": [{"id": "8da4-4be7-b16e-8f64", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -78714,7 +78708,7 @@
               {
                 "name": "Wrath of Angels",
                 "id": "eae0-07ec-3f4e-ef3a",
-                "description": "The tactical doctrine is active for Sanguinary Guard units in addition to any other combat doctrine.\n\n\nRestrictions: Your army can include Blood Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.",
+                "description": "The tactical doctrine is active for Sanguinary Guard units in addition to any other combat doctrine.\n\nRestrictions: Your army can include Blood Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.",
                 "hidden": false
               }
             ]
@@ -78752,9 +78746,9 @@
             ],
             "rules": [
               {
-                "name": "Fanatacal Celerity",
+                "name": "Sanguinius' Fury",
                 "id": "c202-7521-84d8-0231",
-                "description": "When a friendly DEATH COMPANY unit is selected to make an advance move, you can use this ability. If you do:\n\n\n▪ That unit suffers D3+1 mortal wounds.\n▪ That move does not prevent that unit from being eligible to declare a charge.\n\n\nThis detachment has the DOOMED tag and cannot be taken with another DOOMED detachment.\n\n\nRestrictions: Your army can include BLOOD ANGELS units, but it\ncannot include any ADEPTUS ASTARTES units drawn from any\nother Chapter.",
+                "description": "Friendly DEATH COMPANY units have the following:\n- At the start of each phase, the assault doctrine is active for this unit.\n- The devastator/tactical doctrine cannot be active for this unit.\n\n*This means that, regardless of any other rules, Death Company units can never have an active doctrine other than the assault doctrine.*\n\nRestrictions: Your army can include Blood Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.",
                 "hidden": false
               }
             ]
