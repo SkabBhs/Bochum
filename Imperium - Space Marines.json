@@ -9611,24 +9611,6 @@
             ]
           },
           {
-            "affects": "self.entries.recursive.profiles.Unit",
-            "field": "bef7-942a-1a23-59f8",
-            "type": "increment",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "8425-f97a-408-9f8a",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 10,
@@ -10109,38 +10091,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "comment": "Blood Angels tax",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "4ef9-15ce-e3e6-36de",
-                    "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "id": "8f90-a55b-77c6-ee15",
-                    "childId": "1e84-b3ff-decc-2f0e",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "a10b-fbfe-b1fa-6f0c",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 6
-                  }
-                ]
               }
             ]
           }
@@ -10632,25 +10582,6 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "childName": "1. Incursion (1000 Point limit)",
                 "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "affects": "self.entries.recursive.profiles.Unit",
-            "field": "bef7-942a-1a23-59f8",
-            "type": "increment",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "ccae-25d8-84c1-913f",
-                "childName": "Iron Father Ferrios",
-                "field": "selections",
-                "includeChildForces": true,
                 "includeChildSelections": true,
                 "scope": "force",
                 "shared": true,
@@ -11271,7 +11202,6 @@
             "type": "upgrade",
             "associations": [{"name": "Helix Gauntlet", "id": "fee1-020d-f500-b855", "childId": "28a8-f81d-eb83-55fb", "max": 1, "min": 1, "scope": "70dc-ed18-2788-b35a"}],
             "constraints": [{"id": "917a-f765-988c-a396", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-            "infoLinks": [{"name": "Feel No Pain", "id": "4a20-f135-d608-e28", "hidden": false, "targetId": "9bf4-280f-bbe2-6fbb", "type": "rule"}],
             "profiles": [
               {
                 "name": "Helix Gauntlet",
@@ -16918,7 +16848,18 @@
                 "type": "model",
                 "constraints": [{"id": "fb71-c797-ed3a-1b2f", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 9}],
                 "entryLinks": [
-                  {"name": "Bolt pistol", "id": "4c0f-b31f-0154-b391", "hidden": false, "import": true, "targetId": "18b0-8c2-173f-5", "type": "selectionEntry"},
+                  {
+                    "name": "Bolt pistol",
+                    "id": "4c0f-b31f-0154-b391",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "18b0-8c2-173f-5",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "bc01-512e-40e2-f3f8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "4feb-4069-45f2-c6bc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                    ]
+                  },
                   {
                     "name": "Artificer Firearm",
                     "id": "9917-2231-fa2e-7446",
@@ -16981,6 +16922,10 @@
                     "import": true,
                     "targetId": "18b0-8c2-173f-5",
                     "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "763e-f580-dbc4-0cbd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "48b5-69a8-94ac-a78c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                    ],
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "84be-2240-5ddf-a980", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                     ]
@@ -17119,7 +17064,18 @@
                 "type": "model",
                 "constraints": [{"id": "9a5a-c668-5052-288e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "entryLinks": [
-                  {"name": "Bolt pistol", "id": "5fa1-7d11-730-b2b", "hidden": false, "import": true, "targetId": "18b0-8c2-173f-5", "type": "selectionEntry"},
+                  {
+                    "name": "Bolt pistol",
+                    "id": "5fa1-7d11-730-b2b",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "18b0-8c2-173f-5",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "a23b-6450-e308-430a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "f77f-cb98-8d5d-f1ae", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                    ]
+                  },
                   {
                     "name": "Ceramite Fists",
                     "id": "9f53-e5ad-731f-a7e1",
@@ -17597,7 +17553,7 @@
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                          {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
                           {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                           {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
@@ -22142,7 +22098,7 @@
                 "id": "b61e-64ab-9a2b-689b",
                 "hidden": false,
                 "import": true,
-                "targetId": "7b46-de5b-2c60-4597",
+                "targetId": "5610-e793-4bdc-84a4",
                 "type": "selectionEntry",
                 "constraints": [
                   {"id": "2dfe-6c49-bf0-d631", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -24446,7 +24402,7 @@
                       {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
                       {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                       {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                      {"name": "Keywords", "$text": "Blast", "typeId": "7f1b-8591-2fcf-d01c"}
+                      {"name": "Keywords", "$text": "Blast 2", "typeId": "7f1b-8591-2fcf-d01c"}
                     ],
                     "modifiers": [
                       {
@@ -26889,6 +26845,23 @@
                 "childName": "Darkflight Pursuit",
                 "field": "selections",
                 "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "75db-f15d-00c7-d770",
+            "type": "set",
+            "value": 6,
+            "conditions": [
+              {
+                "childId": "64a6-9332-de28-21a9",
+                "childName": "Darkflight Pursuit",
+                "field": "selections",
                 "includeChildSelections": true,
                 "scope": "roster",
                 "shared": true,
@@ -40343,6 +40316,20 @@
               {"name": "OC", "$text": "5", "typeId": "bef7-942a-1a23-59f8"},
               {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
             ]
+          },
+          {
+            "name": "Wrath of the Machine Spirit",
+            "id": "4f70-a79d-6d4b-e437",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This unit’s ranged attacks that target a unit within 12\" of this unit have [Devastating Wounds: non-Monster/vehicle]",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -46257,15 +46244,33 @@
                         "targetId": "ae9d-92b6-ba7b-3f52",
                         "type": "selectionEntry",
                         "entryLinks": [{"name": "Weapon Upgrades", "id": "fb1f-6887-5a5a-144a", "hidden": false, "import": true, "targetId": "8cf2-a48c-58d2-cb4e", "type": "selectionEntryGroup"}]
-                      },
+                      }
+                    ],
+                    "selectionEntries": [
                       {
-                        "name": "Master-crafted bolter",
-                        "id": "f18d-3f66-30f4-2056",
+                        "name": "Master-crafted Bolter",
+                        "id": "4666-e7ad-cd04-971d",
                         "hidden": false,
                         "import": true,
-                        "targetId": "c3bc-26b4-6fa0-bd39",
-                        "type": "selectionEntry",
-                        "entryLinks": [{"name": "Weapon Upgrades", "id": "38e1-3a65-efbc-7368", "hidden": false, "import": true, "targetId": "8cf2-a48c-58d2-cb4e", "type": "selectionEntryGroup"}]
+                        "type": "upgrade",
+                        "profiles": [
+                          {
+                            "name": "Master-crafted bolter",
+                            "id": "6223-a1c5-a217-fdde",
+                            "hidden": false,
+                            "typeId": "f77d-b953-8fa4-b762",
+                            "typeName": "Ranged Weapons",
+                            "characteristics": [
+                              {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+                              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                              {"name": "Keywords", "$text": "\n", "typeId": "7f1b-8591-2fcf-d01c"}
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
@@ -47509,31 +47514,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "78eb-9334-f5c0-6095", "childName": "Librarian", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -48124,7 +48104,7 @@
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "characteristics": [
-              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
               {"name": "T", "$text": "4", "typeId": "d29d-cf75-fc2d-34a4"},
               {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
               {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
@@ -68736,7 +68716,7 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "Attacks that this unit have -1 to wound rolls", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [{"name": "Description", "$text": "Attacks that target this unit have -1 to wound rolls", "typeId": "9b8f-694b-e5e-b573"}]
           }
         ],
         "selectionEntryGroups": [
@@ -75969,24 +75949,6 @@
         ],
         "modifiers": [
           {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "id": "d054-655b-73c1-f57a",
-                "childId": "9ed-cbf4-bfe5-90bf",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "lessThan",
-                "value": 1
-              }
-            ]
-          },
-          {
             "field": "category",
             "type": "add",
             "value": "e9c7-1590-1bda-bf7f",
@@ -78603,6 +78565,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
+            "categoryLinks": [{"name": "Purge the Foe", "id": "1535-e6dc-eadf-2ab6", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"}],
             "constraints": [{"id": "0ac5-4f5a-ad00-5d0b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -78680,6 +78643,21 @@
                 "id": "fbce-3eac-c3a9-b353",
                 "description": "Each time a friendly ADEPTUS ASTARTES unit is selected to shoot or selected to fight apply one of the following when resolving those attacks:\n\n\n▪ If that unit is within 6\" of a friendly Cannok Var/Iron Father Feirros unit you can:\n  ▪ Re-roll one hit roll.\n  ▪ Re-roll one wound roll.\n  ▪ Re-roll one damage roll.\n▪ Otherwise you can:\n  ▪ Re-roll one hit roll.\n  ▪ Or: Re-roll one wound roll.\n  ▪ Or: Re-roll one damage roll.",
                 "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Deathwatch Support (ITS NOT READY)",
+            "id": "5eb6-4ed2-6aca-c7f1",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "9316-626c-3822-dc13", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "error",
+                "type": "add",
+                "value": "This detachment is not ready yet. It requires a lot of extra work and is in progress. Please do not report it missing as a bug report. "
               }
             ]
           }
@@ -79078,7 +79056,7 @@
                   {"id": "b831-977a-e0c9-1efd", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}
                 ],
                 "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25},
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
                   {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                   {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -79096,7 +79074,7 @@
                     "value": true,
                     "conditionGroups": [
                       {
-                        "type": "or",
+                        "type": "and",
                         "conditions": [
                           {
                             "childId": "6e-71bd-2538-d468",
@@ -79248,7 +79226,7 @@
                   {"id": "394-ce00-93e0-1879", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}
                 ],
                 "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 30},
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
                   {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                   {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -79335,7 +79313,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Supercharged Engines",
+                "name": "Supercharged Engines (Upgrade)",
                 "id": "7491-28d9-80bd-9c26",
                 "hidden": false,
                 "import": true,
@@ -79426,7 +79404,7 @@
                 ]
               },
               {
-                "name": "Auspex Triangulation Shrines",
+                "name": "Auspex Triangulation Shrines (Upgrade)",
                 "id": "d20d-ff22-a3e1-e78",
                 "hidden": false,
                 "import": true,
@@ -79558,7 +79536,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Gunnery Honours",
+                "name": "Gunnery Honours (Upgrade)",
                 "id": "64bf-bc5c-2a45-54f0",
                 "hidden": false,
                 "import": true,
@@ -79677,7 +79655,7 @@
                 ]
               },
               {
-                "name": "Redoubtable Machine Spirit",
+                "name": "Redoubtable Machine Spirit (Upgrade)",
                 "id": "fe18-a419-ace5-df4a",
                 "hidden": false,
                 "import": true,
@@ -80480,6 +80458,23 @@
                     ]
                   }
                 ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ],
             "selectionEntries": [
@@ -80643,7 +80638,7 @@
                   {"id": "2012-a1b2-8ba0-09de", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}
                 ],
                 "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25},
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
                   {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                   {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -80654,49 +80649,24 @@
                   {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
                   {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
                 ],
-                "modifierGroups": [
+                "modifiers": [
                   {
-                    "type": "and",
-                    "modifiers": [
-                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "model", "type": "increment", "value": 2},
-                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "41a0-1301-112a-e2f2", "scope": "model", "type": "decrement", "value": 1},
-                      {
-                        "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "field": "annotation",
-                        "join": ", ",
-                        "scope": "model",
-                        "type": "append",
-                        "value": "Ancient Weapons"
-                      },
-                      {
-                        "affects": "self.entries.recursive.4986-bf86-beb4-13ac.profiles.Melee Weapons",
-                        "arg": "+0",
-                        "field": "3254-9fe6-d824-513e",
-                        "join": "",
-                        "scope": "model",
-                        "type": "append",
-                        "value": "+0"
-                      },
-                      {
-                        "affects": "self.entries.recursive.982b-de77-dd2d-d9bd.profiles.Melee Weapons",
-                        "arg": "+0",
-                        "field": "3254-9fe6-d824-513e",
-                        "join": "",
-                        "scope": "model",
-                        "type": "replace"
-                      },
-                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "position": -1, "scope": "model", "type": "increment", "value": 1},
-                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "arg": "+0", "field": "3254-9fe6-d824-513e", "join": "", "scope": "model", "type": "replace"},
-                      {
-                        "affects": "self.entries.recursive.4986-bf86-beb4-13ac",
-                        "arg": "+0",
-                        "field": "category",
-                        "join": "",
-                        "scope": "model",
-                        "type": "add",
-                        "value": "982b-de77-dd2d-d9bd"
-                      }
-                    ]
+                    "affects": "self.entries.recursive.profiles.Melee Weapons",
+                    "field": "ab33-d393-96ce-ccba",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                    "type": "increment",
+                    "value": 2
+                  },
+                  {
+                    "affects": "self.entries.recursive.profiles.Melee Weapons",
+                    "field": "41a0-1301-112a-e2f2",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                    "type": "decrement",
+                    "value": 1
                   }
                 ],
                 "profiles": [
@@ -81595,7 +81565,7 @@
                   }
                 ],
                 "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25},
                   {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                   {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -81663,7 +81633,7 @@
                 ]
               },
               {
-                "name": "Chogorian Huntmaster",
+                "name": "Chogorian Huntmaster (Upgrade)",
                 "id": "b21a-b914-964c-d984",
                 "hidden": false,
                 "import": true,
@@ -83028,7 +82998,7 @@
                 ]
               },
               {
-                "name": "Furious Assault",
+                "name": "Furious Assault (Upgrade)",
                 "id": "b681-8092-2465-7ba0",
                 "hidden": false,
                 "import": true,
@@ -83387,7 +83357,7 @@
                 "type": "upgrade",
                 "constraints": [{"id": "75fb-7c7d-c4bb-57be", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1}],
                 "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
                   {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                   {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -84337,7 +84307,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Immovable Conquerors",
+                "name": "Immovable Conquerors (Upgrade)",
                 "id": "cb48-34f1-d400-4ff9",
                 "hidden": false,
                 "import": true,
@@ -84513,7 +84483,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Artificer Sarcophagus",
+                "name": "Artificer Sarcophagus (Upgrade)",
                 "id": "1631-0f81-ec12-a95b",
                 "hidden": false,
                 "import": true,
@@ -84603,7 +84573,7 @@
                 ]
               },
               {
-                "name": "Venerable Champion (Aura)",
+                "name": "Venerable Champion (Aura) (Upgrade)",
                 "id": "1d72-b644-b4b5-3f98",
                 "hidden": false,
                 "import": true,
@@ -84952,7 +84922,7 @@
                 ]
               },
               {
-                "name": "Righteous Fervour",
+                "name": "Righteous Fervour (Upgrade)",
                 "id": "dfda-ba20-b061-b907",
                 "hidden": false,
                 "import": true,
@@ -85086,7 +85056,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Fervent Exemplars",
+                "name": "Fervent Exemplars (Upgrade)",
                 "id": "9a7f-fcfb-5ea1-bfe6",
                 "hidden": false,
                 "import": true,
@@ -85157,7 +85127,7 @@
                 ]
               },
               {
-                "name": "Inheritors of Sigismund",
+                "name": "Inheritors of Sigismund (Upgrade)",
                 "id": "1363-5e93-bfd4-3646",
                 "hidden": false,
                 "import": true,
@@ -85299,7 +85269,7 @@
                     "value": true,
                     "conditionGroups": [
                       {
-                        "type": "or",
+                        "type": "and",
                         "conditions": [
                           {
                             "childId": "1fb1-3603-a4bd-485",
@@ -85464,7 +85434,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Thundercowl Turbines",
+                "name": "Thundercowl Turbines (Upgrade)",
                 "id": "bc1d-8912-2b9c-7f32",
                 "hidden": false,
                 "import": true,
@@ -85560,7 +85530,7 @@
                 ]
               },
               {
-                "name": "Nightforged Battery",
+                "name": "Nightforged Battery (Upgrade)",
                 "id": "d395-b051-384b-57d6",
                 "hidden": false,
                 "import": true,
