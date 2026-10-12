@@ -33084,7 +33084,15 @@
             "targetId": "9a99-f13c-a667-e698",
             "type": "selectionEntryGroup"
           },
-          {"name": "Enhancements", "id": "83f5-c2ba-f5d2-7258", "hidden": false, "import": true, "targetId": "9e5d-de4c-c5d1-1d3e", "type": "selectionEntryGroup"}
+          {
+            "name": "Enhancements",
+            "id": "83f5-c2ba-f5d2-7258",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "type": "selectionEntryGroup"
+          }
         ],
         "infoLinks": [
           {"name": "Combat Doctrines", "id": "74d6-c0de-a85f-4256", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
@@ -33286,7 +33294,7 @@
             "id": "f59c-c864-bd59-1759",
             "defaultSelectionEntryId": "ab61-e814-8c4d-1cb",
             "hidden": false,
-            "sortIndex": 2,
+            "sortIndex": 3,
             "constraints": [
               {"id": "555f-ba0c-d55a-9dd0", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 3},
               {"id": "7dcf-f2e2-50f3-2c8c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 6}
@@ -74998,7 +75006,26 @@
           {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
           {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
         ],
-        "entryLinks": [{"name": "Enhancements", "id": "cbb4-909a-e7df-b7ca", "hidden": false, "import": true, "targetId": "9e5d-de4c-c5d1-1d3e", "type": "selectionEntryGroup"}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "cbb4-909a-e7df-b7ca",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Crusade",
+            "id": "b900-b6ae-a03c-3cc1",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          }
+        ],
         "modifiers": [
           {
             "field": "019b-1b46-b382-4616",
@@ -75090,6 +75117,7 @@
             "name": "Eradicators",
             "id": "f336-f693-4f96-2e73",
             "hidden": false,
+            "sortIndex": 3,
             "constraints": [
               {"id": "d86a-f1ea-cb38-bd09", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
               {"id": "d684-6814-b82d-60ed", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 6}
@@ -75275,38 +75303,21 @@
         ],
         "entryLinks": [
           {
-            "name": "Multi-melta",
-            "id": "e630-6fb2-284d-ace8",
-            "hidden": false,
-            "import": true,
-            "sortIndex": 3,
-            "targetId": "da38-da4f-dc42-7758",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "63ff-c529-9bd0-2a41-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "63ff-c529-9bd0-2a41-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
-          {
-            "name": "Armoured Impact",
-            "id": "9851-e299-31ca-8e78",
-            "hidden": false,
-            "import": true,
-            "sortIndex": 1,
-            "targetId": "16bc-dee4-533a-9985",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "3cfa-57b1-2b76-ea15-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "3cfa-57b1-2b76-ea15-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
-          {
             "name": "Enhancements",
             "id": "cb81-59d3-e17e-b0ad",
             "hidden": false,
             "import": true,
-            "sortIndex": 5,
+            "sortIndex": 2,
             "targetId": "9e5d-de4c-c5d1-1d3e",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Crusade",
+            "id": "16e0-3d3d-3814-a28f",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
             "type": "selectionEntryGroup"
           }
         ],
@@ -75383,52 +75394,84 @@
             ]
           }
         ],
-        "selectionEntries": [
-          {
-            "name": "Stormfury Missile Launcher",
-            "id": "5ae0-0712-b3f5-6492",
-            "hidden": false,
-            "import": true,
-            "sortIndex": 2,
-            "type": "upgrade",
-            "constraints": [
-              {"id": "fc2c-a095-8ee7-55a8-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "fc2c-a095-8ee7-55a8-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ],
-            "profiles": [
-              {
-                "name": "Stormfury Missile Launcher",
-                "id": "9e1a-73d4-bcb6-bc27",
-                "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
-                  {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
-                  {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
-                  {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-                  {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
-                  {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
-                  {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
-                  {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
-                ]
-              }
-            ]
-          }
-        ],
         "selectionEntryGroups": [
           {
-            "name": "Weapon Option",
-            "id": "a516-0086-9ffb-0692",
-            "defaultSelectionEntryId": "b8c5-61e3-711f-ea8f",
+            "name": "Wargear",
+            "id": "452f-f88b-d8be-48fc",
             "hidden": false,
-            "sortIndex": 4,
-            "constraints": [
-              {"id": "d471-6c79-f47d-6fae-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "d471-6c79-f47d-6fae-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ],
+            "sortIndex": 3,
             "entryLinks": [
-              {"name": "Pyrecannon", "id": "f2e6-d439-781e-982b", "hidden": false, "import": true, "targetId": "a5e9-6435-6e86-d339", "type": "selectionEntry"},
-              {"name": "Onslaught gatling cannon", "id": "b8c5-61e3-711f-ea8f", "hidden": false, "import": true, "targetId": "fd4b-f2e0-dee3-ba0c", "type": "selectionEntry"}
+              {
+                "name": "Armoured Impact",
+                "id": "9851-e299-31ca-8e78",
+                "hidden": false,
+                "import": true,
+                "targetId": "16bc-dee4-533a-9985",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "3cfa-57b1-2b76-ea15-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "3cfa-57b1-2b76-ea15-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              },
+              {
+                "name": "Multi-melta",
+                "id": "e630-6fb2-284d-ace8",
+                "hidden": false,
+                "import": true,
+                "targetId": "da38-da4f-dc42-7758",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "63ff-c529-9bd0-2a41-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "63ff-c529-9bd0-2a41-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Stormfury Missile Launcher",
+                "id": "5ae0-0712-b3f5-6492",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "fc2c-a095-8ee7-55a8-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "fc2c-a095-8ee7-55a8-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "profiles": [
+                  {
+                    "name": "Stormfury Missile Launcher",
+                    "id": "9e1a-73d4-bcb6-bc27",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+                      {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
+                      {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+                      {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
+                      {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
+                      {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapon Option",
+                "id": "a516-0086-9ffb-0692",
+                "defaultSelectionEntryId": "b8c5-61e3-711f-ea8f",
+                "hidden": false,
+                "constraints": [
+                  {"id": "d471-6c79-f47d-6fae-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "d471-6c79-f47d-6fae-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Pyrecannon", "id": "f2e6-d439-781e-982b", "hidden": false, "import": true, "targetId": "a5e9-6435-6e86-d339", "type": "selectionEntry"},
+                  {"name": "Onslaught gatling cannon", "id": "b8c5-61e3-711f-ea8f", "hidden": false, "import": true, "targetId": "fd4b-f2e0-dee3-ba0c", "type": "selectionEntry"}
+                ]
+              }
             ]
           }
         ]
