@@ -2035,7 +2035,8 @@
                     "sortIndex": 6,
                     "type": "instanceOf",
                     "value": 1
-                  }
+                  },
+                  {"childId": "5956-471c-16ba-af95", "childName": "Company Heroes", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
                 ]
               }
             ]

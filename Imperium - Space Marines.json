@@ -10855,10 +10855,14 @@
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "877c-9745-294c-c640", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                     ],
+                    "infoLinks": [
+                      {"name": "Heavy", "id": "22bd-0cec-c299-8317", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"},
+                      {"name": "Rapid Fire", "id": "fc0f-1f2f-000a-e9ad", "hidden": false, "targetId": "c5c8-8b58-b8b6-7786", "type": "rule"}
+                    ],
                     "profiles": [
                       {
                         "name": "Heavy Bolt Rifle",
-                        "id": "58e8-65ae-e755-139",
+                        "id": "5de2-b272-87ee-2e58",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -10869,7 +10873,7 @@
                           {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
                           {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Assault, Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {"name": "Keywords", "$text": "Heavy, Rapid Fire 1", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
                     ]
@@ -18684,7 +18688,7 @@
           {
             "name": "Assault Terminators",
             "id": "f0a0-fda7-8b75-5ec1",
-            "defaultSelectionEntryId": "f5e2-f383-5061-9393",
+            "defaultSelectionEntryId": "c435-bd14-2d69-1c38",
             "hidden": false,
             "sortIndex": 2,
             "constraints": [
@@ -18945,7 +18949,7 @@
                   {
                     "name": "Weapon Option",
                     "id": "2ebb-a04b-b1f5-cfb8",
-                    "defaultSelectionEntryId": "96bf-3cb4-69ff-a8ce",
+                    "defaultSelectionEntryId": "fede-6969-007b-65da",
                     "hidden": false,
                     "constraints": [
                       {"id": "6d61-886a-bb2f-5621", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -50725,23 +50729,6 @@
                 "scope": "force",
                 "shared": true,
                 "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "comment": "Blood Angels tax",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditions": [
-              {
-                "childId": "4ef9-15ce-e3e6-36de",
-                "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                "field": "selections",
-                "scope": "primary-catalogue",
-                "shared": true,
-                "type": "instanceOf",
                 "value": 1
               }
             ]
@@ -83413,7 +83400,7 @@
                 ],
                 "modifiers": [
                   {
-                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
                     "field": "3bb-c35f-f54-fb08",
                     "join": ", ",
                     "scope": "parent",
@@ -83422,7 +83409,7 @@
                     "value": 1
                   },
                   {
-                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
                     "field": "2229-f494-25db-c5d3",
                     "join": ", ",
                     "scope": "parent",
@@ -83431,7 +83418,7 @@
                     "value": 1
                   },
                   {
-                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
                     "field": "a354-c1c8-a745-f9e3",
                     "join": ", ",
                     "scope": "parent",
@@ -83440,7 +83427,7 @@
                     "value": 1
                   },
                   {
-                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
                     "field": "9ead-8a10-520-de15",
                     "join": ", ",
                     "scope": "parent",
