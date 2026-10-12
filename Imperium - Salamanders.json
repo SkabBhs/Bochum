@@ -480,7 +480,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [{"name": "Torrent Weapon", "id": "c0dd-92ea-d42e-6f93", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}],
+            "categoryLinks": [{"name": "Gauntlet of the Forge", "id": "72fd-c394-f25a-6ee7", "hidden": false, "primary": false, "targetId": "283b-b6a4-9cae-6609"}],
             "constraints": [
               {"id": "4f8a-9686-99fb-d433", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "d049-8744-7444-6312", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
