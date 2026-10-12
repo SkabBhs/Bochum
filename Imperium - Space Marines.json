@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 17,
+    "revision": 18,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -5880,6 +5880,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {"childId": "7fa1-af93-1edd-1865", "childName": "Aggressor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
                   {"childId": "68e3-e195-e8f-f56c", "childName": "Eradicator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
@@ -6767,6 +6802,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {"childId": "ad98-e844-f9ec-7551", "childName": "Eliminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
                   {"childId": "ddd0-955d-9c0-7110", "childName": "Incursor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
@@ -7169,6 +7239,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "8382-2911-b97f-d6d2",
@@ -7791,6 +7896,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "6c92-4e9d-b5e5-1287",
@@ -14974,54 +15114,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "comment": "Blood Angels tax",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditions": [
-              {
-                "childId": "4ef9-15ce-e3e6-36de",
-                "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                "field": "selections",
-                "scope": "primary-catalogue",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "comment": "Blood Angels tax",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "4ef9-15ce-e3e6-36de",
-                    "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "id": "ba23-92ab-dd3c-8775",
-                    "childId": "fa1c-b448-12fa-e1d6",
-                    "field": "selections",
-                    "scope": "7044-bf1-f949-c32d",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 4
-                  }
-                ]
               }
             ]
           }
@@ -44869,7 +44961,7 @@
       {
         "name": "Captain on Bike [Legends]",
         "id": "faf9-bf62-8eb5-a3cb",
-        "hidden": false,
+        "hidden": true,
         "import": true,
         "type": "model",
         "associations": [
@@ -47106,6 +47198,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "9ba8-7087-dcbd-9fd8",
@@ -47809,6 +47936,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {"childId": "ad98-e844-f9ec-7551", "childName": "Eliminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
                   {"childId": "ddd0-955d-9c0-7110", "childName": "Incursor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
@@ -48198,6 +48360,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "8382-2911-b97f-d6d2",
@@ -48636,6 +48833,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "21e8-92f1-9d9a-8c49",
@@ -49080,6 +49312,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "9ba8-7087-dcbd-9fd8",
@@ -49606,6 +49873,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "8382-2911-b97f-d6d2",
@@ -50021,6 +50323,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {"childId": "1402-5be-5df3-cd51", "childName": "Outrider Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
                   {
@@ -50423,6 +50760,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "6c92-4e9d-b5e5-1287",
@@ -50789,6 +51161,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "9ba8-7087-dcbd-9fd8",
@@ -52096,6 +52503,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "5fe6-20de-df8d-8e92",
@@ -52574,7 +53016,7 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
-                    "sortIndex": 10,
+                    "sortIndex": 9,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -52584,7 +53026,7 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
-                    "sortIndex": 11,
+                    "sortIndex": 10,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -52594,7 +53036,7 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
-                    "sortIndex": 12,
+                    "sortIndex": 11,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -52604,7 +53046,7 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
-                    "sortIndex": 13,
+                    "sortIndex": 12,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -52614,7 +53056,7 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
-                    "sortIndex": 14,
+                    "sortIndex": 13,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -52624,7 +53066,7 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
-                    "sortIndex": 15,
+                    "sortIndex": 14,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -52634,7 +53076,7 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
-                    "sortIndex": 16,
+                    "sortIndex": 15,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -52664,16 +53106,6 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
-                    "sortIndex": 3,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "ebce-cb56-76a4-afe1",
-                    "childName": "Assault Squad",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
                     "sortIndex": 2,
                     "type": "instanceOf",
                     "value": 1
@@ -52685,11 +53117,20 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
-                    "sortIndex": 9,
+                    "sortIndex": 8,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "5956-471c-16ba-af95", "childName": "Company Heroes", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  {
+                    "childId": "5956-471c-16ba-af95",
+                    "childName": "Company Heroes",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
                 ]
               }
             ]
@@ -53558,8 +53999,7 @@
                     "sortIndex": 7,
                     "type": "instanceOf",
                     "value": 1
-                  },
-                  {"childId": "ebce-cb56-76a4-afe1", "childName": "Assault Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  }
                 ]
               }
             ]
@@ -56228,6 +56668,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "9ba8-7087-dcbd-9fd8",
@@ -63029,7 +63504,7 @@
           }
         ],
         "infoLinks": [
-          {"name": "Leader", "id": "df37-2d80-1c27-190b", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
+          {"name": "Support", "id": "df37-2d80-1c27-190b", "hidden": false, "targetId": "3342-2180-9c5d-925f", "type": "rule"},
           {"name": "Combat Doctrines", "id": "f7-7976-b575-6cca", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
           {"name": "Templar Vows", "id": "4e6a-da32-db67-88e0", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
         ],
@@ -64706,6 +65181,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "1402-5be-5df3-cd51",
@@ -65119,6 +65629,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "1402-5be-5df3-cd51",
@@ -65578,6 +66123,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "1402-5be-5df3-cd51",
@@ -65963,6 +66543,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "1402-5be-5df3-cd51",
@@ -66638,6 +67253,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "1402-5be-5df3-cd51",
@@ -75710,6 +76360,41 @@
             "conditionGroups": [
               {
                 "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "5e41-161b-7d74-8c8e",
+                            "childName": "Wulfen with Storm Shields",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "7dab-7280-6618-a658",
+                        "childName": "Wolf-Touched",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "conditions": [
                   {
                     "childId": "1402-5be-5df3-cd51",
@@ -78710,7 +79395,7 @@
                   }
                 ],
                 "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
                   {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                   {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -78784,7 +79469,7 @@
                   }
                 ],
                 "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
                   {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                   {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -80562,7 +81247,7 @@
                   {"id": "275a-fbfd-9673-4da4", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}
                 ],
                 "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
                   {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
                   {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
                   {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
