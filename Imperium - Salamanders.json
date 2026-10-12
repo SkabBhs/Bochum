@@ -210,6 +210,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
+            "categoryLinks": [{"name": "Torrent Weapon", "id": "40cb-00e8-4050-b79b", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}],
             "constraints": [
               {"id": "b450-fdc-b293-1dc3", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "25c9-9a6b-bb5c-7c65", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -479,6 +480,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
+            "categoryLinks": [{"name": "Torrent Weapon", "id": "c0dd-92ea-d42e-6f93", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}],
             "constraints": [
               {"id": "4f8a-9686-99fb-d433", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "d049-8744-7444-6312", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}

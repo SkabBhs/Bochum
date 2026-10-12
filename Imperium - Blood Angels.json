@@ -6516,7 +6516,8 @@
           {"name": "Faction: Adeptus Astartes", "id": "5914-910-c561-83d4", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Blood Angels", "id": "25b7-a267-cb0c-38d9", "primary": false, "targetId": "62ac-ef42-27b4-ae7"},
           {"name": "Tacticus", "id": "a5ab-e25c-7c42-0f41", "primary": false, "targetId": "5179-8ede-45e3-49a2"},
-          {"name": "Explosives", "id": "bb5a-08fc-a682-fa4a", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
+          {"name": "Explosives", "id": "bb5a-08fc-a682-fa4a", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Support", "id": "eb0e-40e4-c6dc-663c", "hidden": false, "primary": false, "targetId": "7dcd-7f61-69a7-0294"}
         ],
         "constraints": [
           {"id": "ad95-a04c-853b-cb7b", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
