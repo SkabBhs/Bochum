@@ -15842,7 +15842,10 @@
                     "import": true,
                     "targetId": "25c2-104f-fa0c-809e",
                     "type": "selectionEntry",
-                    "constraints": [{"id": "ada1-760e-0a27-9195", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}]
+                    "constraints": [
+                      {"id": "ada1-760e-0a27-9195", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "be78-5aab-d1ef-0bcb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
                   },
                   {
                     "name": "Master-crafted Power Weapon",
