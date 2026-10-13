@@ -5832,6 +5832,14 @@
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "characteristics": [{"name": "Description", "$text": "➤ ", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Show only units Search",
+        "id": "287f-76c9-f3c9-0b3a",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "is:entry parent:catalogue child:cost[value:>0]", "typeId": "9b8f-694b-e5e-b573"}]
       }
     ],
     "sharedSelectionEntries": [
@@ -8292,7 +8300,7 @@
                         "id": "d233-a440-1810-3f6c",
                         "hidden": false,
                         "import": true,
-                        "targetId": "25c2-104f-fa0c-809e",
+                        "targetId": "72c9-4b92-5aed-2fbe",
                         "type": "selectionEntry",
                         "entryLinks": [{"name": "Weapon Upgrades", "id": "c895-2bb2-946c-6fd5", "hidden": false, "import": true, "targetId": "8cf2-a48c-58d2-cb4e", "type": "selectionEntryGroup"}]
                       }
@@ -11921,7 +11929,7 @@
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
                     "characteristics": [
-                      {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                      {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
                       {"name": "T", "$text": "4", "typeId": "d29d-cf75-fc2d-34a4"},
                       {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
                       {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
@@ -17538,7 +17546,7 @@
                           {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
                           {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                           {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
                           {"name": "Keywords", "$text": "Close-quarters, Precision", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
@@ -19322,25 +19330,6 @@
                 "childId": "d62d-db22-4893-4bc0",
                 "childName": "1. Incursion (1000 Point limit)",
                 "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "affects": "self.entries.recursive.profiles.Unit",
-            "field": "bef7-942a-1a23-59f8",
-            "type": "increment",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "f797-f718-df7d-8545",
-                "childName": "Darnath Lysander",
-                "field": "selections",
-                "includeChildForces": true,
                 "includeChildSelections": true,
                 "scope": "force",
                 "shared": true,
@@ -26951,9 +26940,10 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
+                "categoryLinks": [{"name": "Mounted", "id": "aeaa-e54f-d9f8-ed4f", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"}],
                 "constraints": [
                   {"id": "e114-6eb5-a169-9e37", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5},
-                  {"id": "9a7c-a446-4ecb-61f6", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2}
+                  {"id": "9a7c-a446-4ecb-61f6", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
                 ],
                 "entryLinks": [
                   {
@@ -27018,6 +27008,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
+                "categoryLinks": [{"name": "Mounted", "id": "f0bf-7c42-a1ec-b70d", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"}],
                 "constraints": [
                   {"id": "60af-5512-7d2a-55ae", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "fe10-e7ac-9e27-e878", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -27206,6 +27197,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
+                "categoryLinks": [{"name": "Mounted", "id": "257d-7f1c-94ee-a697", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"}],
                 "constraints": [{"id": "ce83-700a-0db0-0d7e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "entryLinks": [
                   {
@@ -50585,11 +50577,6 @@
                 "conditions": [{"childId": "8dbe-9f09-d44d-07d6", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
               }
             ]
-          },
-          {
-            "type": "and",
-            "conditions": [{"childId": "any", "field": "associations", "includeChildSelections": false, "scope": "self", "shared": true, "type": "atLeast", "value": 1}],
-            "modifiers": [{"affects": "entries.group.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "type": "set", "value": "5+ vs Ranged"}]
           }
         ],
         "modifiers": [
@@ -51551,7 +51538,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is within 3\" of a friendly ADEPTUS ASTARTES VEHICLE unit, this unit has Lone Operative.",
+                "$text": "While this model is within 3\" of a friendly ADEPTUS ASTARTES VEHICLE unit, this model has Lone Operative.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -78249,6 +78236,10 @@
               {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
               {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
             ],
+            "modifiers": [
+              {"affects": "entries.forces.recursive.966c-5300-a13d-f524.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "roster", "type": "increment", "value": 2},
+              {"affects": "entries.forces.recursive.14a0-40c9-2748-ae6e.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "roster", "type": "increment", "value": 2}
+            ],
             "rules": [{"name": "Lightning-Fast Strike", "id": "2da2-a6e8-3c4a-ed1e", "description": "Friendly Adeptus Astartes Mounted/Speeder units have +2\"M", "hidden": false}]
           },
           {
@@ -78441,7 +78432,7 @@
               {
                 "name": "Legendary Slayers",
                 "id": "9b1b-c1c9-2f94-c66f",
-                "description": "Each time an ^^**Adeptus Astartes**^^ model from your army makes an attack, if that attack targets a **^^Character, Monster**^^ or **^^Vehicle**^^ unit or if your Saga is completed(see below), that attack has the [LETHAL HITS] ability.\n\nSaga of the Beastslayer\nAt the start of the first battle round, your Beastslayer tally is 0, and you determine your Beastslayer target by halving the number of units from your opponent's army (including those embarked within **^^Transports**^^) that have one or more of the following keywords (rounding up): **^^Character, Monster, Vehicle**^^.\n\nEach time an **^^Adeptus Astartes**^^ unit from your army shoots or fights, after all of those attacks have been resolved, add 1 to your Beastslayer tally for each enemy unit with one or more of the keywords destroyed by those attacks: **^^Character, Monster, Vehicle**^^.\n\nOnce your Beastslayer tally is equal to or greater than your Beastslayer target your Saga is completed.",
+                "description": "Attacks made by friendly Blood Claws/Thunderwolf Cavalry/Wulfen units have [Lethal Hits: Character/Monster/Vehicle].",
                 "hidden": false
               }
             ]
@@ -78822,26 +78813,6 @@
                 "type": "set",
                 "value": true,
                 "conditions": [{"childId": "470a-6daa-9014-12df", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
-              },
-              {
-                "affects": "self.entries.recursive.profiles.Ranged Weapons",
-                "field": "7f1b-8591-2fcf-d01c",
-                "scope": "force",
-                "type": "append",
-                "value": "Ignores Cover",
-                "conditions": [
-                  {
-                    "childId": "e9c7-1590-1bda-bf7f",
-                    "childName": "Ravenwing",
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "ancestor",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  }
-                ]
               }
             ],
             "rules": [
@@ -79350,7 +79321,20 @@
               {
                 "field": "error",
                 "type": "add",
-                "value": "This detachment is not ready yet. It requires a lot of extra work and is in progress. Please do not report it missing as a bug report. "
+                "value": "This detachment is not ready yet. It requires a lot of extra work and is in progress. Please do not report it missing as a bug report. ",
+                "conditions": [
+                  {
+                    "childId": "5eb6-4ed2-6aca-c7f1",
+                    "childName": "Deathwatch Support (ITS NOT READY)",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -79521,25 +79505,15 @@
                   {
                     "type": "and",
                     "modifiers": [
+                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "model-self", "type": "increment", "value": 1},
                       {
                         "affects": "self.entries.recursive.profiles.Melee Weapons",
-                        "field": "annotation",
-                        "join": ", ",
-                        "scope": "model",
-                        "type": "append",
-                        "value": "Laurels of Triumph"
-                      },
-                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "model", "type": "increment", "value": 1},
-                      {
-                        "affects": "self.entries.recursive.e993-e086-6de1-12af.profiles.Melee Weapons",
-                        "arg": "+0",
-                        "field": "2337-daa1-6682-b110",
-                        "join": "",
-                        "scope": "model",
-                        "type": "append",
-                        "value": "+0"
-                      },
-                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "position": -1, "scope": "model", "type": "increment", "value": 1}
+                        "field": "41a0-1301-112a-e2f2",
+                        "position": -1,
+                        "scope": "model-self",
+                        "type": "decrement",
+                        "value": 1
+                      }
                     ]
                   }
                 ],
@@ -82144,7 +82118,7 @@
                     ]
                   },
                   {
-                    "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                    "affects": "self.entries.recursive.profiles.Melee Weapons",
                     "field": "ab33-d393-96ce-ccba",
                     "join": ", ",
                     "scope": "parent",
@@ -82153,7 +82127,7 @@
                     "value": 1
                   },
                   {
-                    "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                    "affects": "self.entries.recursive.profiles.Melee Weapons",
                     "field": "41a0-1301-112a-e2f2",
                     "join": ", ",
                     "scope": "parent",
@@ -84006,15 +83980,6 @@
                   {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
                 ],
                 "modifiers": [
-                  {
-                    "affects": "self.entries.group.recursive.profiles.Melee Weapons",
-                    "field": "893f-9000-ccf7-648e",
-                    "join": ", ",
-                    "scope": "parent",
-                    "skipIfPresent": "Lethal Hits",
-                    "type": "append",
-                    "value": "Lethal Hits"
-                  },
                   {
                     "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
                     "field": "893f-9000-ccf7-648e",
