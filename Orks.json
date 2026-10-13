@@ -15578,7 +15578,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this unit is within 3\" of a friendly **BEAST SNAGGA** unit (excluding **MONSTER CHARACER** units), this unit has **Lone Operative**.",
+                "$text": "While this unit is within 3\" of a friendly **BEAST SNAGGA** unit (excluding **MONSTER CHARACTER** units), this unit has **Lone Operative**.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
