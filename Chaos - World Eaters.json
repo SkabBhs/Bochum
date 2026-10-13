@@ -23405,6 +23405,7 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
+        "categoryLinks": [{"name": "Not Extra Attacks", "id": "8f18-26c4-8f97-c663", "hidden": false, "primary": false, "targetId": "e811-5ddb-e54f-52da"}],
         "constraints": [
           {
             "id": "3b51-8660-a3b1-059a",
@@ -25392,13 +25393,12 @@
                     "scope": "model",
                     "type": "replace"
                   },
-                  {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "position": -1, "scope": "model", "type": "increment", "value": 1},
                   {
-                    "affects": "self.entries.recursive.84c4-6d1e-e724-bd6e.profiles.Melee Weapons",
+                    "affects": "self.entries.recursive.e811-5ddb-e54f-52da.profiles.Melee Weapons",
                     "field": "2337-daa1-6682-b110",
                     "position": -1,
                     "scope": "model",
-                    "type": "decrement",
+                    "type": "increment",
                     "value": 1
                   },
                   {"affects": "self.entries.recursive.profiles.Melee Weapons", "arg": "+0", "field": "2337-daa1-6682-b110", "scope": "model", "type": "replace"},
@@ -25421,14 +25421,6 @@
                     "type": "replace"
                   },
                   {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "position": -1, "scope": "model", "type": "increment", "value": 1},
-                  {
-                    "affects": "self.entries.recursive.84c4-6d1e-e724-bd6e.profiles.Melee Weapons",
-                    "field": "3254-9fe6-d824-513e",
-                    "position": -1,
-                    "scope": "model",
-                    "type": "decrement",
-                    "value": 1
-                  },
                   {"affects": "self.entries.recursive.profiles.Melee Weapons", "arg": "+0", "field": "3254-9fe6-d824-513e", "join": "", "scope": "model", "type": "replace"},
                   {
                     "affects": "self.entries.recursive.4986-bf86-beb4-13ac",
