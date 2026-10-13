@@ -25153,6 +25153,15 @@
                     "conditions": [{"childId": "59a9-b5cc-7c11-aaad", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
                   }
                 ]
+              },
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "scope": "parent",
+                "skipIfPresent": "Anti-Vehicle",
+                "type": "append",
+                "value": "Anti-Vehicle 4+"
               }
             ],
             "profiles": [
