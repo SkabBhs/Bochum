@@ -78124,7 +78124,8 @@
             "type": "upgrade",
             "categoryLinks": [
               {"name": "Priority Assets", "id": "7031-b0e8-8f5b-904a", "hidden": false, "primary": false, "targetId": "0936-9767-1cc7-52ae"},
-              {"name": "3DP Detachment", "id": "fa3b-602a-5d15-13a1", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"}
+              {"name": "3DP Detachment", "id": "fa3b-602a-5d15-13a1", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"},
+              {"name": "Take and Hold", "id": "6289-e667-aef2-b922", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}
             ],
             "constraints": [{"id": "722c-6a4d-a12c-a9d7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
@@ -82336,7 +82337,7 @@
                     "value": true,
                     "conditionGroups": [
                       {
-                        "type": "or",
+                        "type": "and",
                         "conditions": [
                           {"childId": "14a0-40c9-2748-ae6e", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
                           {"childId": "966c-5300-a13d-f524", "childName": "Speeder", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
