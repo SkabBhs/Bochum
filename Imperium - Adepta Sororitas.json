@@ -9,7 +9,7 @@
     "gameSystemRevision": 1,
     "library": false,
     "readme": "",
-    "revision": 21,
+    "revision": 22,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -73,7 +73,8 @@
         "constraints": [{"id": "27b1-6f6d-4e8b-4359", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}]
       },
       {"name": "Sororitas Character", "id": "06f3-c7f0-3763-211c", "hidden": true},
-      {"name": "Celestian", "id": "6de4-e8d4-1ad9-ce52", "hidden": false}
+      {"name": "Celestian", "id": "6de4-e8d4-1ad9-ce52", "hidden": false},
+      {"name": "Torrent weapon", "id": "4d71-a8ae-cbde-b5ec", "hidden": true}
     ],
     "entryLinks": [
       {
@@ -2249,7 +2250,8 @@
         "type": "upgrade",
         "categoryLinks": [
           {"name": "Ranged Weapon", "id": "c65d-641e-ffea-db25", "hidden": false, "primary": false, "targetId": "eeda-8544-a2f3-3fab"},
-          {"name": "Attacks Dx Weapon", "id": "2bd3-fcef-4499-d976", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"}
+          {"name": "Attacks Dx Weapon", "id": "2bd3-fcef-4499-d976", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"},
+          {"name": "Torrent Weapon", "id": "e66b-1274-713c-1834", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}
         ],
         "infoLinks": [
           {"name": "Ignores Cover", "id": "afeb-1d49-689-43d0", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
@@ -2398,7 +2400,10 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Attacks Dx Weapon", "id": "c3b7-4d29-394a-eac7", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"}],
+        "categoryLinks": [
+          {"name": "Attacks Dx Weapon", "id": "c3b7-4d29-394a-eac7", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"},
+          {"name": "Torrent Weapon", "id": "2a59-621e-8150-e3b5", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}
+        ],
         "infoLinks": [
           {"name": "Ignores Cover", "id": "7575-cb4c-bcfc-4006", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
           {"name": "Torrent", "id": "eb55-e29a-f25a-3510", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
@@ -2428,7 +2433,10 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Attacks Dx Weapon", "id": "f917-87c6-35f2-cc6c", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"}],
+        "categoryLinks": [
+          {"name": "Attacks Dx Weapon", "id": "f917-87c6-35f2-cc6c", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"},
+          {"name": "Torrent Weapon", "id": "fcd6-8093-6ea8-aca0", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}
+        ],
         "infoLinks": [
           {"name": "Ignores Cover", "id": "93ad-1ef8-df43-6b63", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
           {"name": "Torrent", "id": "50a5-6ec3-be87-611", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
@@ -2926,7 +2934,8 @@
                     "type": "upgrade",
                     "categoryLinks": [
                       {"name": "Ranged Weapon", "id": "fd46-e014-4949-c5f0", "hidden": false, "primary": false, "targetId": "eeda-8544-a2f3-3fab"},
-                      {"name": "Attacks Dx Weapon", "id": "61f2-dd39-09b5-2798", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"}
+                      {"name": "Attacks Dx Weapon", "id": "61f2-dd39-09b5-2798", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"},
+                      {"name": "Torrent Weapon", "id": "33dc-b01f-0e66-7aa4", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}
                     ],
                     "constraints": [
                       {
@@ -6635,7 +6644,10 @@
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
-                        "categoryLinks": [{"name": "Attacks Dx Weapon", "id": "c971-4a2b-8177-9d1d", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"}],
+                        "categoryLinks": [
+                          {"name": "Attacks Dx Weapon", "id": "c971-4a2b-8177-9d1d", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"},
+                          {"name": "Torrent Weapon", "id": "c4de-db53-8748-8354", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}
+                        ],
                         "constraints": [{"id": "5600-97d5-3120-2a6a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                         "infoLinks": [
                           {"name": "Ignores Cover", "id": "1f74-185d-1d66-bd7f", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
@@ -12121,7 +12133,8 @@
                 "type": "upgrade",
                 "categoryLinks": [
                   {"name": "Ranged Weapon", "id": "7608-07df-a1bf-e6a3", "hidden": false, "primary": false, "targetId": "eeda-8544-a2f3-3fab"},
-                  {"name": "Melee Weapon", "id": "1e9f-c927-d082-d66e", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}
+                  {"name": "Melee Weapon", "id": "1e9f-c927-d082-d66e", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
+                  {"name": "Torrent Weapon", "id": "246a-16e8-a811-4d60", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}
                 ],
                 "constraints": [{"id": "e00e-caf1-2c69-703a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "infoLinks": [
@@ -18510,7 +18523,10 @@
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
-                    "categoryLinks": [{"name": "Attacks Dx Weapon", "id": "1fda-25cd-d171-a931", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"}],
+                    "categoryLinks": [
+                      {"name": "Attacks Dx Weapon", "id": "1fda-25cd-d171-a931", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"},
+                      {"name": "Torrent Weapon", "id": "72a8-c1d0-64ce-c8be", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}
+                    ],
                     "constraints": [{"id": "189e-284a-9e5b-2df4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "c852-b3aa-2acb-0971", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
@@ -18780,7 +18796,10 @@
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
-                    "categoryLinks": [{"name": "Attacks Dx Weapon", "id": "579e-8677-d245-070b", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"}],
+                    "categoryLinks": [
+                      {"name": "Attacks Dx Weapon", "id": "579e-8677-d245-070b", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"},
+                      {"name": "Torrent Weapon", "id": "a70e-2f47-151a-9632", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}
+                    ],
                     "constraints": [
                       {"id": "b6de-3b04-3a7c-7b0b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                       {"id": "4bfc-f415-2f42-157b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -22603,6 +22622,50 @@
               {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
               {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
               {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 1}
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "modifiers": [
+                  {
+                    "affects": "self.entries.group.recursive.064a-0470-60eb-e3ef.profiles.Ranged Weapons",
+                    "field": "3bb-c35f-f54-fb08",
+                    "position": -1,
+                    "scope": "parent",
+                    "type": "increment",
+                    "value": 1
+                  },
+                  {
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "field": "7f1b-8591-2fcf-d01c",
+                    "join": ", ",
+                    "position": -1,
+                    "scope": "parent",
+                    "skipIfPresent": "Sustained Hits",
+                    "type": "append",
+                    "value": "Sustained Hits 1"
+                  },
+                  {
+                    "affects": "self.entries.group.recursive.064a-0470-60eb-e3ef.profiles.Ranged Weapons",
+                    "arg": "Sustained Hits 1",
+                    "field": "7f1b-8591-2fcf-d01c",
+                    "join": ", ",
+                    "position": -1,
+                    "scope": "parent",
+                    "skipIfPresent": "Sustained Hits",
+                    "type": "replace",
+                    "value": ""
+                  },
+                  {
+                    "affects": "self.entries.group.recursive.064a-0470-60eb-e3ef.profiles.Ranged Weapons",
+                    "field": "3bb-c35f-f54-fb08",
+                    "join": "",
+                    "scope": "parent",
+                    "type": "append",
+                    "value": "+0"
+                  }
+                ]
+              }
             ],
             "modifiers": [
               {
