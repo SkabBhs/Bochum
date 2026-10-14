@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 17,
+    "revision": 18,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -6654,16 +6654,7 @@
           {"id": "d745-a741-a3e8-c434-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
           {"id": "d745-a741-a3e8-c434-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
         ],
-        "infoLinks": [
-          {
-            "name": "Exaction Squad",
-            "id": "nr-base-14b8-cce5-ed01-5699",
-            "hidden": false,
-            "targetId": "2155-a47e-1f04-eec2",
-            "type": "profile",
-            "modifiers": [{"field": "nr-base-size", "type": "set", "value": "25mm"}, {"field": "name", "type": "set", "value": "Cyber-mastiff"}]
-          }
-        ],
+        "infoLinks": [{"name": "Cyber-mastiff", "id": "nr-base-14b8-cce5-ed01-5699", "hidden": false, "targetId": "2155-a47e-1f04-eec2", "type": "profile"}],
         "selectionEntries": [
           {
             "name": "Mechanical bite",
