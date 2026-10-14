@@ -2103,11 +2103,7 @@
           {"name": "W", "id": "750a-a2ec-90d3-21fe"},
           {"name": "LD", "id": "58d2-b879-49c7-43bc"},
           {"name": "OC", "id": "bef7-942a-1a23-59f8"},
-          {
-            "name": "InSv",
-            "id": "55a7-5b54-c60d-11dc",
-            "formatRules": [{"name": "New Format Rule", "id": "11c5-ee61-344f-d1a1", "comment": "Empty → -", "hidden": false, "match": "^$", "replace": "-", "type": "regex"}]
-          },
+          {"name": "InSv", "id": "55a7-5b54-c60d-11dc"},
           {"name": "Base", "id": "nr-base-size"}
         ]
       },
