@@ -17260,7 +17260,40 @@
           {"id": "cb68-0439-3413-cc66", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
           {"id": "86c0-3079-25a1-e709", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
           {"id": "f6d5-c0af-d52c-8e06", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0},
-          {"id": "0bc9-dede-119a-feee", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}
+          {"id": "0bc9-dede-119a-feee", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3},
+          {
+            "id": "20dd-f24b-17f6-28ef",
+            "childId": "any",
+            "field": "f759-1bc4-cb3a-f0d2",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "message": "An Attached Unit can only take 1 Enhancement.",
+            "scope": "root-entry",
+            "shared": true,
+            "traverseAssociationGroup": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "6f8b-1025-0d14-2497",
+            "childId": "1556-9b56-fba6-4370",
+            "childName": "Leader",
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "154b-4bd5-16e0-6b36",
+            "childId": "7dcd-7f61-69a7-0294",
+            "childName": "Support",
+            "field": "associations",
+            "scope": "self",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
         ],
         "costs": [
           {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 85},
@@ -18128,6 +18161,7 @@
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
+                        "categoryLinks": [{"name": "Torrent Weapon", "id": "4162-3729-aa9f-9259", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}],
                         "constraints": [{"id": "6c2f-4b6d-a6ef-0118", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                         "infoLinks": [
                           {"name": "Torrent", "id": "4ff1-6cf3-14b7-98ef", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
@@ -18334,6 +18368,7 @@
                         "hidden": false,
                         "import": true,
                         "type": "upgrade",
+                        "categoryLinks": [{"name": "Torrent Weapon", "id": "4ee0-1e9a-15e4-4488", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}],
                         "constraints": [{"id": "12a8-e105-85a4-57bf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0}],
                         "entryLinks": [
                           {"name": "Weapon Modifications", "id": "9058-79de-a513-d423", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
@@ -30485,7 +30520,8 @@
                 ],
                 "entryLinks": [
                   {"name": "Weapon Modifications", "id": "3cef-7707-fccd-ae00", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                ]
+                ],
+                "infoLinks": [{"name": "Ignores Cover", "id": "8b08-1e2f-8a06-8c8a", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"}]
               },
               {
                 "name": "Onslaught gatling cannon",
@@ -49839,11 +49875,6 @@
                 "conditions": [{"childId": "8dbe-9f09-d44d-07d6", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
               }
             ]
-          },
-          {
-            "type": "and",
-            "conditions": [{"childId": "any", "field": "associations", "includeChildSelections": false, "scope": "self", "shared": true, "type": "atLeast", "value": 1}],
-            "modifiers": [{"affects": "entries.group.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "type": "set", "value": "5+ vs Ranged"}]
           }
         ],
         "modifiers": [
@@ -51169,11 +51200,6 @@
                 "conditions": [{"childId": "8dbe-9f09-d44d-07d6", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
               }
             ]
-          },
-          {
-            "type": "and",
-            "conditions": [{"childId": "any", "field": "associations", "includeChildSelections": false, "scope": "self", "shared": true, "type": "atLeast", "value": 1}],
-            "modifiers": [{"affects": "entries.group.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "type": "set", "value": "5+ vs Ranged"}]
           }
         ],
         "modifiers": [
@@ -78023,6 +78049,25 @@
               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Blast 2", "typeId": "7f1b-8591-2fcf-d01c"}
+            ],
+            "modifiers": [
+              {
+                "field": "7f1b-8591-2fcf-d01c",
+                "type": "append",
+                "value": "Ignores Cover",
+                "conditions": [
+                  {
+                    "childId": "ca80-dc11-448e-c805",
+                    "childName": "Storm Speeder Hailstrike",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
             ]
           }
         ]
@@ -81857,26 +81902,6 @@
                     ]
                   }
                 ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "id": "7735-d059-9dd6-8850",
-                        "childId": "cf47-a0d7-7207-29dc",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "War-tempered Artifice",
@@ -84186,7 +84211,7 @@
                 "modifiers": [
                   {
                     "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
-                    "field": "893f-9000-ccf7-648e",
+                    "field": "7f1b-8591-2fcf-d01c",
                     "join": ", ",
                     "scope": "parent",
                     "skipIfPresent": "Lethal Hits",
@@ -84606,6 +84631,25 @@
                   {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 1},
                   {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
                   {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "5179-8ede-45e3-49a2",
+                        "childName": "Tacticus",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
                 ],
                 "profiles": [
                   {
@@ -85110,6 +85154,7 @@
                   {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
                   {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
                 ],
+                "infoLinks": [{"name": "Scouts 5\"", "id": "9dc8-c0d2-2729-8910", "hidden": false, "targetId": "b4d7-ba95-ed79-bafe", "type": "rule"}],
                 "modifiers": [
                   {
                     "field": "hidden",
@@ -85136,7 +85181,7 @@
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
-                    "characteristics": [{"name": "Description", "$text": "Gravis model only. This unit had Scouts 6\"", "typeId": "9b8f-694b-e5e-b573"}]
+                    "characteristics": [{"name": "Description", "$text": "Gravis model only. This unit had Scouts 5\"", "typeId": "9b8f-694b-e5e-b573"}]
                   }
                 ]
               }
@@ -86702,7 +86747,7 @@
                 "modifiers": [
                   {"affects": "self.entries.forces.group.recursive", "field": "add-info", "join": ", ", "scope": "root-entry", "type": "add", "value": "5e10-6d62-2624-80a8"},
                   {
-                    "affects": "self.entries.group.recursive.profiles.Unit",
+                    "affects": "self.entries.recursive.profiles.Unit",
                     "field": "d29d-cf75-fc2d-34a4",
                     "join": ", ",
                     "scope": "parent",

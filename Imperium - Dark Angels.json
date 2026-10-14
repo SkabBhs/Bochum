@@ -865,7 +865,10 @@
             ]
           }
         ],
-        "infoLinks": [{"name": "Combat Doctrines", "id": "7cbf-abf8-d893-ef4d", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Combat Doctrines", "id": "7cbf-abf8-d893-ef4d", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
+          {"name": "Transhuman Strategist", "id": "fb6d-15be-b722-45e5", "hidden": false, "targetId": "c6cc-c38c-dfe6-dbb8", "type": "rule"}
+        ],
         "modifiers": [{"affects": "group", "field": "category", "type": "add", "value": "355c-0ee6-3cde-6c71"}],
         "profiles": [
           {
@@ -2987,7 +2990,8 @@
           {"name": "Faction: Adeptus Astartes", "id": "9a31-18dc-c086-9522", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Dark Angels", "id": "436b-267e-51b2-ffb8", "primary": false, "targetId": "aab1-4f05-fabe-5ba5"},
           {"name": "Ravenwing", "id": "66ae-8c6e-91df-fd0b", "primary": false, "targetId": "e9c7-1590-1bda-bf7f"},
-          {"name": "Frame", "id": "9ce8-597b-228c-febb", "primary": false, "targetId": "b927-8eeb-7cc3-8dec"}
+          {"name": "Frame", "id": "9ce8-597b-228c-febb", "primary": false, "targetId": "b927-8eeb-7cc3-8dec"},
+          {"name": "Speeder", "id": "5c37-076d-c4f0-c029", "hidden": false, "primary": false, "targetId": "966c-5300-a13d-f524"}
         ],
         "constraints": [
           {"id": "80e3-6faa-79ea-bbef", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
