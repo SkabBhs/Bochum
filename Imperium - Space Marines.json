@@ -35870,7 +35870,7 @@
                                 "typeName": "Ranged Weapons",
                                 "characteristics": [
                                   {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
-                                  {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                                  {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
                                   {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
                                   {"name": "S", "$text": "9", "typeId": "2229-f494-25db-c5d3"},
                                   {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
@@ -77218,6 +77218,26 @@
               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Rapid Fire 1", "typeId": "7f1b-8591-2fcf-d01c"}
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries",
+                "field": "3bb-c35f-f54-fb08",
+                "type": "increment",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "caed-a62d-2318-dda1",
+                    "childName": "Death Company Marines",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
             ]
           },
           {
@@ -78053,6 +78073,7 @@
             "modifiers": [
               {
                 "field": "7f1b-8591-2fcf-d01c",
+                "join": ",",
                 "type": "append",
                 "value": "Ignores Cover",
                 "conditions": [
