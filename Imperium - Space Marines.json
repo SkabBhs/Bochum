@@ -5684,7 +5684,7 @@
         "hidden": false,
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
-        "characteristics": [{"name": "Description", "$text": "This unit has Feel No Pain 4+ against psychic attacks and mortal wounds.", "typeId": "9b8f-694b-e5e-b573"}]
+        "characteristics": [{"name": "Description", "$text": "This unit has Feel No Pain 4+ against psychic attacks.", "typeId": "9b8f-694b-e5e-b573"}]
       },
       {
         "name": "Tactical Precision",
@@ -78608,7 +78608,10 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [{"name": "Take and Hold", "id": "0a1a-7497-3254-bd48", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}],
+            "categoryLinks": [
+              {"name": "Take and Hold", "id": "0a1a-7497-3254-bd48", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"},
+              {"name": "Terminator Detachment", "id": "962f-e90e-f9c6-ba76", "hidden": false, "primary": false, "targetId": "0166-0037-31fb-1dd0"}
+            ],
             "constraints": [{"id": "3a01-4025-5cf6-5618", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -79229,7 +79232,6 @@
               {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
               {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
             ],
-            "displayCosts": [{"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0}, {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}],
             "rules": [
               {
                 "name": "Codex Fire-Patterns",
@@ -81440,7 +81442,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "**^^Deathwing**^^ model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
+                        "$text": "^^**Deathwing**^^ model with the **Deep Strike** ability only. In your first Movement phase, this unit can make an **ingress move**.",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -81479,7 +81481,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "**^^Adeptus Astartes**^^ model only. While a friendly **^^Adeptus Astartes**^^ unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit.",
+                        "$text": "**^^Adeptus Astartes**^^ model only. Friendly ^^**Adeptus Astartes**^^ units within 6” of this model can re-roll **leadership rolls**.",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -81523,13 +81525,7 @@
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "$text": "**^^Ravenwing**^^ model only. You can re-roll Advance and Charge rolls made for the bearer’s unit.",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
+                    "characteristics": [{"name": "Description", "$text": "**^^Ravenwing**^^ model only. This unit can re-roll **charge rolls**.", "typeId": "9b8f-694b-e5e-b573"}]
                   }
                 ]
               },
@@ -81585,7 +81581,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "^^**Adeptus Astartes**^^ model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, and improve the Armour Penetration and Damage characteristics of those weapons by 1.",
+                        "$text": "^^**Adeptus Astartes**^^ model only. This model’s melee attacks:\n\n\n- Have +2 S.\n- Have +1 AP",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
