@@ -26949,38 +26949,6 @@
             ]
           },
           {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "4ef9-15ce-e3e6-36de",
-                    "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "83c3-d5a9-bc75-339f",
-                    "childName": "Outriders",
-                    "field": "selections",
-                    "includeChildForces": false,
-                    "includeChildSelections": true,
-                    "scope": "unit-self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 4
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "affects": "self.entries",
             "field": "category",
             "type": "set-primary",
@@ -78601,7 +78569,8 @@
             "categoryLinks": [
               {"name": "Priority Assets", "id": "eec2-2124-5675-5ba6", "primary": false, "targetId": "0936-9767-1cc7-52ae"},
               {"name": "Grace", "id": "a78e-bb61-a9af-b7f0", "primary": false, "targetId": "587c-f293-e783-0008"},
-              {"name": "3DP Detachment", "id": "d2b2-2098-98c0-1ee1", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"}
+              {"name": "3DP Detachment", "id": "d2b2-2098-98c0-1ee1", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"},
+              {"name": "Purge the Foe", "id": "f26f-f512-e240-635b", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"}
             ],
             "constraints": [{"id": "dcd1-7cb7-b222-0474", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
