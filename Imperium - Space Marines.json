@@ -336,7 +336,8 @@
         "hidden": true,
         "constraints": [{"id": "3e7c-153d-d0d1-1e99", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}]
       },
-      {"name": "Gauntlet of the Forge", "id": "283b-b6a4-9cae-6609", "hidden": true}
+      {"name": "Gauntlet of the Forge", "id": "283b-b6a4-9cae-6609", "hidden": true},
+      {"name": "Non-Psychic Weapon", "id": "e239-6a49-4d60-981a", "hidden": true}
     ],
     "costTypes": [
       {
@@ -17032,6 +17033,21 @@
                     "import": true,
                     "targetId": "e7f9-66f5-9b9e-c587",
                     "type": "selectionEntry"
+                  },
+                  {
+                    "name": "Artificer Firearm",
+                    "id": "39c3-1657-46c8-5d87",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "874a-4375-dbc3-b412",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "3e08-4bb0-41bc-9f17", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "e663-8c87-f0db-d487", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Weapon Modifications", "id": "170e-47f2-4571-8900", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                    ]
                   }
                 ],
                 "profiles": [
@@ -17054,40 +17070,6 @@
                   }
                 ],
                 "selectionEntryGroups": [
-                  {
-                    "name": "Weapon Option",
-                    "id": "5ff5-aadc-6bc4-b2d8",
-                    "defaultSelectionEntryId": "39c3-1657-46c8-5d87",
-                    "hidden": false,
-                    "constraints": [
-                      {"id": "c0fd-cccf-17b7-1ee5", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "c206-c21-842-3945", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "entryLinks": [
-                      {
-                        "name": "Combi-weapon",
-                        "id": "4dcf-36a1-82dd-7d64",
-                        "hidden": false,
-                        "import": true,
-                        "targetId": "2c13-8cdd-f66b-bcae",
-                        "type": "selectionEntry",
-                        "entryLinks": [
-                          {"name": "Weapon Modifications", "id": "9dbf-0d56-8ed6-7a0c", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                        ]
-                      },
-                      {
-                        "name": "Artificer Firearm",
-                        "id": "39c3-1657-46c8-5d87",
-                        "hidden": false,
-                        "import": true,
-                        "targetId": "874a-4375-dbc3-b412",
-                        "type": "selectionEntry",
-                        "entryLinks": [
-                          {"name": "Weapon Modifications", "id": "170e-47f2-4571-8900", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                        ]
-                      }
-                    ]
-                  },
                   {
                     "name": "Melee Option",
                     "id": "6cfb-5b5e-5441-a1af",
@@ -42533,7 +42515,7 @@
             "hidden": false,
             "targetId": "13b2-6518-dab3-7ea1",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "append", "value": 6}]
+            "modifiers": [{"field": "name", "type": "append", "value": "7"}]
           },
           {"name": "Combat Doctrines", "id": "3a60-ff11-dd7d-948c", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}
         ],
@@ -47931,6 +47913,7 @@
                 "import": true,
                 "targetId": "18b0-8c2-173f-5",
                 "type": "selectionEntry",
+                "categoryLinks": [{"name": "Non-Psychic Weapon", "id": "b3e1-e394-bed5-17c5", "hidden": false, "primary": false, "targetId": "e239-6a49-4d60-981a"}],
                 "constraints": [
                   {"id": "c38-135d-a36d-cb5e", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "113f-2c83-425c-af40", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -48547,6 +48530,7 @@
                 "import": true,
                 "targetId": "18b0-8c2-173f-5",
                 "type": "selectionEntry",
+                "categoryLinks": [{"name": "Non-Psychic Weapon", "id": "dc08-168f-3a5c-02e1", "hidden": false, "primary": false, "targetId": "e239-6a49-4d60-981a"}],
                 "constraints": [
                   {"id": "31dd-a646-6a09-e3b1", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "7097-4acb-ed31-837a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -49018,6 +49002,7 @@
                 "import": true,
                 "targetId": "905d-bd38-f44c-9eef",
                 "type": "selectionEntry",
+                "categoryLinks": [{"name": "Psychic Weapon", "id": "4785-7787-d97e-fc05", "hidden": false, "primary": false, "targetId": "4546-4a0c-b3be-e84c"}],
                 "constraints": [
                   {"id": "b58a-5ff1-6b49-3429", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "88ac-834a-7ec3-de11", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -49031,6 +49016,7 @@
                 "import": true,
                 "targetId": "4aaa-f353-5fa5-fd92",
                 "type": "selectionEntry",
+                "categoryLinks": [{"name": "Psychic Weapon", "id": "f9e7-579c-8c97-eca3", "hidden": false, "primary": false, "targetId": "4546-4a0c-b3be-e84c"}],
                 "constraints": [
                   {"id": "8bb1-74c2-4be4-4015", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "072e-cceb-8a58-f95e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -49044,6 +49030,7 @@
                 "import": true,
                 "targetId": "eb61-5cd0-5242-74cc",
                 "type": "selectionEntry",
+                "categoryLinks": [{"name": "Non-Psychic Weapon", "id": "22b3-31b2-282a-ef46", "hidden": false, "primary": false, "targetId": "e239-6a49-4d60-981a"}],
                 "constraints": [
                   {"id": "4f98-aa85-13bf-2cc1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
                   {"id": "ae5b-b692-de4a-7969", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
@@ -82645,7 +82632,7 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "max",
-                    "value": 1
+                    "value": 3
                   }
                 ],
                 "costs": [
@@ -82672,6 +82659,40 @@
                           {"childId": "14a0-40c9-2748-ae6e", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
                           {"childId": "966c-5300-a13d-f524", "childName": "Speeder", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "type": "divide",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "b21a-b914-964c-d984",
+                        "childName": "Chogorian Huntmaster (Upgrade)",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 2
+                      }
+                    ]
+                  },
+                  {
+                    "field": "f759-1bc4-cb3a-f0d2",
+                    "type": "divide",
+                    "value": 3,
+                    "conditions": [
+                      {
+                        "childId": "b21a-b914-964c-d984",
+                        "childName": "Chogorian Huntmaster (Upgrade)",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 2
                       }
                     ]
                   }
@@ -84359,43 +84380,91 @@
                   {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
                   {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
                 ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                        "field": "3bb-c35f-f54-fb08",
+                        "join": ", ",
+                        "scope": "parent",
+                        "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                        "type": "increment",
+                        "value": 1
+                      },
+                      {
+                        "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                        "field": "2229-f494-25db-c5d3",
+                        "join": ", ",
+                        "scope": "parent",
+                        "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                        "type": "increment",
+                        "value": 1
+                      },
+                      {
+                        "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                        "field": "a354-c1c8-a745-f9e3",
+                        "join": ", ",
+                        "scope": "parent",
+                        "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                        "type": "increment",
+                        "value": 1
+                      },
+                      {
+                        "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                        "field": "9ead-8a10-520-de15",
+                        "join": ", ",
+                        "scope": "parent",
+                        "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                        "type": "decrement",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
+                        "field": "3bb-c35f-f54-fb08",
+                        "join": ", ",
+                        "scope": "parent",
+                        "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                        "type": "decrement",
+                        "value": 1
+                      },
+                      {
+                        "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
+                        "field": "2229-f494-25db-c5d3",
+                        "join": ", ",
+                        "scope": "parent",
+                        "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                        "type": "decrement",
+                        "value": 1
+                      },
+                      {
+                        "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
+                        "field": "a354-c1c8-a745-f9e3",
+                        "join": ", ",
+                        "scope": "parent",
+                        "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                        "type": "decrement",
+                        "value": 1
+                      },
+                      {
+                        "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
+                        "field": "9ead-8a10-520-de15",
+                        "join": ", ",
+                        "scope": "parent",
+                        "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
+                        "type": "increment",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
                 "modifiers": [
-                  {
-                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
-                    "field": "3bb-c35f-f54-fb08",
-                    "join": ", ",
-                    "scope": "parent",
-                    "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
-                    "type": "increment",
-                    "value": 1
-                  },
-                  {
-                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
-                    "field": "2229-f494-25db-c5d3",
-                    "join": ", ",
-                    "scope": "parent",
-                    "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
-                    "type": "increment",
-                    "value": 1
-                  },
-                  {
-                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
-                    "field": "a354-c1c8-a745-f9e3",
-                    "join": ", ",
-                    "scope": "parent",
-                    "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
-                    "type": "increment",
-                    "value": 1
-                  },
-                  {
-                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
-                    "field": "9ead-8a10-520-de15",
-                    "join": ", ",
-                    "scope": "parent",
-                    "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
-                    "type": "decrement",
-                    "value": 1
-                  },
                   {
                     "field": "hidden",
                     "type": "set",
