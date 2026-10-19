@@ -9,7 +9,7 @@
     "library": false,
     "revision": 1,
     "type": "catalogue",
-    "catalogueLinks": [{"name": "Imperium - Adeptus Mechanicus", "id": "279e-0f9e-1c0e-3e44", "targetId": "77b9-2f66-3f9b-5cf3", "type": "catalogue"}],
+    "catalogueLinks": [{"name": "Imperium - Adeptus Mechanicus", "id": "279e-0f9e-1c0e-3e44", "importRootEntries": true, "targetId": "77b9-2f66-3f9b-5cf3", "type": "catalogue"}],
     "categoryEntries": [
       {"name": "Arlatax", "id": "a6f9-d4b6-f907-02cb", "hidden": false},
       {"name": "Axiarch", "id": "debe-c343-c393-84ce", "hidden": false},
