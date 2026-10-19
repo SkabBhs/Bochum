@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 20,
+    "revision": 21,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -2044,7 +2044,7 @@
                     "repeats": 1,
                     "scope": "parent",
                     "type": "atLeast",
-                    "value": 1,
+                    "value": 2,
                     "conditions": [
                       {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
                       {"childId": "48b7-e713-d5b1-f11c", "childName": "Blade Champion", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
@@ -2995,9 +2995,9 @@
                   {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
                   {"name": "T", "$text": "7", "typeId": "d29d-cf75-fc2d-34a4"},
                   {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
-                  {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
-                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "3", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "W", "$text": "6", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
                   {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
                 ]
@@ -8715,7 +8715,7 @@
                   {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
                   {"name": "T", "$text": "7", "typeId": "d29d-cf75-fc2d-34a4"},
                   {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
-                  {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
                   {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
@@ -16272,7 +16272,7 @@
                   {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
                   {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "OC", "$text": "3", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
                   {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
                 ]
@@ -18183,7 +18183,7 @@
                     "type": "selectionEntryGroup"
                   }
                 ],
-                "infoLinks": [{"name": "Twin-linked", "id": "a46e-4e40-4f50-7a5a", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}],
+                "infoLinks": [{"name": "Lethal Hits", "id": "a46e-4e40-4f50-7a5a", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}],
                 "profiles": [
                   {
                     "name": "Arachnus Blaze Carronade",
@@ -18623,7 +18623,7 @@
                   {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
                   {"name": "T", "$text": "7", "typeId": "d29d-cf75-fc2d-34a4"},
                   {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
-                  {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
                   {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
