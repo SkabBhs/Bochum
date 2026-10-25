@@ -245,6 +245,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "infoLinks": [{"name": "Doctrina Imperatives", "id": "4b3f-1266-a538-5a32", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}],
         "profiles": [
           {
             "name": "Deadly Demise",
@@ -679,6 +680,7 @@
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0}
         ],
+        "infoLinks": [{"name": "Doctrina Imperatives", "id": "7bdc-277a-efeb-8162", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}],
         "modifiers": [
           {
             "field": "51b2-306e-1021-d207",
@@ -1803,6 +1805,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "infoLinks": [{"name": "Doctrina Imperatives", "id": "617d-2269-474b-ea61", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}],
         "profiles": [
           {
             "name": "Domitar",
@@ -6241,6 +6244,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "infoLinks": [{"name": "Doctrina Imperatives", "id": "ed45-566f-7854-6bb9", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}],
         "modifiers": [
           {
             "field": "51b2-306e-1021-d207",
@@ -6616,7 +6620,10 @@
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0}
         ],
-        "infoLinks": [{"name": "Deep Strike", "id": "c515-4ede-7fcf-0367", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Deep Strike", "id": "c515-4ede-7fcf-0367", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"},
+          {"name": "Doctrina Imperatives", "id": "031a-ff07-a073-eaa7", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}
+        ],
         "modifiers": [
           {
             "field": "51b2-306e-1021-d207",
@@ -7275,6 +7282,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "infoLinks": [{"name": "Doctrina Imperatives", "id": "4bd7-9c08-62ef-23cb", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}],
         "profiles": [
           {
             "name": "Thanatar",
@@ -8094,7 +8102,10 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
-        "infoLinks": [{"name": "Deep Strike", "id": "00de-d7bd-05d3-b020", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Deep Strike", "id": "00de-d7bd-05d3-b020", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"},
+          {"name": "Doctrina Imperatives", "id": "0b5b-324b-894c-ee16", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}
+        ],
         "modifiers": [
           {
             "field": "51b2-306e-1021-d207",
@@ -8676,7 +8687,10 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
-        "infoLinks": [{"name": "Stealth", "id": "7b32-f143-2ea2-38f2", "hidden": false, "targetId": "bec5-4288-34a6-ccfa", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Stealth", "id": "7b32-f143-2ea2-38f2", "hidden": false, "targetId": "bec5-4288-34a6-ccfa", "type": "rule"},
+          {"name": "Doctrina Imperatives", "id": "a7e7-168e-2e02-eb61", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}
+        ],
         "modifiers": [
           {
             "field": "51b2-306e-1021-d207",
@@ -9246,6 +9260,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "infoLinks": [{"name": "Doctrina Imperatives", "id": "ff08-85b7-157f-1de0", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}],
         "profiles": [
           {
             "name": "Deadly Demise",
