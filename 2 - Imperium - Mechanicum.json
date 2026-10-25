@@ -9477,15 +9477,15 @@
         "type": "unit",
         "categoryLinks": [
           {"name": "Monster", "id": "9434-3ba8-d0c3-f3c5", "hidden": false, "primary": false, "targetId": "9693-cf84-fe69-37a9"},
-          {"name": "Character", "id": "0cb9-2d14-c57a-628a", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
-          {"name": "Epic Hero", "id": "f1e5-406e-ea7f-2aca", "hidden": false, "primary": false, "targetId": "4f3a-f0f7-6647-348d"},
+          {"name": "Character", "id": "0cb9-2d14-c57a-628a", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Epic Hero", "id": "f1e5-406e-ea7f-2aca", "hidden": false, "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
           {"name": "Imperium", "id": "6341-854c-5b49-e870", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Tech-Priest", "id": "a353-c4f8-98b6-9ff7", "hidden": false, "primary": false, "targetId": "59a9-b5cc-7c11-aaad"},
           {"name": "Cult Mechanicus", "id": "1003-a24b-4b09-370d", "hidden": false, "primary": false, "targetId": "6d46-7883-e5d1-45ee"},
           {"name": "Mobile", "id": "4a41-e242-f154-bcc2", "hidden": false, "primary": false, "targetId": "355c-0ee6-3cde-6c71"}
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 220},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 200},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -9494,6 +9494,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "infoLinks": [{"name": "Doctrina Imperatives", "id": "1e31-f37f-ed02-eddd", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}],
         "profiles": [
           {
             "name": "Scoria",
@@ -9521,7 +9522,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the start of your Command phase, select one of the abilities in the Conduit of the Machine Spirit section. Until the start of your next Command phase, this model has that ability.\n\n\nLitany of Restoration (Aura):\n\n\n\n\nPslam of Warding:\n\n\n\n\nIndictment of Tech-Heresy:\n\n\n\n",
+                "$text": "At the start of your Command phase, select one of the abilities in the Conduit of the Machine Spirit section. Until the start of your next Command phase, this model has that ability.\n\n**Litany of Restoration (Aura)**: \nWhile a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, at the end of your command phase, that unit regains up to D3 lost wounds, excluding this model.\n\n\n**Psalm of Warding (Aura)**: \nWhile a friendly ADEPTUS MECHANICUS INFANTRY unit is within 6\" of this model, that unit has the Stealth ability and gains the BATTLELINE keyword.\n\n\n**Idictment of Tech-Heresy**: \nAt the start of your shooting phase, select one enemy VEHICLE unit within 12\" of this model and roll one D6: on a 2+, that enemy suffers D3 mortal wounds and this model regains up to that many lost wounds.\n\n",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -9547,6 +9548,353 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "characteristics": [{"name": "Description", "$text": "At the start of your Command phase, this model regains up to D3 lost wounds.", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Melee Weapons",
+            "id": "95c0-e28c-21bf-d82c",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Bladed Limbs",
+                "id": "989e-dad4-9ea1-1525",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "cf1e-a771-e3d7-9e17",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "9aa8-b087-133c-940f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "infoLinks": [{"name": "Extra Attacks", "id": "af15-55e6-e931-316a", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Bladed Limbs",
+                    "id": "b83a-3c6f-15bd-420c",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "-1", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "Extra Attacks", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Codespike",
+                "id": "11a9-8c56-436c-8582",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "26e1-a975-cf15-b91d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "d76f-4f98-8c9b-17bf",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "infoLinks": [
+                  {"name": "Extra Attacks", "id": "0376-ffea-ef06-3a76", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"},
+                  {"name": "Anti", "id": "5860-5712-422f-6c53", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Codespike",
+                    "id": "c3e0-4462-3935-e504",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "1", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "3", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "Extra Attacks, Anti-Vehicle 2+", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Servo-claws",
+                "id": "3dee-796a-6295-4bbb",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "58ff-35cc-d394-12ab",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "6941-df89-9b87-cb36",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "infoLinks": [{"name": "Extra Attacks", "id": "bce5-5359-bd64-71ca", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Servo-claws",
+                    "id": "52ed-70de-d6db-e575",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "4", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "Extra Attacks", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Taser Spear",
+                "id": "28ee-6cfa-b2e4-34bd",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "b95f-27e4-97ca-132f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "4429-fbb4-488a-9824",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "infoLinks": [{"name": "Sustained Hits", "id": "0662-15d9-c6b8-580a", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Taser Spear",
+                    "id": "3fef-0238-f92e-ce90",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "7", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "Sustained Hits 2", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "29e6-1e24-9914-f7c6",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "d5b4-8ae2-d867-6063",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "e699-3931-95e0-6a81",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Photon Thruster",
+                "id": "8f61-a47b-7a76-67bd",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "5b2c-ee14-5893-43fb",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "2758-1341-6d6b-5f42",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "infoLinks": [{"name": "Devastating Wounds", "id": "64b7-80db-2efe-7490", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Photon Thruster",
+                    "id": "c73f-726e-6fbd-5212",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "30\"", "typeId": "9896-9419-16a1-92fc"},
+                      {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
+                      {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                      {"name": "S", "$text": "12", "typeId": "2229-f494-25db-c5d3"},
+                      {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+                      {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "7f1b-8591-2fcf-d01c"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Twin Phosphor Serpenta",
+                "id": "4a92-7ac2-2940-fb49",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "c467-53a7-b16b-fbda",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "2e85-1fa8-7f83-e3c5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "infoLinks": [
+                  {"name": "Ignores Cover", "id": "9c87-14a0-2b31-7586", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
+                  {"name": "Close-quarters", "id": "a2c5-c52a-8908-d31f", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
+                  {"name": "Twin-linked", "id": "de65-0e9b-5191-04bb", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Twin Phosphor Serpenta",
+                    "id": "1565-d337-2d31-c652",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                      {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                      {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                      {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+                      {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                      {"name": "Keywords", "$text": "Ignores Cover, Close-Quarters, Twin-Linked", "typeId": "7f1b-8591-2fcf-d01c"}
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
