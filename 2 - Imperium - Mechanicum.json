@@ -155,15 +155,6 @@
         "type": "selectionEntry"
       },
       {
-        "name": "Thallax",
-        "id": "61e9-7286-c73f-327b",
-        "collective": false,
-        "hidden": false,
-        "import": true,
-        "targetId": "7dff-20dd-44dd-eb2f",
-        "type": "selectionEntry"
-      },
-      {
         "name": "Thanatar",
         "id": "ba62-0268-dd31-45f1",
         "collective": false,
@@ -179,15 +170,6 @@
         "hidden": false,
         "import": true,
         "targetId": "c70b-7591-99f9-558c",
-        "type": "selectionEntry"
-      },
-      {
-        "name": "Ursarax",
-        "id": "813b-d8ca-f36b-0d8f",
-        "collective": false,
-        "hidden": false,
-        "import": true,
-        "targetId": "6cc3-fd40-08be-8e1c",
         "type": "selectionEntry"
       },
       {
@@ -208,7 +190,9 @@
         "targetId": "7d5c-c581-931e-1d45",
         "type": "selectionEntry"
       },
-      {"name": "Scoria", "id": "4899-d6db-dcf2-fafa", "hidden": false, "import": true, "targetId": "f483-b42a-def1-bffe", "type": "selectionEntry"}
+      {"name": "Scoria", "id": "4899-d6db-dcf2-fafa", "hidden": false, "import": true, "targetId": "f483-b42a-def1-bffe", "type": "selectionEntry"},
+      {"name": "Thallax Kohort", "id": "8504-9248-9552-b4b7", "hidden": false, "import": true, "targetId": "d692-a4fd-179e-bb96", "type": "selectionEntry"},
+      {"name": "Ursarax Kohort", "id": "7975-228c-624f-d207", "hidden": false, "import": true, "targetId": "7877-96af-bf4b-6e6d", "type": "selectionEntry"}
     ],
     "sharedRules": [
       {
@@ -9904,6 +9888,443 @@
                       {"name": "Keywords", "$text": "Ignores Cover, Close-Quarters, Twin-Linked", "typeId": "7f1b-8591-2fcf-d01c"}
                     ]
                   }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thallax Kohort",
+        "id": "d692-a4fd-179e-bb96",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Mechanicus", "id": "1306-2a80-8a66-9971", "hidden": false, "primary": false, "targetId": "5418-f86b-6e76-c5a"},
+          {"name": "Imperium", "id": "b965-5c83-b049-6c33", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
+          {"name": "Infantry", "id": "8e3c-d3db-544b-082f", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Jump Pack", "id": "c288-d958-4a5a-4cbb", "hidden": false, "primary": false, "targetId": "dda2-bb0a-215e-ad9c"},
+          {"name": "Fly", "id": "af3d-301a-3778-2982", "hidden": false, "primary": false, "targetId": "c619-2086-bbcf-69c9"}
+        ],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 60},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Deep Strike", "id": "db92-7679-5e15-5d8a", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"},
+          {"name": "Doctrina Imperatives", "id": "5f84-0eb0-da5c-aeae", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "set",
+            "value": 120,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "d692-a4fd-179e-bb96",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 3
+              },
+              {
+                "childId": "model",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "d692-a4fd-179e-bb96",
+                "shared": true,
+                "type": "lessThan",
+                "value": 7
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Djinn Sight",
+            "id": "6969-36e2-e526-14b1",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This unit's ranged attacks ignore cover.", "typeId": "9b8f-694b-e5e-b573"}]
+          },
+          {
+            "name": "Thallax",
+            "id": "cf6d-408e-48ed-4917",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "7+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "6+", "typeId": "55a7-5b54-c60d-11dc"},
+              {"name": "Base", "$text": "", "typeId": "nr-base-size"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "3-6 Thallax",
+            "id": "3fe2-a09d-7188-f984",
+            "collective": false,
+            "defaultSelectionEntryId": "8cd2-17e5-9954-d754",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "0058-d67e-5cfb-f6d0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              },
+              {
+                "id": "4b7e-9389-5dad-21ca",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Thallax with Lightning Gun",
+                "id": "9171-9903-0e15-bfb4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "constraints": [
+                  {
+                    "id": "b5d1-5ed0-0d2e-59df",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 6
+                  }
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Heavy", "id": "57ca-88c5-2516-8c8e", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"},
+                  {"name": "Sustained Hits", "id": "346a-4075-d973-64d5", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Close combat weapon",
+                    "id": "9fc0-ac9b-f6ca-5e49",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "4+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  },
+                  {
+                    "name": "Lightning Gun",
+                    "id": "0624-5baa-73d4-1973",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                      {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                      {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
+                      {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+                      {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                      {"name": "Keywords", "$text": "SUSTAINED HITS 2, HEAVY", "typeId": "7f1b-8591-2fcf-d01c"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Thallax with Multi-melta",
+                "id": "4e30-49cd-fb0a-187f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "constraints": [
+                  {
+                    "id": "a147-dd72-0af9-7477",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0}
+                ],
+                "infoLinks": [{"name": "Melta", "id": "a172-cf16-02ad-c2f0", "hidden": false, "targetId": "7cdb-fb99-44a9-8849", "type": "rule"}],
+                "modifiers": [
+                  {
+                    "field": "a147-dd72-0af9-7477",
+                    "type": "set",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "model",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "d692-a4fd-179e-bb96",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 3
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Close combat weapon",
+                    "id": "86ee-f6ee-4c1c-097a",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "4+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  },
+                  {
+                    "name": "Mutli-melta",
+                    "id": "5b22-ec02-3abf-42a4",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                      {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                      {"name": "BS", "$text": "5+", "typeId": "94d-8a98-cf90-183e"},
+                      {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
+                      {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "D", "$text": "D3+2", "typeId": "a354-c1c8-a745-f9e3"},
+                      {"name": "Keywords", "$text": "MELTA 3", "typeId": "7f1b-8591-2fcf-d01c"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ursarax Kohort",
+        "id": "7877-96af-bf4b-6e6d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Faction: Adeptus Mechanicus", "id": "b400-2f80-6581-f76c", "hidden": false, "primary": false, "targetId": "5418-f86b-6e76-c5a"},
+          {"name": "Imperium", "id": "db2f-3676-cf92-b83b", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
+          {"name": "Infantry", "id": "e219-1580-4149-c924", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Jump Pack", "id": "0109-843b-4444-43e0", "hidden": false, "primary": false, "targetId": "dda2-bb0a-215e-ad9c"},
+          {"name": "Fly", "id": "87ed-0cfe-455e-e7f3", "hidden": false, "primary": false, "targetId": "c619-2086-bbcf-69c9"}
+        ],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 65},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Deep Strike", "id": "666b-3074-f4e4-e05e", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"},
+          {"name": "Doctrina Imperatives", "id": "88b7-5465-4f81-d1e9", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "set",
+            "value": 125,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "7877-96af-bf4b-6e6d",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 3
+              },
+              {
+                "childId": "model",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "7877-96af-bf4b-6e6d",
+                "shared": true,
+                "type": "lessThan",
+                "value": 7
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Utan Jump Booster",
+            "id": "e385-4fca-f3e6-06ed",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When this unit ends a charge move, you can select one enemy unit engaged with this unit. For each model in this unit engaged with that enemy unit, roll one D6:\n- On a 4+, that enemy unit suffers 1 mortal wound.\n\n",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Usarax",
+            "id": "4ff4-b73d-5b8a-8065",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "467e-4443-ce9f-04f5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              },
+              {
+                "id": "7874-8eac-f814-720f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              }
+            ],
+            "infoLinks": [
+              {"name": "Twin-linked", "id": "fbf1-79f3-1cd1-c48e", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"},
+              {"name": "Devastating Wounds", "id": "4c67-9e0b-9554-46a4", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+              {"name": "Close-quarters", "id": "d961-235f-780b-455e", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Hydraulic Claws",
+                "id": "4848-5c0b-2c1a-c874",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                  {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "WS", "$text": "4+", "typeId": "95d1-95f-45b4-11d6"},
+                  {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
+                  {"name": "AP", "$text": "-1", "typeId": "41a0-1301-112a-e2f2"},
+                  {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+                  {"name": "Keywords", "$text": "Twin-Linked", "typeId": "893f-9000-ccf7-648e"}
+                ]
+              },
+              {
+                "name": "Volkite Incinerator",
+                "id": "d41c-6467-5278-6e92",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Devastating Wounds, Close-Quarters", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              },
+              {
+                "name": "Ursarax",
+                "id": "fe92-1c08-ba89-ccc2",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "12\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "7+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "6+", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "", "typeId": "nr-base-size"}
                 ]
               }
             ]
