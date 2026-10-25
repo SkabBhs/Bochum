@@ -6231,8 +6231,7 @@
           {"name": "Tech Thralls", "id": "02f6-8d64-1ef2-f87c", "hidden": false, "primary": false, "targetId": "5c10-f978-196e-371b"},
           {"name": "Faction: Adeptus Mechanicus", "id": "3ac0-6963-1287-8113", "hidden": false, "primary": false, "targetId": "5418-f86b-6e76-c5a"},
           {"name": "Imperium", "id": "76e5-150d-350a-ea40", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
-          {"name": "Infantry", "id": "7927-7323-faeb-7130", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
-          {"name": "Legio Cybernetica", "id": "54d9-76bf-4305-de47", "hidden": false, "primary": false, "targetId": "3b4e-5e61-ac14-93de"}
+          {"name": "Infantry", "id": "7927-7323-faeb-7130", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"}
         ],
         "costs": [
           {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 45},
@@ -6610,8 +6609,7 @@
           {"name": "Infantry", "id": "f3c9-ebd1-954c-7581", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Thallax", "id": "52c5-b5e3-e477-6581", "hidden": false, "primary": false, "targetId": "5917-4007-86a7-1e9a"},
           {"name": "Jump Pack", "id": "ebf6-be3a-7ffb-5092", "hidden": false, "primary": false, "targetId": "dda2-bb0a-215e-ad9c"},
-          {"name": "Fly", "id": "65fa-955f-a5b5-f78d", "hidden": false, "primary": false, "targetId": "c619-2086-bbcf-69c9"},
-          {"name": "Legio Cybernetica", "id": "e40c-b6a4-b62b-925a", "hidden": false, "primary": false, "targetId": "3b4e-5e61-ac14-93de"}
+          {"name": "Fly", "id": "65fa-955f-a5b5-f78d", "hidden": false, "primary": false, "targetId": "c619-2086-bbcf-69c9"}
         ],
         "costs": [
           {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 100},
@@ -8089,8 +8087,7 @@
           {"name": "Infantry", "id": "52f2-2a38-3e46-742e", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Jump Pack", "id": "2905-7e9d-dd09-7e9b", "hidden": false, "primary": false, "targetId": "dda2-bb0a-215e-ad9c"},
           {"name": "Fly", "id": "79b6-1657-cf7c-0d25", "hidden": false, "primary": false, "targetId": "c619-2086-bbcf-69c9"},
-          {"name": "Ursarax", "id": "73d8-e05c-bbaa-60ed", "hidden": false, "primary": false, "targetId": "21e4-f256-76e6-c3fc"},
-          {"name": "Legio Cybernetica", "id": "03ee-56d0-6c3a-9326", "hidden": false, "primary": false, "targetId": "3b4e-5e61-ac14-93de"}
+          {"name": "Ursarax", "id": "73d8-e05c-bbaa-60ed", "hidden": false, "primary": false, "targetId": "21e4-f256-76e6-c3fc"}
         ],
         "costs": [
           {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 135},
