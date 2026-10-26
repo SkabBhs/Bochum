@@ -9490,7 +9490,36 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
-        "infoLinks": [{"name": "Doctrina Imperatives", "id": "1e31-f37f-ed02-eddd", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Doctrina Imperatives", "id": "1e31-f37f-ed02-eddd", "hidden": false, "targetId": "1b6b-46d4-f754-0a1d", "type": "rule"},
+          {
+            "name": "Feel No Pain",
+            "id": "6fb4-ae4b-b3de-c680",
+            "hidden": false,
+            "targetId": "9bf4-280f-bbe2-6fbb",
+            "type": "rule",
+            "modifiers": [
+              {"field": "name", "type": "append", "value": "5+"},
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "24e2-b690-37b5-de9e",
+                    "childName": "Lords of the Forge",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "profiles": [
           {
             "name": "Scoria",
